@@ -1,0 +1,6 @@
+/home/cloud/56json/wuliu/wuliu/pipelines.py:79: Warning: Data truncated for column 'phone' at row 1
+  tx.execute(sql)
+/home/cloud/56json/wuliu/wuliu/pipelines.py:79: Warning: Data truncated for column 'linkman' at row 1
+  tx.execute(sql)
+/home/cloud/56json/wuliu/wuliu/pipelines.py:79: Warning: Data truncated for column 'carnumber' at row 1
+  tx.execute(sql)

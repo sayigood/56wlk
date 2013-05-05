@@ -1,0 +1,7 @@
+2013-02-05 02:22:15+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: wuliu)
+2013-02-05 02:22:21+0800 [56json] INFO: Spider opened
+2013-02-05 02:22:21+0800 [56json] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-02-05 02:23:21+0800 [56json] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-02-05 02:23:53+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2013-02-05 02:23:53+0800 [56json] INFO: Closing spider (shutdown)
+2013-02-05 02:23:53+0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown

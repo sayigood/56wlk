@@ -1,0 +1,67 @@
+#-*- coding: UTF-8 -*-   
+import sys
+reload(sys)
+
+sys.setdefaultencoding('utf-8') 
+#----->>决文件里面不能写汉字的编码问题
+
+from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.http import Request
+from scrapy.contrib.spiders import CrawlSpider, Rule
+import time
+import json
+from wuliu.items import A56JsonItem
+
+import re
+
+
+class A56JsonSpider(CrawlSpider):
+    name = '56json'
+
+    allowed_domains = ['http://42.121.78.164']
+    start_urls=[]
+    for no in range(1,4):
+        start_urls.append('http://42.121.78.164/AppServer/InfoPrepare.php?pageSize=2&page=%d'%no)
+    
+    #start_urls = ['http://42.121.78.164/AppServer/InfoPrepare.php?pageSize=100&page=1']
+    #rules = (
+            #Rule(SgmlLinkExtractor(allow=r'/202/[\d]+\.html'), callback='parse_item', follow=True),
+    #)
+
+    def parse(self, response):
+        items = []        
+
+        infos = json.loads(response.body)['infos']
+
+        for info in infos:
+            item  = A56JsonItem()
+            #item["aid"] = info["aid"]
+            #item["channel"] = info["channel"]
+            #item["title"] = info["title"]          #从哪到哪
+            item["pubdate"] = info["pubdate"]      #发布时间
+            #item["mid"] = info["mid"]
+            #item["userid"] = info["userid"]
+            item["userip"] = info["userip"]        #用户ip
+            item["fromprovince"] = info["fromprovince"] #出发地-省
+            item["fromcity"] = info["fromcity"]         #出发地-市
+            item["fromcounty"] = info["fromcounty"]     #出发地-国家
+            item["toprovince"] = info["toprovince"]     #目的地-省
+            item["tocity"] = info["tocity"]             #目的地-市
+            item["tocounty"] = info["tocounty"]         #目的地-国家
+            item["goodtype"] = info["goodtype"]         #货物类型
+            item["goodamount"] = info["goodamount"]     #货物重量
+            item["fee"] = info["fee"]                   #费用
+            item["carload"] = info["carload"]           #载重
+            item["carnumber"] = info["carnumber"]       #车牌号
+            item["cartype"] = info["cartype"]           #车类型
+            item["carlong"] = info["carlong"]           #车长
+            item["linkman"] = info["linkman"]           #联系人
+            item["phone"] = info["phone"]               #手机号码
+            #item["state"] = info["state"]
+            #item["mark"] = info["mark"]
+            items.append(item)
+
+
+        return items
+        #return infos
