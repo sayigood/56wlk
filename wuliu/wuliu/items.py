@@ -69,7 +69,7 @@ class WuTongCarLineItem(Item):
     specia_lines = Field()  #专线标记
     pub_time = Field()      #发布时间
     click_count = Field()   #点击数
-    #ruku_time = Field()     #入库时间
+    ruku_time = Field()     #入库时间
     url = Field()           #来源网站
     remark = Field()        #备注
     pass

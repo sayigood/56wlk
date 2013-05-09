@@ -20,7 +20,7 @@ class ChinaWuTongLine201Spider(CrawlSpider):
 
     allowed_domains = ['chinawutong.com']
     start_urls=[]
-    for no in range(1,5000000):
+    for no in range(1,50):
         start_urls.append('http://www.chinawutong.com/201/%d.html'%no)
     
     #start_urls = ['http://www.chinawutong.com/201/5.html']
