@@ -1,0 +1,2138 @@
+2013-05-12 11:24:45+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 11:25:20+0800 [56135_company] INFO: Spider opened
+2013-05-12 11:25:20+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 11:25:24+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2013-05-12 11:25:24+0800 [56135_company] ERROR: Spider error processing <GET http://www.56135.com/56135/company/companylist-adv-2189.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/wuliu/wuliu/spiders/56135_company.py", line 53, in parse
+	    if len(start_place[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 11:25:25+0800 [56135_company] INFO: Closing spider (shutdown)
+2013-05-12 11:25:25+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 278,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 85543,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2013, 5, 12, 3, 25, 25, 111783),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 5,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 3, 25, 20, 681510)}
+2013-05-12 11:25:25+0800 [56135_company] INFO: Spider closed (shutdown)
+2013-05-12 11:25:34+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 11:26:09+0800 [56135_company] INFO: Spider opened
+2013-05-12 11:26:09+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 11:26:11+0800 [56135_company] ERROR: Spider error processing <GET http://www.56135.com/56135/company/companylist-adv-2189.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/wuliu/wuliu/spiders/56135_company.py", line 53, in parse
+	    if len(start_place[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 11:26:11+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 11:26:11+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 278,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 85523,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 3, 26, 11, 657743),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 3, 26, 9, 554023)}
+2013-05-12 11:26:11+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 12:50:21+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 12:51:22+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 12:53:29+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 12:53:57+0800 [56135_company] INFO: Spider opened
+2013-05-12 12:53:57+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 12:54:01+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 12:54:01+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93018,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 4, 54, 1, 96015),
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 4, 53, 57, 452229)}
+2013-05-12 12:54:01+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 12:59:51+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:00:27+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:00:27+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:00:28+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:00:28+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 219,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 509,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 0, 28, 272442),
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 0, 27, 943202)}
+2013-05-12 13:00:28+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:01:04+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:01:05+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:01:17+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:01:17+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:01:17+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:01:17+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:01:17+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:01:17+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:01:17+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:01:18+0800 [56135_company] DEBUG: Received cookies from: <302 http://56135.com/56135/company/companylist-adv-1.html>
+	Set-Cookie: ASP.NET_SessionId=kerqivr2ocvzmt555qkxvz3j; path=/
+2013-05-12 13:01:18+0800 [56135_company] DEBUG: Crawled (302) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:01:18+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:01:18+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 219,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 509,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 1, 18, 38697),
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 1, 17, 858816)}
+2013-05-12 13:01:18+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:02:08+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:02:08+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:02:17+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:02:17+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:02:17+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:02:17+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:02:17+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:02:17+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:02:17+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:02:18+0800 [56135_company] DEBUG: Received cookies from: <302 http://56135.com/56135/company/companylist-adv-1.html>
+	Set-Cookie: ASP.NET_SessionId=l0x5i555axvtmg453lyqkf2v; path=/
+2013-05-12 13:02:18+0800 [56135_company] DEBUG: Crawled (302) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:02:18+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:02:18+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 219,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 509,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 2, 18, 102081),
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 2, 17, 926617)}
+2013-05-12 13:02:18+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:03:09+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:03:10+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:03:20+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:03:20+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:03:20+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:03:20+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:03:20+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:03:20+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:03:20+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:03:20+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:03:21+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:03:21+0800 [56135_company] DEBUG: Filtered offsite request to 'http': <GET http://http://56135.com/56135/company/companylist-adv-10.html>
+2013-05-12 13:03:21+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:03:21+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93051,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 3, 21, 863757),
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 3, 20, 615263)}
+2013-05-12 13:03:21+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:03:57+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:03:58+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:04:06+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:04:06+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:04:06+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:04:06+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:04:06+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:04:06+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:04:06+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:04:06+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:04:06+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:04:07+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:04:07+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93051,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 4, 7, 139345),
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 4, 6, 317209)}
+2013-05-12 13:04:07+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:04:36+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:04:36+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:04:46+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:04:46+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:04:46+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:04:46+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:04:46+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:04:46+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:04:46+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:04:46+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:04:47+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:04:47+0800 [56135_company] DEBUG: Filtered offsite request to 'http': <GET http://http://56135.com/56135/company/companylist-adv-9.html>
+2013-05-12 13:04:47+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:04:47+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93051,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 4, 47, 482613),
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 4, 46, 942381)}
+2013-05-12 13:04:47+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:06:42+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:06:43+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:07:22+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:07:22+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:07:30+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:07:30+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:07:30+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:07:30+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:07:30+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:07:30+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:07:30+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:07:30+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:07:31+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:07:31+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:07:31+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93051,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 7, 31, 765198),
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 7, 30, 892024)}
+2013-05-12 13:07:31+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:08:46+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:08:47+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:08:59+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:08:59+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:09:00+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:09:00+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:09:00+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:09:00+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:09:00+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:09:00+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:09:00+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:09:01+0800 [56135_company] DEBUG: Filtered offsite request to 'http': <GET http://http://56135.com/56135/company/companylist-adv-2189.html>
+2013-05-12 13:09:01+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:09:01+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 93035,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 9, 1, 210148),
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 9, 0, 20937)}
+2013-05-12 13:09:01+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 13:10:16+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 13:10:17+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 13:10:24+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 13:10:24+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 13:10:24+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 13:10:24+0800 [56135_company] INFO: Spider opened
+2013-05-12 13:10:24+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 13:10:24+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-05-12 13:10:24+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-05-12 13:10:24+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 13:10:25+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 13:10:25+0800 [56135_company] DEBUG: Filtered offsite request to 'http': <GET http://http://56135.com/56135/company/companylist-adv-2189.html>
+2013-05-12 13:10:25+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 13:10:25+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 92888,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 5, 10, 25, 131096),
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 5, 10, 24, 520385)}
+2013-05-12 13:10:25+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:48:17+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:48:17+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:48:27+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:48:27+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:48:27+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:48:27+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:48:27+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:48:27+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:48:27+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:48:27+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:48:28+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:48:28+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 47, in parse
+	    name = p.findall(contact_name)
+	exceptions.TypeError: expected string or buffer
+	
+2013-05-12 16:48:28+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:48:28+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53204,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 48, 28, 220875),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/TypeError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 48, 27, 530229)}
+2013-05-12 16:48:28+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:49:48+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:49:48+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:49:56+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:49:56+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:49:56+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:49:56+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:49:56+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:49:56+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:49:56+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:49:56+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:49:57+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:49:57+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 48, in parse
+	    name = p.findall(contact_name)
+	exceptions.TypeError: expected string or buffer
+	
+2013-05-12 16:49:57+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:49:57+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53204,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 49, 57, 201454),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/TypeError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 49, 56, 665761)}
+2013-05-12 16:49:57+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:51:33+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:51:34+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:51:47+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:51:47+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:51:47+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:51:47+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:51:47+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:51:47+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:51:47+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:51:47+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:51:48+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:51:48+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 48, in parse
+	    name = p.findall(contact_name)
+	exceptions.TypeError: expected string or buffer
+	
+2013-05-12 16:51:48+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:51:48+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53206,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 51, 48, 347053),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/TypeError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 51, 47, 862177)}
+2013-05-12 16:51:48+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:55:33+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:55:34+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:55:48+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:55:48+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:55:48+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:55:48+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:55:48+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:55:48+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:55:48+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:55:48+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:55:48+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:55:48+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 48, in parse
+	    name = p.findall(contact_name)
+	exceptions.TypeError: expected string or buffer
+	
+2013-05-12 16:55:48+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:55:48+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53018,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 55, 48, 847468),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/TypeError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 55, 48, 222457)}
+2013-05-12 16:55:48+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:56:21+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:56:22+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:56:29+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:56:29+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:56:29+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:56:29+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:56:29+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:56:29+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:56:29+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:56:29+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:56:30+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:56:30+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 55, in parse
+	    if len(tel[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 16:56:30+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:56:30+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53018,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 56, 30, 501259),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 56, 29, 967486)}
+2013-05-12 16:56:30+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:57:33+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:57:33+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:57:42+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:57:42+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:57:42+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:57:42+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:57:42+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:57:42+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:57:42+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:57:42+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:57:42+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:57:42+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 56, in parse
+	    if len(tel[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 16:57:42+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:57:42+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53018,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 57, 42, 541512),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 57, 42, 44708)}
+2013-05-12 16:57:42+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 16:58:06+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 16:58:06+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 16:58:19+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 16:58:19+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 16:58:19+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 16:58:19+0800 [56135_company] INFO: Spider opened
+2013-05-12 16:58:19+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 16:58:19+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 16:58:19+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 16:58:19+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 16:58:20+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 16:58:20+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 49, in parse
+	    print name[0]
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 16:58:20+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 16:58:20+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53018,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 8, 58, 20, 381498),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 8, 58, 19, 911224)}
+2013-05-12 16:58:20+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:00:21+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:00:21+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:00:32+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:00:32+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:00:32+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:00:32+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:00:32+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:00:32+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:00:32+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:00:32+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443160.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:00:33+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443160.html> (referer: None)
+2013-05-12 17:00:33+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443160.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 47, in parse
+	    name = p.findall(contact_name)
+	exceptions.TypeError: expected string or buffer
+	
+2013-05-12 17:00:33+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:00:33+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 52240,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 0, 33, 472567),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/TypeError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 0, 32, 806709)}
+2013-05-12 17:00:33+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:00:59+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:01:00+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:01:10+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:01:10+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:01:10+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:01:10+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:01:10+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:01:10+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:01:10+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:01:10+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443160.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:01:10+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443160.html> (referer: None)
+2013-05-12 17:01:10+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C443160.html>
+	{'addr': u'\u53a6\u95e8\u540c\u5b89\u5de5\u4e1a\u533a',
+	 'company_name': u'\u4e50\u771f\u8f66\u961f',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u4f59\u51ef\u5148\u751f',
+	 'im': u'QQ\uff1a542620588',
+	 'mail': u'542620588@qq.com',
+	 'phone_contact': u'18259248102',
+	 'remark': u'\u672c\u8f66\u961f4.2\u8f66\u636e\u591a\u6709\u9700\u8981\u8005\u53ef\u4ee5\u8054\u7cfb18259248102\u5c0f\u4f59\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u7a7a\u8f66\u914d\u8d2756135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'12859248102',
+	 'url': 'http://56135.com/56135/company/memberbrief/C443160.html'}
+2013-05-12 17:01:10+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:01:10+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 52240,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 1, 10, 896546),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 1, 10, 64914)}
+2013-05-12 17:01:10+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:02:04+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:02:04+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:02:12+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:02:12+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:02:12+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:02:12+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:02:12+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:02:12+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:02:12+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:02:12+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/member/C444563.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:02:12+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/member/C444563.html> (referer: None)
+2013-05-12 17:02:12+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/member/C444563.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 84, in parse
+	    if len(addr[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:02:13+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:02:13+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 268,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 63227,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 2, 13, 11640),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 2, 12, 183752)}
+2013-05-12 17:02:13+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:03:07+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:03:07+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:03:16+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:03:16+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:03:16+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:03:16+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:03:16+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:03:16+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:03:16+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:03:16+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C444563.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:03:17+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C444563.html> (referer: None)
+2013-05-12 17:03:17+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C444563.html>
+	{'addr': u'\u94f6\u53e4\u7269\u6d41A\u533a21\u53f7',
+	 'company_name': u'\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u8d27\u8fd0\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u7f57\u6d77\u680b\u5148\u751f',
+	 'im': u'QQ\uff1a1270586718',
+	 'mail': u'1270586718@qq.com',
+	 'phone_contact': u'18095100686',
+	 'remark': u'24\u5c0f\u65f6\u670d\u52a1\u7535\u8bdd18095100686\r\u3000\u3000\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u7ecf\u5de5\u5546\u3001\u4ea4\u901a\u7b49\u90e8\u95e8\u6838\u51c6\u7ecf\u8425\u7684\u7269\u6d41\u3001\u4ed3\u50a8\u516c\u53f8\uff0c\u4e3b\u8981\u4ece\u4e8b\u56fd\u5185\u8d27\u7269\u8fd0\u8f93\uff0c\u96c6\u4ed3\u50a8\u3001\u8fd0\u8f93\u3001\u5305\u88c5\u3001\u88c5\u5378\u3001\u914d\u9001\u4e8e\u4e00\u4f53\u3002\u516c\u53f8\u81ea\u6210\u7acb\u4ee5\u6765\uff0c\u628a\u201c\u5168\u5fc3\u5168\u610f\u4e3a\u5ba2\u6237\u670d\u52a1\uff0c\u89c6\u5ba2\u6237\u5229\u76ca\u4e3a\u6700\u9ad8\u5229\u76ca\u201d\u4e3a\u6307\u5bfc\u601d\u60f3,\u901a\u8fc7\u516c\u53f8\u5168\u4f53\u5458\u5de5\u7684\u4e0d\u61c8\u52aa\u529b\uff0c\u4ee5\u8bda\u5b9e\u5b88\u4fe1\u4e3a\u57fa\u672c\u539f\u5219\uff0c\u5728\u5f88\u77ed\u7684\u65f6\u95f4\u5185\u8d62\u5f97\u4e86\u5e7f\u5927\u5ba2\u6237\u7684\u9ad8\u5ea6\u4fe1\u4efb\u548c\u4fe1\u8d56\uff0c\u5728\u540c\u884c\u4e1a\u4e2d\u8131\u9896\u800c\u51fa\uff0c\u5230\u76ee\u524d\u4e3a\u6b62\uff0c\u5df2\u5efa\u7acb\u5065\u5168\u4e86\u4e00\u5957\u79d1\u5b66\u5b8c\u6574\u7684\u7269\u6d41\u7ba1\u7406\u4f53\u7cfb\uff0c\u9ad8\u6548\u7684\u4fe1\u606f\u7ba1\u7406\u624b\u6bb5\uff0c\u65b0\u5174\u7684\u7269\u6d41\u7ecf\u8425\u7406\u5ff5\uff0c\u5148\u8fdb\u7684\u50a8\u8fd0\u88c5\u8f7d\u8bbe\u65bd\u53ca\u9ad8\u7d20\u8d28\u7684\u5458\u5de5\u961f\u4f0d\uff0c\u4f1a\u4f7f\u60a8\u611f\u53d7\u5230\u9ad8\u6548\u3001\u5feb\u6377\u3001\u5b89\u5168\u7684\u4f18\u8d28\u670d\u52a1\u3002\u516c\u53f8\u5907\u6709\u81ea\u5df1\u7684\u4e13\u4e1a\u8f66\u961f\u56e2\u4f53\uff0c\u5927\u5c0f\u8f66\u8f86\u3001\u7279\u79cd\u8f66\u8f86\u3001\u5408\u540c\u8f66\u8f86\u767e\u4f59\u8f86\uff0c\u4ee5\u94f6\u5ddd\u4e3a\u4e2d\u5fc3\u8f74\uff0c\u8f90\u5c04\u5168\u56fd\u5404\u5730\u5927\u3001\u4e2d\u3001\u5c0f\u57ce\u5e02\u7684\u8d27\u7269\u8fd0\u8f93\uff0c\u8fd0\u8f93\u7684\u4ea7\u54c1\u6d89\u53ca\u5404\u4e2a\u9886\u57df\uff0c\u5e76\u4e0e\u5168\u56fd\u591a\u5bb6\u540c\u884c\u4f01\u4e1a\u4fdd\u6301\u7740\u826f\u597d\u7684\u5408\u4f5c\u5173\u7cfb\u53ca\u4e1a\u52a1\u5f80\u6765\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\u9760\u7ba1\u7406\u6c42\u53d1\u5c55\u3001\u4ee5\u670d\u52a1\u8d28\u91cf\u6c42\u751f\u5b58\uff0c\u51ed\u4fe1\u8a89\u505a\u54c1\u724c\uff0c\u6211\u4eec\u613f\u4e0e\u60a8\u643a\u624b\uff0c\u5728\u6fc0\u70c8\u7684\u7ade\u4e89\u4e2d\u4e0e\u65f6\u60e7\u8fdb\uff0c\u5171\u521b\u8f89\u714c\uff01\u4ee5\u8d27\u8fd0\uff0c\u7269\u6d41\uff0c\u957f\u9014\u642c\u5bb6\uff0c\u516c\u8def\u8fd0\u8f93\uff0c\u8d27\u8fd0\u914d\u8f7d\uff0c\u4ed3\u50a8\u4e3a\u670d\u52a1\u5185\u5bb9\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u516c\u53f8\u627f\u63a5\u94f6\u5ddd\u81f3\u5404\u5730\u516c\u8def\u8fd0\u8f93,\u4ed3\u50a8,\u642c\u5bb6\u4e1a\u52a1.\u6574\u8f66\u3001\u96f6\u62c5\uff0c\u5927\u4ef6\u8fd0\u8f93\u5747\u53ef\u3002\u516c\u53f8\u5907\u6709\u655e\u8f66.\u9ad8\u680f\u8f66.\u5168\u5c01\u95ed\u8f66.\u534a\u5c01\u95ed\u8f66.\u96c6\u88c5\u7bb1\u8f66.\u51b7\u85cf\u8f66.\u5927\u5428\u534a\u6302\u53ca\u5927\u4ef6.\u7279\u79cd\u8fd0\u8f93\u8f66,\u5404\u79cd\u8f66\u8f86\u81ea\u5907\u4e0e\u6302\u9760\u5171\u8ba1150\u4f59\u90e8.\u8fd0\u4ef7\u5408\u7406,\u5b89\u5168\u5feb\u6377.\u5728\u5168\u56fd\u5404\u5730\u8bbe\u6709\u8d27\u8fd0\u4ee3\u529e\u5904\uff0c\u5f62\u6210\u4e00\u4e2a\u5168\u56fd\u6027\u7684\u8fd0\u8f93\u7f51\u7edc\uff0c\u53ef\u4ee3\u529e\u4fdd\u9669,\u4e3a\u60a8\u7684\u8d27\u7269\u80fd\u591f\u5b89\u5168\u3001\u51c6\u65f6\u9001\u8fbe\u76ee\u7684\u5730\u63d0\u4f9b\u4e86\u53ef\u9760\u7684\u4fdd\u8bc1\u3002\u5982\u6709\u8d27\u7269\u9700\u8981\u6258\u8fd0\uff0c\u8bf7\u81f4\u7535\u672c\u516c\u53f8.\r\xa0\r\xa0\r\xa0\r\xa0\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u8d27\u8fd0\u4e13\u7ebf.\u7269\u6d41\u516c\u53f8.\u8d27\u8fd0\u516c\u53f8.\u8fd0\u8f93\u516c\u53f8.\u6258\u8fd0\u516c\u53f8.\u5927\u4ef6\u516c\u53f856135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'09516033086',
+	 'url': 'http://56135.com/56135/company/memberbrief/C444563.html'}
+2013-05-12 17:03:17+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:03:17+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53615,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 3, 17, 292887),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 3, 16, 610474)}
+2013-05-12 17:03:17+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:06:49+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:06:49+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:06:56+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:06:56+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:06:56+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:06:56+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:06:56+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:06:56+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:06:56+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:06:56+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C444563.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:06:57+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C444563.html> (referer: None)
+2013-05-12 17:06:57+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C444563.html>
+	{'addr': u'\u94f6\u53e4\u7269\u6d41A\u533a21\u53f7',
+	 'company_name': u'\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u8d27\u8fd0\u516c\u53f8',
+	 'contact_name': '',
+	 'im': u'QQ\uff1a1270586718',
+	 'mail': u'1270586718@qq.com',
+	 'phone_contact': u'18095100686',
+	 'remark': u'24\u5c0f\u65f6\u670d\u52a1\u7535\u8bdd18095100686\r\u3000\u3000\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u7ecf\u5de5\u5546\u3001\u4ea4\u901a\u7b49\u90e8\u95e8\u6838\u51c6\u7ecf\u8425\u7684\u7269\u6d41\u3001\u4ed3\u50a8\u516c\u53f8\uff0c\u4e3b\u8981\u4ece\u4e8b\u56fd\u5185\u8d27\u7269\u8fd0\u8f93\uff0c\u96c6\u4ed3\u50a8\u3001\u8fd0\u8f93\u3001\u5305\u88c5\u3001\u88c5\u5378\u3001\u914d\u9001\u4e8e\u4e00\u4f53\u3002\u516c\u53f8\u81ea\u6210\u7acb\u4ee5\u6765\uff0c\u628a\u201c\u5168\u5fc3\u5168\u610f\u4e3a\u5ba2\u6237\u670d\u52a1\uff0c\u89c6\u5ba2\u6237\u5229\u76ca\u4e3a\u6700\u9ad8\u5229\u76ca\u201d\u4e3a\u6307\u5bfc\u601d\u60f3,\u901a\u8fc7\u516c\u53f8\u5168\u4f53\u5458\u5de5\u7684\u4e0d\u61c8\u52aa\u529b\uff0c\u4ee5\u8bda\u5b9e\u5b88\u4fe1\u4e3a\u57fa\u672c\u539f\u5219\uff0c\u5728\u5f88\u77ed\u7684\u65f6\u95f4\u5185\u8d62\u5f97\u4e86\u5e7f\u5927\u5ba2\u6237\u7684\u9ad8\u5ea6\u4fe1\u4efb\u548c\u4fe1\u8d56\uff0c\u5728\u540c\u884c\u4e1a\u4e2d\u8131\u9896\u800c\u51fa\uff0c\u5230\u76ee\u524d\u4e3a\u6b62\uff0c\u5df2\u5efa\u7acb\u5065\u5168\u4e86\u4e00\u5957\u79d1\u5b66\u5b8c\u6574\u7684\u7269\u6d41\u7ba1\u7406\u4f53\u7cfb\uff0c\u9ad8\u6548\u7684\u4fe1\u606f\u7ba1\u7406\u624b\u6bb5\uff0c\u65b0\u5174\u7684\u7269\u6d41\u7ecf\u8425\u7406\u5ff5\uff0c\u5148\u8fdb\u7684\u50a8\u8fd0\u88c5\u8f7d\u8bbe\u65bd\u53ca\u9ad8\u7d20\u8d28\u7684\u5458\u5de5\u961f\u4f0d\uff0c\u4f1a\u4f7f\u60a8\u611f\u53d7\u5230\u9ad8\u6548\u3001\u5feb\u6377\u3001\u5b89\u5168\u7684\u4f18\u8d28\u670d\u52a1\u3002\u516c\u53f8\u5907\u6709\u81ea\u5df1\u7684\u4e13\u4e1a\u8f66\u961f\u56e2\u4f53\uff0c\u5927\u5c0f\u8f66\u8f86\u3001\u7279\u79cd\u8f66\u8f86\u3001\u5408\u540c\u8f66\u8f86\u767e\u4f59\u8f86\uff0c\u4ee5\u94f6\u5ddd\u4e3a\u4e2d\u5fc3\u8f74\uff0c\u8f90\u5c04\u5168\u56fd\u5404\u5730\u5927\u3001\u4e2d\u3001\u5c0f\u57ce\u5e02\u7684\u8d27\u7269\u8fd0\u8f93\uff0c\u8fd0\u8f93\u7684\u4ea7\u54c1\u6d89\u53ca\u5404\u4e2a\u9886\u57df\uff0c\u5e76\u4e0e\u5168\u56fd\u591a\u5bb6\u540c\u884c\u4f01\u4e1a\u4fdd\u6301\u7740\u826f\u597d\u7684\u5408\u4f5c\u5173\u7cfb\u53ca\u4e1a\u52a1\u5f80\u6765\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\u9760\u7ba1\u7406\u6c42\u53d1\u5c55\u3001\u4ee5\u670d\u52a1\u8d28\u91cf\u6c42\u751f\u5b58\uff0c\u51ed\u4fe1\u8a89\u505a\u54c1\u724c\uff0c\u6211\u4eec\u613f\u4e0e\u60a8\u643a\u624b\uff0c\u5728\u6fc0\u70c8\u7684\u7ade\u4e89\u4e2d\u4e0e\u65f6\u60e7\u8fdb\uff0c\u5171\u521b\u8f89\u714c\uff01\u4ee5\u8d27\u8fd0\uff0c\u7269\u6d41\uff0c\u957f\u9014\u642c\u5bb6\uff0c\u516c\u8def\u8fd0\u8f93\uff0c\u8d27\u8fd0\u914d\u8f7d\uff0c\u4ed3\u50a8\u4e3a\u670d\u52a1\u5185\u5bb9\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u516c\u53f8\u627f\u63a5\u94f6\u5ddd\u81f3\u5404\u5730\u516c\u8def\u8fd0\u8f93,\u4ed3\u50a8,\u642c\u5bb6\u4e1a\u52a1.\u6574\u8f66\u3001\u96f6\u62c5\uff0c\u5927\u4ef6\u8fd0\u8f93\u5747\u53ef\u3002\u516c\u53f8\u5907\u6709\u655e\u8f66.\u9ad8\u680f\u8f66.\u5168\u5c01\u95ed\u8f66.\u534a\u5c01\u95ed\u8f66.\u96c6\u88c5\u7bb1\u8f66.\u51b7\u85cf\u8f66.\u5927\u5428\u534a\u6302\u53ca\u5927\u4ef6.\u7279\u79cd\u8fd0\u8f93\u8f66,\u5404\u79cd\u8f66\u8f86\u81ea\u5907\u4e0e\u6302\u9760\u5171\u8ba1150\u4f59\u90e8.\u8fd0\u4ef7\u5408\u7406,\u5b89\u5168\u5feb\u6377.\u5728\u5168\u56fd\u5404\u5730\u8bbe\u6709\u8d27\u8fd0\u4ee3\u529e\u5904\uff0c\u5f62\u6210\u4e00\u4e2a\u5168\u56fd\u6027\u7684\u8fd0\u8f93\u7f51\u7edc\uff0c\u53ef\u4ee3\u529e\u4fdd\u9669,\u4e3a\u60a8\u7684\u8d27\u7269\u80fd\u591f\u5b89\u5168\u3001\u51c6\u65f6\u9001\u8fbe\u76ee\u7684\u5730\u63d0\u4f9b\u4e86\u53ef\u9760\u7684\u4fdd\u8bc1\u3002\u5982\u6709\u8d27\u7269\u9700\u8981\u6258\u8fd0\uff0c\u8bf7\u81f4\u7535\u672c\u516c\u53f8.\r\xa0\r\xa0\r\xa0\r\xa0\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u8d27\u8fd0\u4e13\u7ebf.\u7269\u6d41\u516c\u53f8.\u8d27\u8fd0\u516c\u53f8.\u8fd0\u8f93\u516c\u53f8.\u6258\u8fd0\u516c\u53f8.\u5927\u4ef6\u516c\u53f856135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'09516033086',
+	 'url': 'http://56135.com/56135/company/memberbrief/C444563.html'}
+2013-05-12 17:06:57+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:06:57+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53623,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 6, 57, 412579),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 6, 56, 824380)}
+2013-05-12 17:06:57+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:08:06+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:08:07+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:08:14+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:08:14+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:08:14+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:08:14+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:08:14+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:08:14+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:08:14+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:08:14+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C444563.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:08:15+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C444563.html> (referer: None)
+2013-05-12 17:08:15+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C444563.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 48, in parse
+	    if len(name[0]) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:08:15+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:08:15+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53623,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 8, 15, 385921),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 8, 14, 875760)}
+2013-05-12 17:08:15+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:10:05+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:10:05+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:10:21+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:10:21+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:10:21+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:10:21+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:10:21+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:10:21+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:10:21+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:10:21+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C444563.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:10:21+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C444563.html> (referer: None)
+2013-05-12 17:10:22+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C444563.html>
+	{'addr': u'\u94f6\u53e4\u7269\u6d41A\u533a21\u53f7',
+	 'company_name': u'\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u8d27\u8fd0\u516c\u53f8',
+	 'contact_name': '',
+	 'im': u'QQ\uff1a1270586718',
+	 'mail': u'1270586718@qq.com',
+	 'phone_contact': u'18095100686',
+	 'remark': u'24\u5c0f\u65f6\u670d\u52a1\u7535\u8bdd18095100686\r\u3000\u3000\u94f6\u5ddd\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u7ecf\u5de5\u5546\u3001\u4ea4\u901a\u7b49\u90e8\u95e8\u6838\u51c6\u7ecf\u8425\u7684\u7269\u6d41\u3001\u4ed3\u50a8\u516c\u53f8\uff0c\u4e3b\u8981\u4ece\u4e8b\u56fd\u5185\u8d27\u7269\u8fd0\u8f93\uff0c\u96c6\u4ed3\u50a8\u3001\u8fd0\u8f93\u3001\u5305\u88c5\u3001\u88c5\u5378\u3001\u914d\u9001\u4e8e\u4e00\u4f53\u3002\u516c\u53f8\u81ea\u6210\u7acb\u4ee5\u6765\uff0c\u628a\u201c\u5168\u5fc3\u5168\u610f\u4e3a\u5ba2\u6237\u670d\u52a1\uff0c\u89c6\u5ba2\u6237\u5229\u76ca\u4e3a\u6700\u9ad8\u5229\u76ca\u201d\u4e3a\u6307\u5bfc\u601d\u60f3,\u901a\u8fc7\u516c\u53f8\u5168\u4f53\u5458\u5de5\u7684\u4e0d\u61c8\u52aa\u529b\uff0c\u4ee5\u8bda\u5b9e\u5b88\u4fe1\u4e3a\u57fa\u672c\u539f\u5219\uff0c\u5728\u5f88\u77ed\u7684\u65f6\u95f4\u5185\u8d62\u5f97\u4e86\u5e7f\u5927\u5ba2\u6237\u7684\u9ad8\u5ea6\u4fe1\u4efb\u548c\u4fe1\u8d56\uff0c\u5728\u540c\u884c\u4e1a\u4e2d\u8131\u9896\u800c\u51fa\uff0c\u5230\u76ee\u524d\u4e3a\u6b62\uff0c\u5df2\u5efa\u7acb\u5065\u5168\u4e86\u4e00\u5957\u79d1\u5b66\u5b8c\u6574\u7684\u7269\u6d41\u7ba1\u7406\u4f53\u7cfb\uff0c\u9ad8\u6548\u7684\u4fe1\u606f\u7ba1\u7406\u624b\u6bb5\uff0c\u65b0\u5174\u7684\u7269\u6d41\u7ecf\u8425\u7406\u5ff5\uff0c\u5148\u8fdb\u7684\u50a8\u8fd0\u88c5\u8f7d\u8bbe\u65bd\u53ca\u9ad8\u7d20\u8d28\u7684\u5458\u5de5\u961f\u4f0d\uff0c\u4f1a\u4f7f\u60a8\u611f\u53d7\u5230\u9ad8\u6548\u3001\u5feb\u6377\u3001\u5b89\u5168\u7684\u4f18\u8d28\u670d\u52a1\u3002\u516c\u53f8\u5907\u6709\u81ea\u5df1\u7684\u4e13\u4e1a\u8f66\u961f\u56e2\u4f53\uff0c\u5927\u5c0f\u8f66\u8f86\u3001\u7279\u79cd\u8f66\u8f86\u3001\u5408\u540c\u8f66\u8f86\u767e\u4f59\u8f86\uff0c\u4ee5\u94f6\u5ddd\u4e3a\u4e2d\u5fc3\u8f74\uff0c\u8f90\u5c04\u5168\u56fd\u5404\u5730\u5927\u3001\u4e2d\u3001\u5c0f\u57ce\u5e02\u7684\u8d27\u7269\u8fd0\u8f93\uff0c\u8fd0\u8f93\u7684\u4ea7\u54c1\u6d89\u53ca\u5404\u4e2a\u9886\u57df\uff0c\u5e76\u4e0e\u5168\u56fd\u591a\u5bb6\u540c\u884c\u4f01\u4e1a\u4fdd\u6301\u7740\u826f\u597d\u7684\u5408\u4f5c\u5173\u7cfb\u53ca\u4e1a\u52a1\u5f80\u6765\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8\u9760\u7ba1\u7406\u6c42\u53d1\u5c55\u3001\u4ee5\u670d\u52a1\u8d28\u91cf\u6c42\u751f\u5b58\uff0c\u51ed\u4fe1\u8a89\u505a\u54c1\u724c\uff0c\u6211\u4eec\u613f\u4e0e\u60a8\u643a\u624b\uff0c\u5728\u6fc0\u70c8\u7684\u7ade\u4e89\u4e2d\u4e0e\u65f6\u60e7\u8fdb\uff0c\u5171\u521b\u8f89\u714c\uff01\u4ee5\u8d27\u8fd0\uff0c\u7269\u6d41\uff0c\u957f\u9014\u642c\u5bb6\uff0c\u516c\u8def\u8fd0\u8f93\uff0c\u8d27\u8fd0\u914d\u8f7d\uff0c\u4ed3\u50a8\u4e3a\u670d\u52a1\u5185\u5bb9\u3002\u9e3f\u8fd0\u901a\u7269\u6d41\u516c\u53f8\u627f\u63a5\u94f6\u5ddd\u81f3\u5404\u5730\u516c\u8def\u8fd0\u8f93,\u4ed3\u50a8,\u642c\u5bb6\u4e1a\u52a1.\u6574\u8f66\u3001\u96f6\u62c5\uff0c\u5927\u4ef6\u8fd0\u8f93\u5747\u53ef\u3002\u516c\u53f8\u5907\u6709\u655e\u8f66.\u9ad8\u680f\u8f66.\u5168\u5c01\u95ed\u8f66.\u534a\u5c01\u95ed\u8f66.\u96c6\u88c5\u7bb1\u8f66.\u51b7\u85cf\u8f66.\u5927\u5428\u534a\u6302\u53ca\u5927\u4ef6.\u7279\u79cd\u8fd0\u8f93\u8f66,\u5404\u79cd\u8f66\u8f86\u81ea\u5907\u4e0e\u6302\u9760\u5171\u8ba1150\u4f59\u90e8.\u8fd0\u4ef7\u5408\u7406,\u5b89\u5168\u5feb\u6377.\u5728\u5168\u56fd\u5404\u5730\u8bbe\u6709\u8d27\u8fd0\u4ee3\u529e\u5904\uff0c\u5f62\u6210\u4e00\u4e2a\u5168\u56fd\u6027\u7684\u8fd0\u8f93\u7f51\u7edc\uff0c\u53ef\u4ee3\u529e\u4fdd\u9669,\u4e3a\u60a8\u7684\u8d27\u7269\u80fd\u591f\u5b89\u5168\u3001\u51c6\u65f6\u9001\u8fbe\u76ee\u7684\u5730\u63d0\u4f9b\u4e86\u53ef\u9760\u7684\u4fdd\u8bc1\u3002\u5982\u6709\u8d27\u7269\u9700\u8981\u6258\u8fd0\uff0c\u8bf7\u81f4\u7535\u672c\u516c\u53f8.\r\xa0\r\xa0\r\xa0\r\xa0\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u8d27\u8fd0\u4e13\u7ebf.\u7269\u6d41\u516c\u53f8.\u8d27\u8fd0\u516c\u53f8.\u8fd0\u8f93\u516c\u53f8.\u6258\u8fd0\u516c\u53f8.\u5927\u4ef6\u516c\u53f856135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'09516033086',
+	 'url': 'http://56135.com/56135/company/memberbrief/C444563.html'}
+2013-05-12 17:10:22+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:10:22+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53623,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 10, 22, 244705),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 10, 21, 573978)}
+2013-05-12 17:10:22+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:13:24+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:13:24+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:13:37+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:13:37+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:13:37+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:13:37+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:13:37+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:13:37+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:13:37+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:13:37+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:13:38+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:13:38+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 53, in parse
+	    if len(tel[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:13:38+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:13:38+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53230,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 13, 38, 188244),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 13, 37, 604679)}
+2013-05-12 17:13:38+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:16:56+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:16:57+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:17:11+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:17:12+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:17:23+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:17:23+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:17:23+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:17:23+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:17:23+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:17:24+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:17:24+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:17:24+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:17:24+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:17:24+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 55, in parse
+	    if len(tel[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:17:24+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:17:24+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53237,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 17, 24, 619486),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 17, 23, 998247)}
+2013-05-12 17:17:24+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:17:52+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:17:53+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:18:02+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:18:02+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:18:02+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:18:02+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:18:02+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:18:02+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:18:02+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:18:02+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:18:02+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:18:02+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 57, in parse
+	    if len(tel[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:18:02+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:18:02+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53237,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 18, 2, 654013),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 18, 2, 92010)}
+2013-05-12 17:18:02+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:18:19+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:18:20+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:18:31+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:18:31+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:18:31+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:18:31+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:18:31+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:18:31+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:18:31+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:18:31+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:18:32+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:18:32+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 56, in parse
+	    print len(tel[0])
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:18:32+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:18:32+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53237,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 18, 32, 284694),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 18, 31, 343860)}
+2013-05-12 17:18:32+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:19:20+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:19:20+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:22:38+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:22:39+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:22:54+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:22:54+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:22:54+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:22:54+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:22:54+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:22:54+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:22:54+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:22:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:22:54+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:22:55+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 56, in parse
+	    print len(tel[0])
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:22:55+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:22:55+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53237,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 22, 55, 106778),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 22, 54, 580356)}
+2013-05-12 17:22:55+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:25:40+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:25:40+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:25:49+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:25:49+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:25:49+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:25:49+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:25:49+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:25:49+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:25:49+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:25:49+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:25:49+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:25:49+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 57, in parse
+	    print len(tel[0])
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:25:49+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:25:49+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53232,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 25, 49, 858096),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 25, 49, 360083)}
+2013-05-12 17:25:49+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:32:07+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:32:07+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:32:15+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:32:15+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:32:15+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:32:15+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:32:15+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:32:15+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:32:15+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:32:16+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:32:16+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:32:16+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 57, in parse
+	    print len(tel[0])
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 17:32:16+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:32:16+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53229,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 32, 16, 546979),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 32, 15, 992783)}
+2013-05-12 17:32:16+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:32:41+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:32:41+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:32:50+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:32:50+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:32:50+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:32:50+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:32:50+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:32:50+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:32:50+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:32:50+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:32:51+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:32:51+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C443182.html>
+	{'addr': u'\u6df1\u5733\u5e02\u5b9d\u5b89\u533a\u798f\u6c38\u9547\u5174\u56f4\u5174\u4e1a\u4e00\u8def25\u53f7',
+	 'company_name': u'\u6df1\u5733\u5e02\u6d69\u5929\u8fc5\u8fbe\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u6709\u9650\u516c',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u66fe\u5fb7\u6d69\u5148\u751f',
+	 'im': '',
+	 'mail': u'jackhase@163.com',
+	 'phone_contact': u'15889389019',
+	 'remark': u'\u6df1\u5733\u5e02\u6d69\u5929\u8fc5\u8fbe\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u4ee5\u56fd\u9645\u6d77\u8fd0\uff0c\u56fd\u9645\u7a7a\u8fd0\u548c\u8fdb\u51fa\u53e3\u4e1a\u52a1\u4e3a\u4e3b\u8425\u4e1a\u52a1\u7684\u7efc\u5408\u6027\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u4f01\u4e1a\u3002\u516c\u53f8\u4e3a\u5ba2\u6237\u63d0\u4f9b\u56fd\u9645\u6d77\u8fd0\u3001\u56fd\u9645\u7a7a\u8fd0\u3001\u56fd\u9645\u5feb\u9012\u3001\u4ed3\u50a8\u4fdd\u7ba1\u3001\u5206\u62e8\u914d\u9001\u3001\u8d27\u8fd0\u4fdd\u9669\u3001\u5185\u9646\u8fd0\u8f93\u3001\u62a5\u5173\u3001\u62a5\u68c0\u3001\u4fdd\u7a0e\u7b49\u670d\u52a1\uff0c\u80fd\u591f\u4e3a\u5ba2\u6237\u89e3\u51b3\u56fd\u9645\u8d27\u8fd0\u4e2d\u65b9\u65b9\u9762\u9762\u7684\u95ee\u9898\uff0c\u662f\u56fd\u5185\u4e00\u6d41\u7684\u56fd\u9645\u8d27\u8fd0\u7efc\u5408\u670d\u52a1\u5546\u3002\r\xa0\xa0\xa0\xa0\u516c\u53f8\u79c9\u627f\u201c\u6ee1\u8db3\u5ba2\u6237\u9700\u6c42\uff0c\u4e0e\u5e02\u573a\u53d1\u5c55\u79ef\u6781\u4e92\u52a8\uff0c\u7528\u884c\u52a8\u5b9e\u8df5\u9886\u5148\u201d\u7684\u7ecf\u8425\u7406\u5ff5\uff0c\u65f6\u523b\u4fdd\u6301\u7740\u5bf9\u5ba2\u6237\u9700\u6c42\u53ca\u5e02\u573a\u53d1\u5c55\u7684\u9ad8\u5ea6\u5173\u6ce8\u3002\u5145\u5206\u5229\u7528\u73b0\u4ee3\u5316\u7684\u7535\u5b50\u5546\u52a1\u7cfb\u7edf\uff0c\u4e3a\u5ba2\u6237\u63d0\u4f9b\u79d1\u5b66\u3001\u5b89\u5168\u3001\u53ca\u65f6\u3001\u51c6\u786e\u3001\u6709\u4ef7\u503c\u7684\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa0\u6709\u6548\u7684\u7ecf\u8425\u65b9\u9488\uff0c\u9ad8\u7d20\u8d28\u7684\u4eba\u624d\u961f\u4f0d\u4ee5\u53ca\u5bf9\u54c1\u8d28\u7684\u5fe0\u8bda\uff0c\u5bf9\u6267\u884c\u529b\u7684\u81ea\u5f8b\u548c\u5feb\u901f\u53cd\u5e94\u7684\u5168\u7403\u5546\u4e1a\u7f51\u7edc,\u4f7f\u5f97\u6d69\u5929\u8fc5\u8fbe\u5353\u7136\u4e0d\u7fa4\u7684\u6d3b\u8dc3\u5728\u56fd\u8d27\u8fd0\u5e02\u573a\u4e0a\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u56fd\u9645\u7269\u6d41\uff0c\u7a7a\u8fd0\uff0c\u6d77\u8fd0\uff0c\u5feb\u9012\uff0c\u4e2d\u6e2f\u8fd0\u8f93\uff0c\u4ed3\u50a8\u670d\u52a156135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C443182.html'}
+2013-05-12 17:32:51+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:32:51+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53229,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 32, 51, 246540),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 32, 50, 558296)}
+2013-05-12 17:32:51+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:36:51+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:36:52+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:37:12+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:37:12+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:37:12+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:37:12+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:37:12+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:37:12+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:37:12+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:37:12+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:37:13+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:37:13+0800 [56135_company] ERROR: Spider error processing <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/56135/wuliu/spiders/56135_company.py", line 87, in parse
+	    if len(compan_name) == 0:
+	exceptions.NameError: global name 'compan_name' is not defined
+	
+2013-05-12 17:37:13+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:37:13+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53229,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 37, 13, 283255),
+	 'log_count/DEBUG': 8,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/NameError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 37, 12, 640530)}
+2013-05-12 17:37:13+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:37:35+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:37:36+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:37:45+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:37:45+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:37:45+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:37:45+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:37:45+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:37:45+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:37:45+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:37:45+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C443182.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:37:45+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C443182.html> (referer: None)
+2013-05-12 17:37:45+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C443182.html>
+	{'addr': u'\u6df1\u5733\u5e02\u5b9d\u5b89\u533a\u798f\u6c38\u9547\u5174\u56f4\u5174\u4e1a\u4e00\u8def25\u53f7',
+	 'company_name': u'\u6df1\u5733\u5e02\u6d69\u5929\u8fc5\u8fbe\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u6709\u9650\u516c',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u66fe\u5fb7\u6d69\u5148\u751f',
+	 'im': '',
+	 'mail': u'jackhase@163.com',
+	 'phone_contact': u'15889389019',
+	 'remark': u'\u6df1\u5733\u5e02\u6d69\u5929\u8fc5\u8fbe\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u4ee5\u56fd\u9645\u6d77\u8fd0\uff0c\u56fd\u9645\u7a7a\u8fd0\u548c\u8fdb\u51fa\u53e3\u4e1a\u52a1\u4e3a\u4e3b\u8425\u4e1a\u52a1\u7684\u7efc\u5408\u6027\u56fd\u9645\u8d27\u8fd0\u4ee3\u7406\u4f01\u4e1a\u3002\u516c\u53f8\u4e3a\u5ba2\u6237\u63d0\u4f9b\u56fd\u9645\u6d77\u8fd0\u3001\u56fd\u9645\u7a7a\u8fd0\u3001\u56fd\u9645\u5feb\u9012\u3001\u4ed3\u50a8\u4fdd\u7ba1\u3001\u5206\u62e8\u914d\u9001\u3001\u8d27\u8fd0\u4fdd\u9669\u3001\u5185\u9646\u8fd0\u8f93\u3001\u62a5\u5173\u3001\u62a5\u68c0\u3001\u4fdd\u7a0e\u7b49\u670d\u52a1\uff0c\u80fd\u591f\u4e3a\u5ba2\u6237\u89e3\u51b3\u56fd\u9645\u8d27\u8fd0\u4e2d\u65b9\u65b9\u9762\u9762\u7684\u95ee\u9898\uff0c\u662f\u56fd\u5185\u4e00\u6d41\u7684\u56fd\u9645\u8d27\u8fd0\u7efc\u5408\u670d\u52a1\u5546\u3002\r\xa0\xa0\xa0\xa0\u516c\u53f8\u79c9\u627f\u201c\u6ee1\u8db3\u5ba2\u6237\u9700\u6c42\uff0c\u4e0e\u5e02\u573a\u53d1\u5c55\u79ef\u6781\u4e92\u52a8\uff0c\u7528\u884c\u52a8\u5b9e\u8df5\u9886\u5148\u201d\u7684\u7ecf\u8425\u7406\u5ff5\uff0c\u65f6\u523b\u4fdd\u6301\u7740\u5bf9\u5ba2\u6237\u9700\u6c42\u53ca\u5e02\u573a\u53d1\u5c55\u7684\u9ad8\u5ea6\u5173\u6ce8\u3002\u5145\u5206\u5229\u7528\u73b0\u4ee3\u5316\u7684\u7535\u5b50\u5546\u52a1\u7cfb\u7edf\uff0c\u4e3a\u5ba2\u6237\u63d0\u4f9b\u79d1\u5b66\u3001\u5b89\u5168\u3001\u53ca\u65f6\u3001\u51c6\u786e\u3001\u6709\u4ef7\u503c\u7684\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa0\u6709\u6548\u7684\u7ecf\u8425\u65b9\u9488\uff0c\u9ad8\u7d20\u8d28\u7684\u4eba\u624d\u961f\u4f0d\u4ee5\u53ca\u5bf9\u54c1\u8d28\u7684\u5fe0\u8bda\uff0c\u5bf9\u6267\u884c\u529b\u7684\u81ea\u5f8b\u548c\u5feb\u901f\u53cd\u5e94\u7684\u5168\u7403\u5546\u4e1a\u7f51\u7edc,\u4f7f\u5f97\u6d69\u5929\u8fc5\u8fbe\u5353\u7136\u4e0d\u7fa4\u7684\u6d3b\u8dc3\u5728\u56fd\u8d27\u8fd0\u5e02\u573a\u4e0a\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u56fd\u9645\u7269\u6d41\uff0c\u7a7a\u8fd0\uff0c\u6d77\u8fd0\uff0c\u5feb\u9012\uff0c\u4e2d\u6e2f\u8fd0\u8f93\uff0c\u4ed3\u50a8\u670d\u52a156135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C443182.html'}
+2013-05-12 17:37:46+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:37:46+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 273,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 53229,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 37, 46, 104480),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 9,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 37, 45, 310377)}
+2013-05-12 17:37:46+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:41:30+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:41:31+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:41:40+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:41:40+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:41:40+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:41:40+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:41:40+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:41:40+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:41:40+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:41:40+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:41:40+0800 [56135_company] DEBUG: Crawled (302) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:41:40+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:41:40+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 271,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 445,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 41, 40, 689500),
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 41, 40, 552127)}
+2013-05-12 17:41:40+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:44:24+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:44:25+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:45:00+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:45:00+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:45:12+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:45:12+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:45:12+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:45:12+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:45:12+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:45:12+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:45:12+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:45:12+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:45:12+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:45:12+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:45:13+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:45:13+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:45:13+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 609,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 179657,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 2,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 45, 13, 336049),
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 2,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 45, 12, 178734)}
+2013-05-12 17:45:13+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:45:50+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:45:51+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:45:59+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:45:59+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:45:59+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:45:59+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:45:59+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:45:59+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:45:59+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:45:59+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:45:59+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:45:59+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:46:00+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:46:00+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:46:00+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 609,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 179657,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 2,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 46, 0, 301151),
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 2,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 45, 59, 41557)}
+2013-05-12 17:46:00+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:47:48+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:47:48+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:48:02+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:48:02+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:48:02+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:48:02+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:48:02+0800 [-] ERROR: Unhandled error in Deferred:
+2013-05-12 17:48:02+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Scrapy-0.16.4-py2.6.egg/scrapy/cmdline.py", line 138, in _run_command
+	    cmd.run(args, opts)
+	  File "/usr/lib/python2.6/site-packages/Scrapy-0.16.4-py2.6.egg/scrapy/commands/crawl.py", line 44, in run
+	    self.crawler.crawl(spider)
+	  File "/usr/lib/python2.6/site-packages/Scrapy-0.16.4-py2.6.egg/scrapy/crawler.py", line 47, in crawl
+	    return self.engine.open_spider(spider, requests)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 1213, in unwindGenerator
+	    return _inlineCallbacks(None, gen, Deferred())
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 1070, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/usr/lib/python2.6/site-packages/Scrapy-0.16.4-py2.6.egg/scrapy/core/engine.py", line 220, in open_spider
+	    slot = Slot(start_requests, close_if_idle, nextcall, scheduler)
+	  File "/usr/lib/python2.6/site-packages/Scrapy-0.16.4-py2.6.egg/scrapy/core/engine.py", line 27, in __init__
+	    self.start_requests = iter(start_requests)
+	exceptions.TypeError: 'NoneType' object is not iterable
+	
+2013-05-12 17:48:02+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:48:02+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:48:33+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2013-05-12 17:50:30+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:50:31+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:50:45+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:50:45+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:50:45+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:50:45+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:50:45+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:50:45+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:50:45+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:50:45+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:50:46+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:50:46+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:50:46+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:50:46+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:50:46+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 609,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 179365,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 2,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 50, 46, 814942),
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 2,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 50, 45, 552876)}
+2013-05-12 17:50:46+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:51:55+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:51:55+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:52:11+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:52:11+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:52:11+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:52:11+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:52:11+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:52:11+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:52:11+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:52:11+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:52:12+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:52:12+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=skyar1yam15adu55avnhajv3
+2013-05-12 17:52:12+0800 [56135_company] DEBUG: Crawled (302) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:52:12+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:52:12+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 609,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 93356,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/302': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 52, 12, 643056),
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 2,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 52, 11, 612971)}
+2013-05-12 17:52:12+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:53:31+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:53:31+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:53:39+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:53:39+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:53:39+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:53:39+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:53:39+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:53:39+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:53:39+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:53:39+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:53:40+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:53:40+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:53:40+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:53:40+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:53:40+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 609,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 179365,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 2,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 53, 40, 836020),
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 2,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 53, 39, 594176)}
+2013-05-12 17:53:40+0800 [56135_company] INFO: Spider closed (finished)
+2013-05-12 17:56:43+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 17:56:44+0800 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-05-12 17:56:53+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-05-12 17:56:53+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-05-12 17:56:53+0800 [scrapy] DEBUG: Enabled item pipelines: WuliuPipeline
+2013-05-12 17:56:53+0800 [56135_company] INFO: Spider opened
+2013-05-12 17:56:53+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 17:56:53+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-05-12 17:56:53+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-05-12 17:56:53+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-1.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:53+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-1.html> (referer: None)
+2013-05-12 17:56:53+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/companylist-adv-2189.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/companylist-adv-2189.html> (referer: http://56135.com/56135/company/companylist-adv-1.html)
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100316.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100317.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100318.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100319.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100320.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100321.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100322.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100323.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100324.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100325.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100309.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100310.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100311.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100312.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100313.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:54+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100314.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:55+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100316.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:55+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100297.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:55+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100316.html>
+	{'addr': u'\u4e0a\u6d77\u5e02\u56fd\u6743\u8def\uff17\uff15\u53f7\uff12\uff10\uff12\u5ba4',
+	 'company_name': u'\u4e0a\u6d77\u660e\u65e5\u5916\u8d38\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u6731\u6c11\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u662f\u4e00\u5bb6\u670d\u88c5\u5916\u8d38\u6709\u9650\u516c\u53f8\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'55580385',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100316.html'}
+2013-05-12 17:56:56+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100318.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:56+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100299.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:56+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100318.html>
+	{'addr': u'\u4e0a\u6d77\u5e02\u9752\u6d66\u533a\u534e\u76c8\u8def1085\u5f04158\u53f7102',
+	 'company_name': u'\u9752\u6d66\u84dd\u5929\u5bb6\u7535\u7ef4\u4fee\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u8d1f\u8d23\u9752\u6d66\u533a\u6d77\u4fe1\u3001\u521b\u7ef4\u7535\u89c6\u7ef4\u4fee\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100318.html'}
+2013-05-12 17:56:57+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100324.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:57+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100301.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:57+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100324.html>
+	{'addr': u'\u6d66\u4e1c\u5357\u8def855\u53f7\u4e16\u754c\u5e7f\u573a33C',
+	 'company_name': u'Shenzhen United Atlanta Shanghai',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e00\u5bb6\u8bda\u4fe1\u7684\u8d27\u4ee3\u516c\u53f8\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a5656135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100324.html'}
+2013-05-12 17:56:57+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100317.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:57+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100302.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:58+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100317.html>
+	{'addr': u'\u6df1\u5733\u5e02\u7f57\u6e56\u533a\u7ea2\u5c97\u8def\u7ea2\u5c972\u53f7\u5927\u96621\u680b303\u5ba4',
+	 'company_name': u'\u4e0a\u6d77\u4e2d\u6d77\u901a\u50a8\u8fd0\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u9648\u5c0f\u59d0',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': u'13713925286',
+	 'remark': u'\u5b9c\u660c\u88d5\u4e30\u56fd\u9645\u7269\u6d41\u6709\u9650\u516c\u53f8\u6df1\u5733\u5e02\u5206\u516c\u53f8\r\xa0\xa0\xa0\xa0\u5b9c\u660c\u88d5\u4e30\u56fd\u9645\u7269\u6d41\u6709\u9650\u516c\u53f8\u6df1\u5733\u5e02\u5206\u516c\u53f8\u662f\u7ecf\u56fd\u5bb6\u5de5\u5546\u5c40\u6279\u51c6\u6ce8\u518c\u6210\u7acb\uff0c\u662f\u4e00\u5bb6\u4e13\u4e1a\u5316\u56fd\u9645\u8fd0\u8f93\u3001\u7269\u6d41\u3001\u4ed3\u50a8\u3001\u5feb\u9012\u3001\u914d\u9001\u3001\u8fdb\u51fa\u53e3\u4ee3\u7406\u3001\u62a5\u5173\u3001\u6e05\u5173\u3001\u6d77\u5173\u76d1\u7ba1\u3001\u4f9b\u5e94\u94fe\u7ba1\u7406\u3001\u7269\u6d41\u65b9\u6848\u8bbe\u8ba1\u7b49\u4e8e\u4e00\u4f53\u7684\u7efc\u5408\u6027\u4e00\u7ea7\u4ee3\u7406\u4f01\u4e1a\u3002\u672c\u516c\u53f8\u62e5\u6709\u72ec\u7279\u7684\u7ecf\u8425\u7406\u5ff5\uff0c\u79d1\u5b66\u7684\u7ba1\u7406\u6a21\u5f0f\uff0c\u4f18\u79c0\u7684\u4e13\u4e1a\u4eba\u624d\uff0c\u7075\u6d3b\u7684\u670d\u52a1\u65b9\u5f0f\uff0c\u4e3a\u5ba2\u6237\u63d0\u4f9b\u5168\u65b9\u4f4d\u7684\u4f18\u8d28\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa0\u6211\u53f8\u63d0\u4f9b\u96c6\u88c5\u7bb1\u3001\u6563\u8d27\u62fc\u7bb1\u3001\u56fd\u9645\u6d77\u8fd0\u3001\u56fd\u9645\u7a7a\u8fd0\u3001\u56fd\u9645\u5feb\u9012\u3001\u6d77\u9646\u7a7a\u8054\u8fd0\u3001\u4e2d\u6e2f\u6fb3\u8fd0\u8f93\u3001\u4ed3\u50a8\u88c5\u5378\u3001\u4ee3\u7406\u8fdb\u51fa\u53e3\u62a5\u5173\u3001\u4ee3\u7406\u62a5\u68c0\u3001\u8d27\u8fd0\u4fdd\u9669\u3002\u662f\u670d\u52a1\u5168\u9762\u7684\u7efc\u5408\u6027\u56fd\u9645\u7269\u6d41\u4f01\u4e1a\u3002\r\xa0\xa0\xa0\xa0\u6df1\u5733\uff08\u73e0\u6d77\uff09\u6bd7\u90bb\u9999\u6e2f\uff08\u6fb3\u95e8\uff09\uff0c\u6709\u72ec\u7279\u7684\u7269\u6d41\u5730\u7406\u4f18\u52bf\uff0c\u6210\u4e3a\u5927\u9646\u548c\uff08\u9999\u6e2f\uff09\u6fb3\u95e8\u7684\u7269\u6d41\u7ed3\u70b9\u3002\u516c\u53f8\u672c\u7740\u201c\u539a\u5fb7\u8f7d\u7269\uff0c\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u6700\u4f73\u7269\u6d41\u89e3\u51b3\u65b9\u6848\uff0c\u4ee5\u964d\u4f4e\u4f01\u4e1a\u7269\u6d41\u6210\u672c\u4e3a\u4f7f\u547d\u201d\u7684\u670d\u52a1\u5b97\u65e8\uff0c\u6df1\u5733\u5206\u516c\u53f8\u63d0\u4f9b\u4ee5\u4e0b\u4f18\u52bf\u670d\u52a1\uff1a\r\xa0\r\xa0\xa0\xa0\xa0\u4e00\u3001\u6df1\u5733\u6fb3\u95e8\u8d27\u8fd0\u7269\u6d41\u4e13\u7ebf\uff1a\r\xa0\xa0\xa0\xa01\u3001\u6df1\u5733/\u73e0\u4e09\u89d2\u81f3\u6fb3\u95e8\u7684\u76f4\u901a\u8f66\uff1a\r\xa0\xa0\xa0\xa0\u63d0\u4f9b\u73e0\u4e09\u89d2\uff08\u73e0\u6d77\u3001\u4e2d\u5c71\u3001\u5e7f\u5dde\u3001\u6df1\u5733\u3001\u4f5b\u5c71\u3001\u6c5f\u95e8\u3001\u4e1c\u839e\u3001\u6df1\u5733\u3001\u60e0\u5dde\u3001\u6f6e\u5dde\u3001\u6c55\u5934\u3001\u97f6\u5173\u3001\u4e91\u6d6e\u3001\u6e5b\u6c5f\u7b49\uff09\u5230\u6fb3\u95e8\u8fdb\u51fa\u53e3\u5428\u8f66\uff083\u5428\u30015\u5428\u30018\u5428\u300110\u5428\uff09\u3001\u62d6\u8f66\uff0820\u5c3a\u300140\u5c3a\u3001\u5e73\u677f\uff09\u95e8\u5230\u95e8\u3001\u6fb3\u95e8\u5404\u7801\u5934\u6e05\u5173\u3001\u6fb3\u95e8\u533a\u5185\u62d6\u8f66\u6d3e\u9001\u7b49\u670d\u52a1\uff1b\r\xa0\xa0\xa0\xa02\u3001\u63d0\u4f9b\u5168\u56fd\uff08\u5317\u4eac\u3001\u4e0a\u6d77\u3001\u6c5f\u82cf\u3001\u4e1c\u5317\u3001\u534e\u5317\u3001\u534e\u4e1c\u3001\u56db\u5ddd\u3001\u91cd\u5e86\uff09\u5404\u5730\u5230\u6e2f\u6fb3\u7269\u6d41\u670d\u52a1\uff0c\u5e76\u5728\u73e0\u6d77\u63d0\u4f9b\u81ea\u52a8\u5316\u4ed3\u5e93\u4f5c\u4e3a\u56fd\u5185\u8f66\u548c\u6e2f\u6fb3\u8f66\u7684\u4e2d\u8f6c\u70b9\uff0c\u65f6\u6548\u5feb\u3001\u7269\u6d41\u8d39\u7528\u66f4\u4f4e\uff1b\r\xa0\xa0\xa0\xa03\u3001\u957f\u6c5f\uff08\u91cd\u5e86\u3001\u5b9c\u660c\u3001\u6b66\u6c49\u3001\u4e5d\u6c5f\u7b49\uff09\u5404\u6e2f\u53e3\u3001\u5927\u8fde\u3001\u79e6\u7687\u5c9b\u3001\u5929\u6d25\u3001\u70df\u53f0\u3001\u8fde\u4e91\u6e2f\u3001\u5357\u901a\u3001\u4e0a\u6d77\u3001\u6e29\u5dde\u3001\u5b81\u6ce2\u7b49\u6e2f\u53e3\u81f3\u6fb3\u95e8\u7269\u6d41\u4e13\u7ebf\u3002\u53ef\u6839\u636e\u8d27\u7269\u4e0d\u540c\u60c5\u51b5\uff0c\u5728\u5f53\u5730\u6e05\u5173\uff0c\u7ecf\u9999\u6e2f\u6d77\u8fd0\u6fb3\u95e8\u5e76\u63d0\u4f9b\u6fb3\u95e8\u7801\u5934\u6e05\u5173\u6d3e\u9001\u7b49\u4e00\u6761\u9f99\u670d\u52a1\uff1b\u4e5f\u53ef\u7ecf\u5185\u8d38\u6d77\u8fd0\u5230\u73e0\u6d77\u9999\u6d32\u6e2f\u6216\u8005\u897f\u57df\u7801\u5934\uff0c\u62d6\u8f66\u6e05\u5173\u5230\u6fb3\u95e8\uff0c\u6210\u672c\u66f4\u4f4e\uff1b\r\xa0\xa0\xa0\xa04\u3001\u6fb3\u95e8\u4ed3\u50a8\u642c\u8fd0\u88c5\u5378\u670d\u52a1\uff1a\u6fb3\u95e8\u63d0\u4f9b\u5927\u578b\u7269\u6d41\u4ed3\uff0c\u5927\u578b\u642c\u8fd0\u88c5\u5378\u961f\u7b49\u4e3a\u60a8\u63d0\u4f9b\u4f18\u8d28\u7684\u642c\u8fd0\u88c5\u5378\u670d\u52a1\uff1b\r\xa0\xa0\xa0\xa05\u3001\u63d0\u4f9b\u5927\u4ef6\u8d27\u7269\uff0c\u8d85\u957f\u3001\u8d85\u5bbd\u8bbe\u5907\u4e13\u4e1a\u8fd0\u8f93\u670d\u52a1\uff1b\r\xa0\xa0\xa0\xa06\u3001\u63d0\u4f9b\u8fdb\u51fa\u6fb3\u95e8\u5c55\u89c8\u3001\u6f14\u51fa\u7b49\u6682\u51fa\u590d\u8fdb\u4e13\u4e1a\u7269\u6d41\u670d\u52a1\uff1b\r\xa0\xa0\xa0\xa07\u3001\u4ee3\u7406\u6c7d\u8f66\u51fa\u53e3\u6fb3\u95e8\uff08\u62d6\u8fd0\u3001\u9a7e\u9a76\uff09\u670d\u52a1\u53ca\u5404\u9879\u624b\u7eed\u7533\u62a5\u670d\u52a1\uff1b\r\xa0\xa0\xa0\xa08\u3001\u63d0\u4f9b\u6e2f\u6fb3\u62a5\u5173\u8239\uff08\u6eda\u88c5\u8239\uff09\u670d\u52a1\uff0c\u63d0\u4f9b\u8239\u4ee3\u7b49\u7533\u62a5\u670d\u52a1\u3002\xa0\r\xa0\r\xa0\xa0\xa0\xa0\u4e8c\u3001\u5e7f\u4e1c\uff08\u73e0\u4e09\u89d2\u3001\u6df1\u5733\uff09\u4f18\u52bf\u62d6\u8f66\u3001\u5c01\u5173\u8f66\u4e1a\u52a1\uff1a\r\xa0\xa0\xa0\xa01\u3001\u73e0\u6d77\u897f\u533a\u3001\u6597\u95e8\u3001\u4e09\u7076\u3001\u5357\u6c34\u3001\u9ad8\u680f\u3001\u5e73\u6c99\u7b49\u5730\u5230\u4e5d\u5dde\u6e2f\u3001\u9999\u6d32\u6e2f\u3001\u9ad8\u680f\u6e2f\u3001\u6df1\u5733\u76d0\u7530\u6e2f\u3001\u86c7\u53e3\u6e2f\u3001\u5988\u6e7e\u6e2f\u96c6\u88c5\u7bb1\u62d6\u8f66\u4e1a\u52a1\uff1b\r\xa0\xa0\xa0\xa02\u3001\u5e7f\u5dde\u3001\u4e1c\u839e\u3001\u60e0\u5dde\u3001\u4e2d\u5c71\u5404\u533a\u5230\u5e7f\u5dde\u9ec4\u57d4\u3001\u5357\u6c99\u3001\u6df1\u5733\u86c7\u53e3\u3001\u76d0\u7530\u3001\u5988\u6e7e\u7b49\u6e2f\u53e3\u4f18\u52bf\u62d6\u8f66\u4e1a\u52a1\uff1b\r\xa0\xa0\xa0\xa03\u3001\u73e0\u6d77\u3001\u4e2d\u5c71\u3001\u6c5f\u95e8\u3001\u4f5b\u5c71\u3001\u5e7f\u5dde\u3001\u4e1c\u839e\u3001\u6df1\u5733\u7b49\u73e0\u4e09\u89d2\u5404\u6d77\u5173\uff0c\u6e2f\u53e3\u4e4b\u95f4\u7684\u5c01\u5173\u8f66\uff0c\u8f6c\u5173\u8f66\u5df2\u7ecf\u9999\u6e2f\u6fb3\u95e8\u5c01\u5173\u76f4\u901a\u8f66\uff1b\r\xa0\xa0\xa0\xa04\u3001\u5e7f\u5dde\u3001\u756a\u79ba\u3001\u4f5b\u5c71\u7b49\u5730\u5927\u578b\u62d6\u8f66\uff0c\u4e3b\u8981\u9488\u5bf9\u94a2\u6750\uff0c\u5efa\u7b51\u6750\u6599\uff0c\u5927\u578b\u673a\u68b0\u8bbe\u5907\uff0c\u5de5\u7a0b\u673a\u68b0\u8bbe\u5907\u7b49\u8fd0\u8f93\u670d\u52a1\u3002\r\xa0\r\xa0\xa0\xa0\xa0\u4e09\u3001\u5e7f\u4e1c\uff08\u73e0\u4e09\u89d2\u3001\u6df1\u5733\uff09\u6d77\u8fd0\u670d\u52a1\uff1a\r\xa0\xa0\xa0\xa01\u3001\u63d0\u4f9b\u73e0\u6d77\u4e5d\u5dde\u6e2f\u3001\u9999\u6d32\u6e2f\u3001\u4e2d\u5c71\u6e2f\u3001\u5c0f\u6984\u6e2f\u3001\u987a\u5fb7\u6e2f\u3001\u9ec4\u57d4\u6e2f\u3001\u5357\u6c99\u6e2f\u3001\u6df1\u5733\uff08\u86c7\u53e3\u3001\u76d0\u7530\u3001\u5988\u6e7e\uff09\u3001\u9999\u6e2f\u6e2f\u7b49\u8d77\u6b65\u5230\u5168\u7403\u5404\u6e2f\u53e3\u96c6\u88c5\u7bb1\u3001\u5f00\u9876\u67dc\u3001\u5e73\u677f\u7279\u79cd\u67dc\u6d77\u8fd0\u670d\u52a1\uff0c\u4f18\u52bf\u822a\u7ebf\u6709\u4e2d\u4e1c\u7ebf\u3001\u6b27\u5730\u7ebf\u3001\u6fb3\u6d32\u7ebf\u3001\u975e\u6d32\u7ebf\u3001\u65e5\u97e9\u548c\u4e1c\u5357\u4e9a\u5404\u5927\u6e2f\u53ca\u504f\u6e2f\u7b49\uff1b\r\xa0\xa0\xa0\xa02\u3001\u63d0\u4f9b\u4e5d\u5dde\u6e2f\u3001\u767d\u77f3\u6d77\u5173\u3001\u4e2d\u5c71\u6e2f\u3001\u5e7f\u5dde\u9ec4\u57d4\u3001\u5357\u6c99\u3001\u6df1\u5733\u5916\u8fd0\u4ed3\u7b49\u5730\u8d77\u6b65\u5230\u5168\u7403\u6563\u8d27\u62fc\u7bb1\u4e1a\u52a1\u3002\u5e76\u4f18\u52bf\u63d0\u4f9bDDU\u3001DDP\u670d\u52a1\u6761\u6b3e\u3002\r\xa0\xa0\xa0\r\xa0\xa0\xa0\xa0\u56db\u3001\u5e7f\u4e1c\uff08\u73e0\u4e09\u89d2\u3001\u6df1\u5733\u3001\u73e0\u6d77\uff09\u5feb\u9012\u7a7a\u8fd0\u670d\u52a1\uff1a\r\xa0\xa0\xa0\xa01\u3001\u4f18\u52bf\u4ee3\u7406\u5404\u5927\u822a\u7a7a\u516c\u53f8\u4f18\u52bf\u822a\u7ebf\uff0c\u73e0\u6d77\uff08\u73e0\u4e09\u89d2\uff09\u8d77\u6b65\u5230\u5168\u7403\u7a7a\u8fd0\u5747\u6709\u4f18\u52bf\u7684\u4ef7\u683c\u548c\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa02\u3001\u5168\u9762\u4ee3\u7406DHL,UPS,TNT,FEDEX,EMS\u7b49\u56fd\u9645\u5feb\u9012\u5de8\u5934\u4e1a\u52a1\uff0c\u5bf9\u73e0\u6d77\u4e09\u89d2\u5230\u5168\u7403\u5404\u5730\u95e8\u5230\u95e8\u7684\u5feb\u9012\u7ebf\u8def\u8fdb\u884c\u6574\u5408\u3002\u4e3a\u5ba2\u4eba\u63d0\u4f9b\u6700\u4f73\u7684\u56fd\u9645\u5feb\u9012\u7ec4\u5408\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa03\u3001\u65e5\u672c\u5feb\u9012\u4e13\u7ebf\u2014\u2014\u4f50\u5ddd\u6025\u4fbf\uff08SAGAWA\uff09\uff1b\u4f50\u5ddd\u6025\u4fbf\u4e13\u6ce8\u4e8e\u65e5\u672c\u7684\u7a7a\u8fd0\u548c\u5feb\u9012\u6d3e\u9001\u3001\u65e5\u672c\u6e05\u5173\u7684\u670d\u52a1\uff0c\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u4f18\u8d28\u5feb\u6377\u7684\u7a7a+\u6d3e\u65e5\u672c\u4e13\u7ebf\u670d\u52a1\u3002\r\xa0\r\xa0\xa0\xa0\xa0\u4e94\u3001\u5e7f\u4e1c\uff08\u73e0\u6d77/\u73e0\u4e09\u89d2\uff09\u5404\u5927\u6e2f\u53e3\u4ee3\u7406\u62a5\u5173\u3001\u6e05\u5173\u670d\u52a1\uff1a\r\xa0\r\xa0\xa0\xa0\xa0\u4f18\u52bf\u63d0\u4f9b\u73e0\u6d77\u4e5d\u5dde\u6e2f\u3001\u6a2a\u7434\u53e3\u5cb8\u3001\u767d\u77f3\u3001\u9ad8\u680f\u6e2f\uff1b\u6df1\u5733\u76d0\u7530\uff0c\u86c7\u53e3\uff0c\u7687\u5c97\u53e3\u5cb8\uff1b\u5e7f\u5dde\u7684\u9ec4\u57d4\uff0c\u5357\u6c99\uff1b\u4e2d\u5c71\u6e2f\u7b49\u5173\u533a\u7684\u4ee3\u7406\u62a5\u5173\u3001\u6e05\u5173\u670d\u52a1\u3002\r\xa0\r\xa0\xa0\xa0\xa0\u516d\u3001\u7269\u6d41\u56ed\u53ca\u8de8\u5883\u62a5\u5173\u670d\u52a1\uff1a\r\xa0\xa0\xa0\xa0\u4f18\u52bf\u63d0\u4f9b\u5e7f\u5dde\u9ec4\u57d4\u7269\u6d41\u56ed\uff0c\u6df1\u5733\u7269\u6d41\u56ed\uff0c\u73e0\u6d77\u8de8\u5883\u7269\u6d41\u56ed\u7684\u62a5\u5173\u8fd0\u8f93\u4e1a\u52a1\u3002\u73e0\u6d77\u7684\u8de8\u5883\u62a5\u5173\u4e1a\u52a1\u5f00\u901a\uff0c\u53d6\u4ee3\u4e86\u4ee5\u524d\u7684\u201c\u6fb3\u95e8\u4e00\u65e5\u6e38\u201d\u7269\u6d41\u4e1a\u52a1\u3002\u901a\u8fc7\u6e05\u5173\uff0c\u8fd0\u8f93\u7684\u4e00\u6761\u9f99\u670d\u52a1\uff0c\u4e3a\u4f01\u4e1a\u8282\u7701\u8fd0\u8d39\u3001\u4ed3\u50a8\u3001\u642c\u8fd0\u88c5\u5378\u8d39\u7b49\u5927\u91cf\u7684\u7269\u6d41\u6210\u672c\uff01\r\xa0\r\xa0\xa0\xa0\xa0\u4e03\u3001\xa0\xa0\u4e0a\u6d77\u3001\u5b9c\u660c\u3001\u6df1\u5733\u3001\u73e0\u6d77\uff0c\u6fb3\u95e8\u5404\u6e2f\u53e3\u6eda\u88c5\u8239\uff0c\u7279\u79cd\u7269\u6d41\uff0c\u8d85\u957f\u8f66\uff0c\u8d85\u5bbd\u8f66\u7b49\u7279\u79cd\u7269\u6d41\u670d\u52a1\u3002\r\xa0\r\xa0\xa0\xa0\xa0\u516b\u3001\u7279\u79cd\u7269\u6d41\u54a8\u8be2\u670d\u52a1\uff0c\u63d0\u4f9b\u5927\u578b\u88c5\u8fd0\uff0c\u6700\u4f73\u7269\u6d41\u7ebf\u8def\u7b56\u5212\u7b49\u4f18\u52bf\u7269\u6d41\u670d\u52a1\u3002\r\xa0\r\xa0\r\xa0\r\xa0\xa0\xa0\xa0\u5b9c\u660c\u516c\u53f8\u5730\u5740:\u6e56\u5317\u7701\u5b9c\u660c\u5e02\u5937\u9675\u533a\u4e1c\u6e56\u8def\u8d22\u5bcc\u5e7f\u573a19\u697c\xa04006663045\r\xa0\r\xa0\xa0\xa0\xa0\u6fb3\u95e8\u529e\u516c\u5730\u5740\uff1a\u6fb3\u95e8\u7f57\u7406\u57fa\u535a\u58eb\u5927\u9a6c\u8def\u5357\u5149\u5927\u53a6\u5341\u56db\u5b57\u697c\xa0\xa04006663045\r\xa0\r\xa0\xa0\xa0\xa0\u73e0\u6d77\u5206\u516c\u53f8\u5730\u5740\uff1a\u5e7f\u4e1c\u7701\u73e0\u6d77\u5e02\u65b0\u9999\u6d32\u68d5\u6988\u5047\u65e5\u82b1\u56ed\u7fe0\u5c4f\u8def286\u53f7\u94fa\xa00756-3825853\xa0\xa013380613456\r\xa0\r\xa0\xa0\xa0\xa0\u4e2d\u5c71\u529e\u4e8b\u5904\u5730\u5740\uff1a\u5e7f\u4e1c\u7701\u4e2d\u5c71\u5e02\u5766\u6d32\u9547\u91d1\u5c71\u57ce2\u680b1\u95e8402\u5ba4\xa0\xa0\xa0\xa0\xa0\xa00760-23532183\r\xa0\r\xa0\xa0\xa0\xa0\u6df1\u5733\u5206\u516c\u53f8\u5730\u5740\uff1a\u6df1\u5733\u5e02\u7f57\u6e56\u533a\u7ea2\u5c97\u8def\u7ea2\u5c97\u4e8c\u53f7\u5927\u96621\u680b303\u5ba4\uff08\u7ea2\u5c97\u8def1100\u53f7\u5b8f\u798f\u6cf0\u5927\u697c\uff09\xa0\xa013554966566\xa00755-22380813\r\xa0\xa0\xa0\xa0\xa0\r\xa0\xa0\xa0\xa0\xa0\u4e0a\u6d77\u529e\u4e8b\u5904\u5730\u5740\u5730\u5740\uff1a\u4e0a\u6d77\u5e02\u8679\u53e3\u533a\u8d64\u5cf0\u8def630\u53f71001\u623f\u95f4\r\xa0\xa0\xa0\xa0\xa0\u7535\u8bdd\uff1a4006663045\xa0\r\xa0\r\xa0\r\xa0\r\xa0\xa0\r\xa0\r\xa0\r\xa0\r\xa0\xa0\r\xa0\r\xa0\xa0\xa0\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u56fd\u9645\u7269\u6d41\xa0\u56fd\u9645\u5feb\u9012\xa0\u56fd\u9645\u7a7a\u8fd0\xa0\u56fd\u9645\u6d77\u8fd056135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'0755-22380813',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100317.html'}
+2013-05-12 17:56:58+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100320.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:58+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100304.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:58+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100320.html>
+	{'addr': u'\u4e0a\u6d77\u9752\u6d66\u9752\u6606\u8def559#',
+	 'company_name': u'\u4e0a\u6d77\u946b\u6d77\u9a6c\u4f01\u4e1a\u53d1\u5c55\u6709\u9650\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e0a\u6d77\u946b\u6d77\u9a6c\u4f01\u4e1a\u53d1\u5c55\u6709\u9650\u516c\u53f8\u201c\u9f0e\u53f6\u201d\u724c\u5bb6\u5177.\r\u4e13\u4e1a\u5236\u9020\uff1a\u661f\u7ea7\u5bbe\u9986\u3001\u9152\u5e97\u516c\u5bd3\u3001\u8c6a\u534e\u522b\u5885\u3001\u9ad8\u6863\u4f1a\u6240\u7ecf\u5178\u5bb6\u5177.\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100320.html'}
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100319.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100305.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100319.html>
+	{'addr': u'\u4e0a\u6d77\u8679\u6865\u673a\u573a\u8679\u6865\u8def2545\u5f0457\u53f7',
+	 'company_name': u'\u4e0a\u6d77\u957f\u53d1\u7269\u6d41\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u9676\u6653\u658c\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': u'C100319',
+	 'remark': u'\u957f\u53d1\u7269\u6d41\u6709\u9650\u516c\u53f8\uff0c\u7b80\u79f0\u201c\u957f\u53d1\u7269\u6d41\u201d\uff0c\u4ece2005\u5e744\u67081\u65e5\u6210\u7acb\u81f3\u4eca\uff0c\u4f9d\u6258\u4e0a\u6d77\u957f\u53d1\u56fd\u9645\u8d27\u8fd0\u5f3a\u6709\u529b\u5e73\u53f0\uff0c\u4e3a\u7a7a\u8fd0\uff0c\u6d77\u8fd0\uff0c\u5feb\u4ef6\u5ba2\u6237\u63d0\u4f9b\u9ad8\u901f\uff0c\u4fbf\u6377\u7684\u9053\u8def\u8fd0\u8f93\uff0c\u540c\u65f6\u5bf9\u5916\u627f\u63a5\u5168\u56fd\u4e3b\u8981\u57ce\u5e02\u516c\u8def\u5e72\u7ebf\u8fd0\u8f93\uff0c\u51b7\u85cf\u8fd0\u8f93\uff0c\u6d77\u5173\u76d1\u7ba1\u8d27\u7269\u8fd0\u8f93\uff0c\u914d\u9001\uff0c\u5927\u578b\u4ed3\u50a8\uff0c\u5927\u578b\u8bbe\u5907\u540a\u88c5\uff0c\u7269\u6d41\u52a0\u5de5\u7b49\u7b2c\u4e09\u65b9\u7269\u6d41\u670d\u52a1\uff0c\u62e5\u670924\u5c0f\u65f6\u7535\u5b50\u76d1\u63a7\u7684\u6807\u51c6\u4ed3\u5e93\uff0c\u914d\u5907\u7acb\u4f53\u5b58\u50a8\u8d27\u67b6\u548c\u5148\u8fdb\u7684\u6761\u5f62\u7801\u626b\u63cf\u7cfb\u7edf\u3002\r\xa0\xa0\xa0\u957f\u53d1\u7269\u6d41\u5229\u7528\u81ea\u8eab\u56fd\u5185\u7f51\u7edc\u4f18\u52bf\uff0c\u53ef\u4ee5\u4e3a\u5ba2\u6237\u65b9\u4fbf\u5730\u5728\u5168\u56fd\u5404\u5927\uff0c\u4e2d\u57ce\u5e02\u53ca\u5468\u8fb9\u5730\u533a\u63d0\u4f9b\u914d\u9001\u670d\u52a1\uff0c\u6c5f\u6d59\u7696\u5730\u533a\u90fd\u80fd\u4eca\u53d1\u660e\u81f3\u3002\u957f\u53d1\u7269\u6d41\u5728\u4e0a\u6d77\u5e02\u5185\u5df2\u8fbe50\u591a\u4e2a\u7f51\u70b9\uff0c\u6c5f\u6d59\u7696\u5730\u533a\u4e1a\u52a1\u7f51\u70b9\u66f4\u662f\u8fbe180\u591a\u4e2a\u7f51\u70b9\uff0c\u5728\u6c5f\u82cf\u8bbe\u7acb\u4e86\u5357\u4eac\uff0c\u5e38\u5dde\uff0c\u65e0\u9521\uff0c\u82cf\u5dde\uff0c\u5357\u901a\u5206\u62e8\u4e2d\u5fc3\u3002\u5728\u6d59\u6c5f\u8bbe\u7acb\u5b81\u6ce2\uff0c\u8427\u5c71\uff0c\u6e29\u5dde\uff0c\u5609\u5174\u5206\u62e8\u4e2d\u5fc3\uff0c\u5f3a\u52bf\u51fa\u51fb\uff0c\u786e\u4fdd\u8d27\u7269\u5b89\u5168\u9001\u8fbe\u5230\u5ba2\u6237\u624b\u4e2d\u3002\r\xa0\xa0\xa0\u957f\u53d1\u7269\u6d41\u81ea\u884c\u7814\u53d1\u7684\u7269\u6d41\u7cfb\u7edf\uff0c\u8986\u76d6\u4e86\u4ed3\u50a8\uff0c\u914d\u9001\uff0c\u8fd0\u8f93\uff0cGPS\u8ddf\u8e2a\u7b49\u7269\u6d41\u7ba1\u7406\u7684\u5168\u8fc7\u7a0b\uff0c\u4e3a\u5ba2\u6237\u63d0\u4f9b\u7f51\u4e0a\u4e0b\u5355\uff0c\u5728\u7ebf\u8ddf\u8e2a\uff0c\u6025\u8bc9\u5904\u7406\u670d\u52a1\u53ca\u51c6\u786e\u7684\u5b9e\u65f6\u52a8\u6001\u4fe1\u606f\u3002\r\xa0\xa0\xa0\r\xa0\xa0\xa0\u957f\u53d1\u7269\u6d41\u6b63\u4ee5\u5d2d\u65b0\u7684\u59ff\u6001\u5448\u73b0\u5728\u4eba\u4eec\u9762\u524d\uff0c\u957f\u8679\u51fa\u51fb\uff0c\u53d1\u626c\u58ee\u5927\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a\u7269\u6d4156135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'62695153',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100319.html'}
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100323.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100306.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:56:59+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100323.html>
+	{'addr': u'\u6e56\u5dde\u4e5d\u4e5d\u6865\u5317\u580d',
+	 'company_name': u'\u6e56\u5dde\u4e00\u901a\u7269\u6d41\u6709\u9650\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u627f\u8fd0\u5168\u56fd\u8d27\u8fd0,\u6e56\u5dde\u81f3\u5e7f\u5dde,\u4e0a\u6d77\u7b49\u5730\u5929\u5929\u53d1\u8f66\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1ays56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100323.html'}
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100322.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100308.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100322.html>
+	{'addr': u'\u7389\u73af\u53bf\u82a6\u6d66\u9547\u7535\u4fe1\u5c40',
+	 'company_name': u'\u7389\u73af\u53bf\u82a6\u6d66\u9547\u7535\u4fe1\u5c40',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u7389\u73af\u53bf\u82a6\u6d66\u9547\u7535\u4fe1\u5c40\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100322.html'}
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100325.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Sending cookies to: <GET http://56135.com/56135/company/memberbrief/C100315.html>
+	Cookie: ASP.NET_SessionId=coxgzw45tyqpyifvf4eziwul
+2013-05-12 17:57:00+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100325.html>
+	{'addr': u'\u5357\u4eac\u8def685\u53f7',
+	 'company_name': u'\u4e91\u5178\u8fd0\u8f93\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u6210\u7acb\u4e8e1998\u5e74\uff0c\u4e3b\u8981\u4ece\u4e8b\u4e8e\u5371\u9669\u54c1\u8fd0\u8f93\u9879\u76ee\u3002\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a5656135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100325.html'}
+2013-05-12 17:57:01+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100314.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:01+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100314.html>
+	{'addr': u'\u6d59\u6c5f\u7701\u53f0\u5dde\u5e02\u9ec4\u5ca9\u533a\u53cc\u6842\u8def57\u53f7',
+	 'company_name': u'\u8d85\u8d8a\u793c\u54c1\u5e97',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u9500\u552e\u5404\u79cd\u8f66\u6a21\u793c\u54c1\u73a9\u5177\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100314.html'}
+2013-05-12 17:57:02+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100321.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:02+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100321.html>
+	{'addr': u'\u4e0a\u6d77\u5b9d\u5c71\u533a\u534e\u7075\u8def\uff11\uff17\uff18\uff18\u53f7',
+	 'company_name': u'\u91cd\u5e86\u5170\u67ab\u8d27\u8fd0\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u6709\u5404\u578b\u8d27\u8f66\uff0c\u3000\u4e3a\u5ba2\u6237\u63d0\u4f9b\u4f18\u8d28\u7684\u8d27\u8fd0\u670d\u52a1\uff0e\u5b89\u5168\u5feb\u6377\uff0c\u6211\u516c\u53f8\u73b0\u6709\u4e0a\u6d77\uff0d\uff0d\uff0d\u91cd\u5e86\u7684\u4e13\u7ebf\uff0c\u4e3a\u5404\u754c\u4eba\u58eb\u63d0\u4f9b\u826f\u597d\u7684\u670d\u52a1\uff0e\u4ef7\u683c\u4f18\u60e0\uff0e\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a5656135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100321.html'}
+2013-05-12 17:57:02+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100312.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:02+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100312.html>
+	{'addr': u'\u6d59\u6c5f\u7701\u676d\u5dde\u5e02\u77f3\u6865\u8def512\u53f7',
+	 'company_name': u'\u676d\u5dde\u7b2c\u4e00\u6c7d\u8f66\u8fd0\u8f93\u6709\u9650\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u676d\u5dde\u7b2c\u4e00\u6c7d\u8f66\u8fd0\u8f93\u6709\u9650\u516c\u53f8\uff0c\u73b0\u6709\u603b\u8d44\u4ea7\u8fd12\u4ebf\u5143\u3002\u73b0\u5df2\u5f62\u6210\u4e3a\u4ee5\u7269\u6d41\u914d\u9001\u3001\u5927\u4ef6\u8fd0\u8f93\u3001\u96f6\u62c5\u4e13\u7ebf\u3001\u5ba2\u8fd0\u51fa\u79df\u3001\u7269\u6d41\u4fe1\u606f\u670d\u52a1\u4e94\u5927\u9886\u57df\u4e3a\u6838\u5fc3\uff0c\u9a7e\u9a76\u57f9\u8bad\u3001\u5ba2\u8fd0\u65c5\u6e38\u3001\u6c7d\u8f66\u68c0\u6d4b\u4e0e\u7ef4\u4fee\u7b49\u4e3a\u8f85\u7684\u7efc\u5408\u578b\u7269\u6d41\u4f01\u4e1a\u3002\xa0\r\u3000\u3000\u516c\u53f8\u4e0b\u8bbe\u6709\u8d27\u8fd0\u7269\u6d41\u3001\u5927\u4ef6\u8fd0\u8f93\u3001\u5ba2\u8f66\u51fa\u79df\u7b49\u4e8c\u5341\u4f59\u5bb6\u5206\u516c\u53f8\u4e0e\u5b50\u516c\u53f8\uff0c\u5e76\u5728\u5168\u56fd\u8bbe\u6709\u7701\u9645\u529e\u4e8b\u5904\u6216\u8425\u4e1a\u6240\u516b\u5341\u4f59\u4e2a\u3002\u516c\u53f8\u62e5\u6709\u4ed3\u50a8\u9762\u79ef3\u4e07\u4f59\u5e73\u65b9\xa0\u7c73\uff0c0.35T\u4ee5\u4e0a\u7684\u5404\u79cd\u5927\u5c0f\u8425\u8fd0\u8d27\u8f66\u4e94\u767e\u4f59\u8f86\uff0c\u57ce\u5e02\u51fa\u79df\u5c0f\u5ba2\u8f66\u3001\u79df\u8d41\u5c0f\u5ba2\u8f66\u56db\u767e\u4f59\u8f86\uff0c\u5ba2\u8fd0\u65c5\u6e38\u5ba2\u8f66\u767e\u4f59\u8f86\u3002\u7269\u6d41\u670d\u52a1\u5df2\u8f90\u5c04\u5168\u56fd\uff0c\u53ef\u4e3a\u5ba2\u6237\u63d0\u4f9b\u591a\u529f\u80fd\u3001\u591a\u5c42\u6b21\u3001\u5168\u65b9\u4f4d\u7684\u670d\u52a1\u3002\xa0\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1adf56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100312.html'}
+2013-05-12 17:57:02+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100301.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100301.html>
+	{'addr': u'\u4e0a\u6d77\u5e02\u5609\u5b9a\u533a\u5b9d\u5b89\u516c\u8def4805\u53f7',
+	 'company_name': u'\u4e0a\u6d77\u957f\u53d1\u7269\u6d41\u914d\u9001\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u7f57\u5b87\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e0a\u6d77\u957f\u53d1\u7269\u6d41\u914d\u9001\u6709\u9650\u516c\u53f8\u4f5c\u4e3a\u7269\u6d41\u4ed3\u50a8\u53ca\u52a0\u5de5\u4f01\u4e1a\uff0c\u5df2\u5efa\u6210\u7684\u4ed3\u5e93\u5730\u5904\u4e0a\u6d77\u5609\u5b9a\u3001\u9752\u6d66\u3001\u6c5f\u82cf\u6606\u5c71\u4e09\u5730\u4ea4\u754c\uff0c\u8ddd\u8679\u6865\u56fd\u9645\u673a\u573a20\u516c\u91cc\uff0c\u5434\u6dde\u6e2f\u7801\u593435\u516c\u91cc\uff0c\u81f3\u6caa\u5b81\u9ad8\u901f\u516c\u8def8\u516c\u91cc\uff0c\u6caa\u5609\u9ad8\u901f\u516c\u8def5\u516c\u91cc\uff0c\u7d27\u90bb\u5b9d\u5b89\u516c\u8def\u53ca312\u56fd\u9053\uff0c\u65b0\u5efa\u6210\u7684\u914d\u9001\u4e2d\u5fc3\u5360\u5730100\u4ea9\uff0c\u603b\u5efa\u7b51\u9762\u79ef30000\u5e73\u65b9\u7c73\u3002\u5468\u8fb9\u53e6\u67095\u4e07\u5e73\u65b9\u7c73\u4ed3\u5e93\uff0c\u53ef\u4ee5\u4e3a\u5ba2\u6237\u63d0\u4f9b\u7efc\u5408\u7269\u6d41\u65b9\u6848\u670d\u52a1\u3002\r\xa0\xa0\xa0\xa0\u516c\u53f8\u6210\u7acb\u4ee5\u6765\uff0c\u4e3a\u957f\u671f\u7684\u6218\u7565\u5408\u4f5c\u4f19\u4f34\u65e5\u672c\u201cFT\u8d44\u751f\u5802\u201d\u7684\u8fdb\u53e3\u4ee3\u7406\u53ca\u9500\u552e\u3001\u6279\u53d1\u7684\u6574\u4f53\u7269\u6d41\uff0c\u8fd0\u884c\u6001\u52bf\u826f\u597d,\u5ba2\u6237\u6ee1\u610f\u5ea6\u6781\u9ad8\u3002\u5e93\u533a\u5185\u8fd8\u6709\u5c3c\u6851(Nissan)\u4e2d\u56fd\u533a\u7684\u7279\u7ea6\u96f6\u90e8\u4ef6\u5206\u62e8\u4e2d\u5fc3\u3001\u590f\u666e(SHARP)\u5bb6\u7535\u4e2d\u56fd\u533a\u7684\u5206\u62e8\u4e2d\u5fc3\u7b49\u77e5\u540d\u4f01\u4e1a\u7b7e\u7ea6\u5165\u9a7b\uff0c\u5efa\u7acb\u4e86\u7269\u6d41\u5408\u4f5c\u3002\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'39500056',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100301.html'}
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100302.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100299.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100302.html>
+	{'addr': u'\u5e7f\u4e1c\u6df1\u5733\u7f57\u6e56\u6587\u9526\u5e7f\u573a',
+	 'company_name': u'\u4e2d\u5e7f\u8fd0\u8f93\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1aliu\u5973\u58eb',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u63d0\u4f9b\u5168\u56fd\u8fd0\u8f93\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'21044000',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100302.html'}
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100299.html>
+	{'addr': u'\u5b81\u6ce2\u5e02\u6c5f\u5317\u533a\u5e84\u6865\u9547\u845b\u5bb6',
+	 'company_name': u'\u5b81\u6ce2\u5e02\u9ad8\u80dc\u7269\u6d41\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u6c5f\u6d69\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u96c6\u8d27\u8fd0,\u4ed3\u50a8,\u53ca\u5927\u578b\u505c\u8f66\u573a.\u672c\u516c\u53f8\u6709\u5927\u578b\u534a\u6302\u8f6620\u4f59\u8f86,\u4e3b\u8981\u7ecf\u8425\u534e\u4e1c\u5730\u533a\u7684\u8d27\u7269\u8fd0\u8f93\u4e1a\u7269.\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'26284186',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100299.html'}
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100310.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:03+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100310.html>
+	{'addr': u'\u4e0a\u6d77\u7279\u5f97\u7ef4\u62c9\u5316\u5de5\u6709\u9650\u516c\u53f8',
+	 'company_name': u'\u4e0a\u6d77\u7279\u5f97\u7ef4\u62c9\u5316\u5de5\u6709\u9650\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e0a\u6d77\u7279\u5f97\u7ef4\u62c9\u5316\u5de5\u6709\u9650\u516c\u53f8\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100310.html'}
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100309.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100297.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100309.html>
+	{'addr': u'\u4e0a\u6d77\u5e02\u5e7f\u7ca4\u8def501\u53f74\u697c',
+	 'company_name': u'\u4e0a\u6d77\u957f\u53d1\u56fd\u9645\u8d27\u8fd0\u7269\u6d41\u90e8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e0a\u6d77\u957f\u53d1\u8d27\u8fd0\u6709\u9650\u516c\u53f8\u662f\u4e0a\u6d77\u5e02\u57ce\u5e02\u4ea4\u901a\u7ba1\u7406\u5c40\u4e3a\u914d\u5408\u201c\u4e0a\u6d77\u5e02\u9053\u8def\u8d27\u8fd0\u516c\u5171\u4fe1\u606f\u5e73\u53f0\u201d\u7684\u5efa\u8bbe\u800c\u7279\u6279\u6210\u7acb\u7684\uff0c\u662f\u7ee7\u4e0a\u6d77\u5e02\u4e94\u5927\u8d27\u7684\u516c\u53f8\u540e\u53c8\u4e00\u5bb6\u65b0\u6210\u7acb\u7684\u5927\u578b\u8d27\u7684\u516c\u53f8\u3002\r\xa0\xa0\xa0\xa0\u4e0a\u6d77\u957f\u53d1\u8d27\u8fd0\u6709\u9650\u516c\u53f8\u5c5e\u4e8e\u56fd\u6709\u6027\u8d28\u7684\u6709\u9650\u8d23\u4efb\u516c\u53f8\uff0c\u5176\u4e2d\uff0c\u4e0a\u6d77\u957f\u6c5f\u6295\u8d44\u5b9e\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u536090%\xa0\u80a1\u4efd\uff0c\u4e0a\u6d77\u957f\u53d1\u8d44\u4ea7\u7ecf\u8425\u516c\u53f8\u536010%\xa0\u3002\r\xa0\xa0\xa0\xa0\u4e3a\u5b9e\u73b0\u89c4\u8303\u5316\u3001\u53ef\u6301\u7eed\u6027\u53d1\u5c55\uff0c\u4e0a\u6d77\u957f\u53d1\u8d27\u8fd0\u6709\u9650\u516c\u53f8\u4e00\u5f00\u59cb\u5c31\u6ce8\u91cd\u4f01\u4e1a\u7684\u54c1\u724c\u5f62\u8c61\u5efa\u8bbe\uff0c\u516c\u53f8\xa0200\xa0\u8f86\u5168\u65b0\u7684\xa00.6TBJ5028V3BW2-3\xa0\u578b\u3001\xa00.9T\xa0BJ5039V3BW3-3\xa0\u578b\u5317\u6c7d\u751f\u4ea7\u7684\u798f\u7530\u8f66\uff0c\u9009\u7528\u8d27\u7684\u5e02\u573a\u4e0a\u4e3a\u4e4b\u8033\u76ee\u4e00\u65b0\u7684\u94f6\u7070\u8272\u4f5c\u4e3a\u8f66\u8f86\u7684\u6807\u81f4\u8272\uff0c\u5e76\u6807\u4e0a\u9192\u76ee\u5730\u3001\u957f\u6c5f\u7ecf\u6d4e\u8054\u5408\u53d1\u5c55\uff08\u96c6\u56e2\uff09\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e13\u7528\u7684\xa0YUD\xa0\u84dd\u8272\u53f8\u6807\u3002\u9a7e\u9a76\u5ba4\u5b89\u88c5\u7a7a\u8c03\uff0c\u5e76\u8bbe\u7f6e\u5148\u8fdb\u7684\xa0GPS\xa0\u536b\u661f\u5b9a\u4f4d\u7cfb\u7edf\u7684\u8f66\u8f7d\u7ec8\u7aef\u3001\u7531\u77e5\u540d\u5ea6\u8f83\u5f3a\u7684\u201c\xa062580000\xa0\u201d\u5f3a\u751f\u4e1a\u52a1\u8c03\u5ea6\u4e2d\u5fc3\u8fdb\u884c\u7535\u53f0\u4e1a\u52a1\u8c03\u5ea6\uff0c\u88c5\u6709\u201c\u4e00\u5361\u901a\u201d\u7684\u8ba1\u4ef7\u5668\u65b9\u4fbf\u4e86\u7528\u6237\u7ed3\u7b97\uff0c\u767d\u5e95\u84dd\u5b57\u7684\u9876\u706f\u7b80\u6d01\u660e\u4e86\uff0c\u4fbf\u4e8e\u7528\u6237\u8bc6\u522b\u3002\u8f66\u53a2\u5bbd\u655e\u3001\u7a33\u56fa\uff0c\xa00.6T\xa0\u3001\xa00.9T\xa0\u7684\u53a2\u5185\u4f53\u79ef\u5206\u522b\u4e3a\xa05\xa0\u7acb\u65b9\u7c73\u30017.28\xa0\u7acb\u65b9\u7c73\u3002\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1aedf56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100309.html'}
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100297.html>
+	{'addr': u'\u5b89\u5fbd\u7701\u592a\u6e56\u53bf\u9ad8\u754c\u8def18\u53f7',
+	 'company_name': u'\u5b89\u5fbd\u7701\u4ea4\u901a\u6295\u8d44\u96c6\u56e2\u5b89\u5e86\u6c7d\u8fd0\u6709\u9650\u516c',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u9648\u7130\u751f\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u672c\u516c\u53f8\u5c5e\u5b89\u5fbd\u7701\u4ea4\u901a\u6295\u8d44\u96c6\u56e2\u5b89\u5e86\u6c7d\u8fd0\u6709\u9650\u516c\u53f8\uff0c\u662f\u4e00\u5bb6\u4e13\u4e1a\u8d27\u8fd0\u8fd0\u8f93\u516c\u53f8\uff0c\u4e3b\u8425\u516c\u8def\u3001\u94c1\u8def\u3001\u6c34\u8def\u8054\u8fd0\u3002\u73b0\u6709\u5927\u5c0f\u578b\u8d27\u8f66140\u591a\u53f0\uff0c\u4ece\u4e8b\u5168\u56fd\u666e\u8d27\u3001\u5371\u8d27\u8fd0\u8f93\u3002\u4e0b\u5c5e\u4e8c\u7c7b\u4fee\u7406\u5382\u53ca\u591a\u4e2a\u6c7d\u8f66\u670d\u52a1\u7ad9\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'4162729',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100297.html'}
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100311.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:04+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100311.html>
+	{'addr': u'\u6cf0\u5b89\u5e02\u897f\u8d27\u573a\u8def\u5317\u9996(\u6cf0\u5b89\u4f53\u80b2\u573a\u5bf9\u9762\uff09',
+	 'company_name': u'\u5c71\u4e1c\u6cf0\u5b89\u4ea4\u901a\u8fd0\u8f93\u96c6\u56e2\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u97e9\u5148\u751f\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': u'\u7535\u5b50',
+	 'remark': u'\u5c71\u4e1c\u6cf0\u5b89\u4ea4\u901a\u8fd0\u8f93\u96c6\u56e2\u6709\u9650\u516c\u53f8\uff08\u7b80\u79f0\u6cf0\u5b89\u4ea4\u8fd0\u96c6\u56e2\u516c\u53f8\uff09\u662f\u5c71\u4e1c\u7701\u9053\u8def\u8fd0\u8f93\u9aa8\u5e72\u4f01\u4e1a\u548c\u6cf0\u5b89\u5e02\u9053\u8def\u5ba2\u8d27\u8fd0\u8f93\u7ecf\u8425\u8d44\u8d28\u6700\u9ad8\u7684\u4f01\u4e1a\uff0c\u4e5f\u662f\u5c71\u4e1c\u6cf0\u5b89\u4ea4\u901a\u8fd0\u8f93\u96c6\u56e2\uff08\u7b80\u79f0\u6cf0\u5b89\u4ea4\u8fd0\u96c6\u56e2\uff09\u6838\u5fc3\u5355\u4f4d\uff0c\u8f96\u5c5e36\u4e2a\u4e8c\u7ea7\u7ecf\u8425\u5355\u4f4d\uff0c\u73b0\u6709\u5728\u518c\u5458\u5de53000\u4f59\u540d\uff0c\u4f01\u4e1a\u8d44\u4ea73.2\u4ebf\u5143\u3002\r\xa0\xa0\xa0\u4f01\u4e1a\u73b0\u6709\u8425\u8fd0\u5ba2\u8f66700\u591a\u8f86\u3001\u8425\u8fd0\u8d27\u8f66420\u591a\u8f86\uff0c\xa0\u5ba2\u8fd0\u73ed\u7ebf290\u591a\u6761\uff0c\u8425\u8fd0\u603b\u91cc\u7a0b14.6\u4e07\u516c\u91cc\u65e5\u53d1\u5ba2\u8fd0\u73ed\u6b211500\u4f59\u4e2a\u30022005\u5e74\u4f01\u4e1a\u5171\u5b8c\u6210\u5ba2\u8fd0\u91cf916\xa0\u4e07\u4eba\u3001\u8d27\u8fd0\u91cf67\u4e07\u5428\uff0c\u8fd0\u8f93\u56fd\u9645\u96c6\u88c5\u7bb17000\u4e2a\u6807\u7bb1\uff0c\u5b9e\u73b0\u5ba2\u8d27\u7efc\u5408\u5468\u8f6c\u91cf2.1\u4ebf\u5428\u516c\u91cc\u3002\u9664\u9053\u8def\u8fd0\u8f93\u5916\uff0c\u4f01\u4e1a\u7ecf\u8425\u8303\u56f4\u8fd8\u5305\u62ec\uff1a\u6c7d\u8f66\xa0\u7ef4\u4fee\u3001\u6c7d\u8f66\u53ca\xa0\u914d\u4ef6\u9500\u552e\u3001\u77f3\u6cb9\u4ea7\u54c1\u8fd0\u8f93\u53ca\u9500\u552e\u3001\u6c7d\u8f66\u9a7e\u9a76\u5458\u57f9\u8bad\u3001\u51fa\u79df\u6c7d\u8f66\u7ba1\u7406\u3001\u65c5\u6e38\u670d\u52a1\u3001\u5efa\u7b51\u5de5\u7a0b\u8bbe\u8ba1\u53ca\u65bd\u5de5\u3001\u623f\u5730\u4ea7\u5f00\u53d1\u3001\u8ba1\u7b97\u673a\u5e94\u7528\u3001\u533b\u7597\u3001\u5e7c\u6559\u3001\u5e7f\u544a\u88c5\u9970\u3001\u5bbe\u9986\u3001\u9910\u996e\u7b49\u884c\u4e1a\u3002\r2001\u5e74\u4ee5\u6765\uff0c\u4f01\u4e1a\u7ecf\u8425\u51b3\u7b56\u8005\u4ee5\u201c\u4e09\u4e2a\u4ee3\u8868\u201d\u91cd\u8981\u601d\u60f3\u4e3a\u6307\u5bfc\uff0c\xa0\u5e26\u9886\u5e7f\u5927\u5458\u5de5\u5b9e\u65bd\u4e86\u201c\u4e8c\u6b21\u521b\u4e1a\u201d\u3002\u5728\u5404\u7ea7\u653f\u5e9c\u548c\u4e3b\u7ba1\u90e8\u95e8\u7684\u6b63\u786e\u9886\u5bfc\u4e0b\uff0c\u7ecf\u8fc7\u4e09\u5e74\u7684\u594b\u6597\uff0c\u4f01\u4e1a\u8425\u4e1a\u603b\u6536\u5165\u3001\u4f01\u4e1a\u8d44\u4ea7\u3001\u8425\u8fd0\u8f66\u4fdd\u6709\u91cf\u3001\u5458\u5de5\u6536\u5165\u7b49\u53cd\u6620\u4f01\u4e1a\u7efc\u5408\u7ecf\u6d4e\u5b9e\u529b\u7684\u4e3b\u8981\u6307\u6807\u5728\u5c71\u4e1c\u7701\u540c\u884c\u4e1a\u4e2d\u7684\u4f4d\u6b21\u5927\u5e45\u5ea6\u524d\u79fb\uff0c\u4f01\u4e1a\u6574\u4f53\u901a\u8fc7\u4e86\uff29\uff33\uff2f9001\uff1a2000\u8d28\u91cf\u8ba4\u8bc1\uff0c\u88ab\u8bc4\u4e3a\u5c71\u4e1c\u7701\u201c\uff21\uff21\uff21\u201d\u7ea7\u4fe1\u7528\u4f01\u4e1a\uff0c\xa0\u5148\u540e\u8363\u83b7\u5c71\u4e1c\u7701\u201c\u5b89\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1addd56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'2106667',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100311.html'}
+2013-05-12 17:57:05+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100313.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:05+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100313.html>
+	{'addr': u'\u4e1c\u65b9\u8def\uff18\u53f7',
+	 'company_name': u'\u4e0a\u6d77\u6d1b\u52e4\u7269\u6d41\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u51af\u4e16\u8d24\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u946b\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'58829039',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100313.html'}
+2013-05-12 17:57:05+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100305.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:05+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100305.html>
+	{'addr': u'\u6d59\u6c5f\u91d1\u534e\u89e3\u653e\u897f\u8def945\u53f71-1-401',
+	 'company_name': u'\u6d6a\u6f2b\u6ee1\u5c4b\u91d1\u534e\u5e97',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u5218\u5e86\u4f1f\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u6682\u7f3a\u3000\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'2346848',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100305.html'}
+2013-05-12 17:57:06+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100304.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:06+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100304.html>
+	{'addr': u'\u4e2d\u5c71\u5317\u8def2250\u53f7',
+	 'company_name': u'\u4e0a\u6d77\u8a89\u540d\u8239\u52a1',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u4e0a\u6d77\u8a89\u540d\u8239\u52a1\u4e3b\u8981\u7ecf\u8425\u8fdb\u51fa\u53e3\u6d77\u8fd0\u548c\u7a7a\u8fd0\u7684\u8d27\u8fd0\u4ee3\u7406\uff0c\u62a5\u5173\uff0c\u4ed3\u50a8\u7b49\u4e1a\u52a1\u3002\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100304.html'}
+2013-05-12 17:57:06+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100306.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:06+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100306.html>
+	{'addr': u'\u5357\u660c\u5e02\u4eac\u5c71\u5317\u8def32\u53f7',
+	 'company_name': u'\u6c5f\u897f\u957f\u8fd0\u7269\u6d41\u6709\u9650\u516c\u53f8',
+	 'contact_name': u'\u8054\u7cfb\u4eba\uff1a\u6768\u5148\u751f\u5148\u751f',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u6c5f\u897f\u957f\u8fd0\u7269\u6d41\u6709\u9650\u516c\u53f8\u662f\u5357\u660c\u5730\u533a\u516c\u8def\u4e13\u4e1a\u8fd0\u8f93\u56fd\u6709\u9aa8\u5e72\u4f01\u4e1a\uff0c\u5728\u6c5f\u897f\u7701\u5185\u540c\u884c\u4e1a\u4e2d\u4eab\u6709\u8f83\u9ad8\u7684\u58f0\u8a89\u53ca\u5f71\u54cd\u529b\u3002\u516c\u53f8\u4f4d\u4e8e\u57ce\u5357\u5730\u533a\uff0c\u4e95\u5188\u5c71\u5927\u9053\u5357\u6bb5\uff0c\u7d27\u8d34\u4e8e\u73af\u57ce\u5e72\u9053\u51fa\u53e3\uff0c\u5317\u4e34\u5357\u660c\u5927\u6865\uff0c\u897f\u9760\u8d63\u6c5f\uff0c\u662f320\u56fd\u9053\u548c105\u56fd\u9053\u7684\u4ea4\u6c47\u5904\uff0c\u4ea4\u901a\u6781\u4e3a\u4fbf\u5229\u3002\u516c\u53f8\u89c4\u5212\u5360\u5730\u9762\u79ef\u4e3a7\u4e07\u5e73\u65b9\u7c73\uff0c\u73b0\u6295\u5165\u4f7f\u7528\u4ed3\u5e93\u9762\u79ef\u670915000\u5e73\u65b9\u7c73\uff0c\u505c\u8f66\u573a\u5360\u5730\u9762\u79ef\u4e3a38500\u5e73\u65b9\u7c73\uff0c\u6709\u5404\u7c7b\u8425\u8fd0\u8f66200\u4f59\u8f86\u3002\r\xa0\xa0\u516c\u53f8\u4e3b\u8981\u7ecf\u8425\u901a\u5f80\u5168\u56fd\u5404\u5730\u7684\u6574\u8f66\u3001\u96f6\u62c5\u3001\u96c6\u88c5\u7bb1\u3001\u5546\u54c1\u8f66\u201c\u96f6\u516c\u91cc\u201d\u8fd0\u8f93\u3001\u5927\u8d27\u8d27\u7269\u8fd0\u8f93\u53ca\u4ed3\u50a8\u3001\u505c\u8f66\u3001\u4f4f\u5bbf\u7b49\u4e1a\u52a1\uff0c\u53ef\u5411\u793e\u4f1a\u63d0\u4f9b\u8fd0\u8f93\u3001\u4ed3\u50a8\u3001\u88c5\u5378\u3001\u52a0\u5de5\u3001\u5305\u88c5\u3001\u914d\u9001\u3001\u8d27\u8fd0\u4ee3\u7406\u3001\u8d27\u8fd0\u4fe1\u606f\u7b49\u4e00\u7cfb\u5217\u7269\u6d41\u670d\u52a1\u3002\u76ee\u524d\uff0c\u5df2\u4e0e\u7701\u5185\u5916\u4e00\u4e9b\u5927\xa0\u5ba2\u6237\u5efa\u7acb\u4e86\u957f\u671f\u5408\u4f5c\u4f19\u4f34\u5173\u7cfb\uff0c\u4e3b\u8981\u6709\uff1a\u6d77\u5c14\u96c6\u56e2\u5bb6\u7535\u4ea7\u54c1\u6c5f\u897f\u7701\u5185\u914d\u9001\uff0c\u6c5f\u7eba\u4ea7\u54c1\u8fd0\u8f93\uff0c\u6c5f\u897f\u65b9\u5927\u94dd\u578b\u6750\u516c\u53f8\u4ea7\u54c1\u8fd0\u8f93\uff0c\u6c5f\u94c3\u53d1\u52a8\u673a\u914d\u5957\u4ef6\u7684\u914d\u9001\u53ca\u6574\u8f66\u8fd0\u5f80\u4e1c\u5317\u3001\u897f\u5317\u5730\u533a\u7684\u72ec\u5bb6\u627f\u8fd0\u3002\u6c5f\u897f\u4e94\u5341\u94c3\u96c6\u56e2\u516c\u53f8\u201c\u96f6\u516c\u91cc\u201d\u8f66\u8fd0\u8f93\uff0c\u4e3a\u6d77\u5357\u201c\u6930\u6811\u201d\u96c6\u56e2\u4ea7\u54c1\u5728\u6c5f\u897f\u7701\u5185\u7684\u8fd0\u8f93\u3001\u4ed3\u50a8\u3001\u4fdd\u7ba1\u3001\u914d\u9001\u3001\u5305\u88c5\u7b49\u63d0\u4f9b\u4e00\u6761\u9f99\u670d\u52a1\uff0c\u5e76\u4e0e\u6c5f\u897f\u53d8\u538b\u5668\u5382\u3001\u5e7f\u4e1c\u5927\u578b\u8bbe\u5907\u5382\u7b49\u591a\u5bb6\u5efa\u7acb\u5408\u4f5c\u4f19\u4f34\u5173\u7cfb\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1adffe56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': u'5202173',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100306.html'}
+2013-05-12 17:57:07+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100308.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:08+0800 [56135_company] DEBUG: Crawled (200) <GET http://56135.com/56135/company/memberbrief/C100315.html> (referer: http://56135.com/56135/company/companylist-adv-2189.html)
+2013-05-12 17:57:08+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100308.html>
+	{'addr': u'\u5b89\u5fbd\u7701\u5b89\u5e86\u5e02\u90ca\u533a\u83f1\u5317\u8857\u9053\u5341\u9b4f\u4e2d\u8def39\u53f7',
+	 'company_name': u'\u5b89\u5e86\u5e02\u516c\u8def\u8fd0\u8f93\u6709\u9650\u516c\u53f8\u7b2c\u56db\u5206\u516c\u53f8',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u5b89\u5e86\u5e02\u516c\u8def\u8fd0\u8f93\u6709\u9650\u516c\u53f8\u5efa\u4e8e\u4e0a\u4e16\u7eaa\u4e94\u5341\u5e74\u4ee3\uff0c\u662f\u5b89\u5e86\u5e02\u5927\u578b\u8fd0\u8f93\u4f01\u4e1a\uff0c\u96b6\u5c5e\u5b89\u5fbd\u7701\u5b89\u5e86\u5e02\u4ea4\u901a\u5c40\u7684\u4e00\u5bb6\u4e13\u4e1a\u5ba2\uff0c\u8d27\u8fd0\uff0c\u9a7e\u6821\uff0c\u8d77\u91cd\u8fd0\u8f93\u4e8c\u7ea7\u4f01\u4e1a\u3002\r\xa0\xa0\xa0\xa0\u7b2c\u56db\u5206\u516c\u53f8\u662f\u672c\u516c\u53f8\u9aa8\u5e72\u8d27\u7269\u8fd0\u8f93\u4ee3\u7406\u673a\u6784\uff0c\u4e14\u5360\u636e\u5b89\u5e86\u5e02\u8d27\u8fd0\u5e02\u573a\u4e00\u5b9a\u7684\u4efd\u989d\uff0c\u5e76\u62e5\u6709\u53a2\u8f66\uff0c\u5355\u8f66\uff0c\u534a\u6302\u8f66\u53ca\u4e09\u6865\u534a\u6302\u8f66\u5404\u79cd\u7c7b\u578b\u8f66\u8f86\uff0c\u5171\u8ba1111\u8f86\u3002\u672c\u516c\u53f8\u4e8e2002\u5e74\u4e00\u4e3e\u901a\u8fc7\u5317\u4eac\u4e2d\u56fd\u8239\u7ea7\u793e\u8d28\u91cf\u8ba4\u8bc1\u516c\u53f8\u7684GB/T\xa019001-2000-ISO\xa09000\uff1a2000\u56fd\u9645\u8d28\u91cf\u4f53\u7cfb\u6807\u51c6\u8ba4\u8bc1\u5de5\u4f5c\uff08\u8ba4\u8bc1\u4e66\u7f16\u53f7\uff1a0202Q10748R0M\uff09\r\xa0\xa0\xa0\xa0\u5728\u672a\u6765\u7cbe\u8bda\u5408\u4f5c\u7684\u5c81\u6708\u91cc\uff0c\u6211\u4eec\u5c06\u7ee7\u7eed\u4f9d\u9760\u5e7f\u5927\u804c\u5de5\u7684\u806a\u660e\u624d\u667a\uff0c\u56e2\u7ed3\u594b\u6597\uff0c\u5f00\u62d3\u521b\u65b0\uff0c\u79c9\u7740\u4e00\u8d2f\u7684\u201c\u5b89\u5168\uff0c\u65b9\u4fbf\uff0c\u5feb\u6377\uff0c\u4fdd\u8d28\u4fdd\u91cf\uff0c\u4e0d\u65ad\u6ee1\u8db3\u5ba2\u6237\u8981\u6c42\u201d\u7684\u7ecf\u8425\u7406\u5ff5\uff0c\u5168\u5fc3\u5168\u610f\uff0c\u8bda\u5b9e\u5b88\u4fe1\u5730\u4e3a\u5e7f\u5927\u5ba2\u6237\u63d0\u4f9b\u66f4\u597d\u7684\u670d\u52a1\uff0c\u5171\u77bb\u672a\u6765\u3002\r\xa0\xa0\xa0\xa0\u518d\u6b21\u611f\u8c22\u65b0\u8001\u5ba2\u6237\u7684\u60e0\u987e\uff0c\u795d\u60a8\u8eab\u4f53\u5065\u5eb7\uff0c\u4e07\u4e8b\u5982\u610f\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1adeee56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100308.html'}
+2013-05-12 17:57:08+0800 [56135_company] DEBUG: Scraped from <200 http://56135.com/56135/company/memberbrief/C100315.html>
+	{'addr': u'\u4e0a\u6d77\u5e02\u5b9d\u5c71\u533a\u5357\u5927\u8def\u7533\u654f\u505c\u8f66\u573a68\u53f7',
+	 'company_name': u'\u98de\u71d5\u5feb\u8fd0',
+	 'contact_name': '',
+	 'im': '',
+	 'mail': '',
+	 'phone_contact': '',
+	 'remark': u'\u6211\u4eec\u516c\u53f8\u4e13\u4e1a\u4ece\u4e8b\u8d27\u7269\u8fd0\u8f93\u4ee3\u7406\uff0c\u5929\u5929\u53d1\u8f66\uff0c\u6574\u8f66\u96f6\u62c5\u90fd\u53ef\u4ee5\u3002\u53d1\u9001\u65b9\u5411\u662f\u82cf\u5317\u5404\u53bf\u5e02\u3002\r\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\u4e3b\u8425\u4e1a\u52a1\uff1a56135.com\u7248\u6743\u6240\u6709\uff0c\u76d7\u7248\u672c\u5fc5\u7ea0\uff01',
+	 'tel': '',
+	 'url': 'http://56135.com/56135/company/memberbrief/C100315.html'}
+2013-05-12 17:57:08+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 17:57:08+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 9109,
+	 'downloader/request_count': 27,
+	 'downloader/request_method_count/GET': 27,
+	 'downloader/response_bytes': 1518031,
+	 'downloader/response_count': 27,
+	 'downloader/response_status_count/200': 27,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 9, 57, 8, 321467),
+	 'item_scraped_count': 25,
+	 'log_count/DEBUG': 85,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 2,
+	 'response_received_count': 27,
+	 'scheduler/dequeued': 27,
+	 'scheduler/dequeued/memory': 27,
+	 'scheduler/enqueued': 27,
+	 'scheduler/enqueued/memory': 27,
+	 'start_time': datetime.datetime(2013, 5, 12, 9, 56, 53, 280663)}
+2013-05-12 17:57:08+0800 [56135_company] INFO: Spider closed (finished)

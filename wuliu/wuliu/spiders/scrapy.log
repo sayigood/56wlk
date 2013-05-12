@@ -1,0 +1,81 @@
+2013-05-12 11:24:45+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 11:25:20+0800 [56135_company] INFO: Spider opened
+2013-05-12 11:25:20+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 11:25:24+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2013-05-12 11:25:24+0800 [56135_company] ERROR: Spider error processing <GET http://www.56135.com/56135/company/companylist-adv-2189.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/wuliu/wuliu/spiders/56135_company.py", line 53, in parse
+	    if len(start_place[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 11:25:25+0800 [56135_company] INFO: Closing spider (shutdown)
+2013-05-12 11:25:25+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 278,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 85543,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2013, 5, 12, 3, 25, 25, 111783),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 5,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 3, 25, 20, 681510)}
+2013-05-12 11:25:25+0800 [56135_company] INFO: Spider closed (shutdown)
+2013-05-12 11:25:34+0800 [scrapy] INFO: Scrapy 0.16.4 started (bot: bd)
+2013-05-12 11:26:09+0800 [56135_company] INFO: Spider opened
+2013-05-12 11:26:09+0800 [56135_company] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-05-12 11:26:11+0800 [56135_company] ERROR: Spider error processing <GET http://www.56135.com/56135/company/companylist-adv-2189.html>
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 380, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 488, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.6/site-packages/Twisted-13.0.0-py2.6-linux-x86_64.egg/twisted/internet/defer.py", line 575, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/warlock/56wlk/wuliu/wuliu/spiders/56135_company.py", line 53, in parse
+	    if len(start_place[0].strip()) == 0:
+	exceptions.IndexError: list index out of range
+	
+2013-05-12 11:26:11+0800 [56135_company] INFO: Closing spider (finished)
+2013-05-12 11:26:11+0800 [56135_company] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 278,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 85523,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 5, 12, 3, 26, 11, 657743),
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'spider_exceptions/IndexError': 1,
+	 'start_time': datetime.datetime(2013, 5, 12, 3, 26, 9, 554023)}
+2013-05-12 11:26:11+0800 [56135_company] INFO: Spider closed (finished)
