@@ -5,7 +5,9 @@ self.port.on("show", function (searchEngine, icon1) {
   provFavicon = document.getElementById('favicon');
   Input.focus();
   Input.onkeyup = function(event) {
+	console.info("xxxxxxxxxxxxxxxxxxxxxx");
     if (event.keyCode == 13) {
+	  console.info("yyyyyyyyyyyyyyyyyyyyyyyyyyy");
       // Remove the newline.
       text = Input.value.replace(/(\r\n|\n|\r)/gm,"");
       self.port.emit("text-entered", text);
