@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+    color: white;
+    font-family: sans-serif;    
+    background: url(background.png) #454B54;
+}
+
+a {
+    color: #428eff;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline;   
+}
+
+.note {    
+    padding: 6px 6px;
+    
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+    opacity: 0;    
+    border-top: 1px solid white;    
+    color: white;
+    font-size: 13px;    
+    background: black;
+    
+    transform: translateY(100%);
+    
+    transition: all .3s;
+}
+
+.note:target {
+    transform: none;  
+    
+    opacity: 1;
+}
+
+.searchBar {
+  display: block;
+  position: fixed;
+  top: 5px;
+  left: 10px;
+  right: 10px;
+}
+
+.searchBar input {	
+    width: calc(100% - 38px);
+	margin: 5px auto;
+	padding: 4px 28px 4px 8px;
+	
+	font-size: 14px;
+	color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: none;    
+	background: white;
+  
+    transition: all .3s;
+}
+
+.searchBar input:active, .searchBar input:focus {
+    border-color: #428eff;
+    outline: none;
+}
+
+.leftIcon {
+  width: 17px;
+  margin: 6px 0px;
+  padding: 2px;
+    
+  position: absolute;
+  right: 3px;
+  top: 3px;
+    
+  border-radius: 16px;
+  background: white;
+}
+
+.leftIcon[src='style/search.png'] {
+  background: #222;
+}
+
+.help_button {
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+    
+    position: fixed;
+    bottom: 5px;    
+    right: 5px;
+    
+    border-radius: 16px;
+    
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    
+    background: none;
+    
+	transition: all .5s;
+}
+
+.help_button:hover, .help_button:active, .help_button:focus {
+    text-decoration: none;  
+    color: black;
+    
+    background: #ccc;
+    
+	transition: all .5s;
+}
+
+#search-results {  
+  width: 100%;
+  height: calc(100% - 80px);
+  
+  position: fixed;
+  top: 50px;
+  bottom: 30px;
+  
+  border: none;
+  outline: none;
+}
