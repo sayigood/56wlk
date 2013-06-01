@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ibase/!svn/ver/1989/trunk/gm/tinyse
+END
+op_update.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ibase/!svn/ver/1185/trunk/gm/tinyse/op_update.cpp
+END
+op_query.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ibase/!svn/ver/1185/trunk/gm/tinyse/op_query.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ibase/!svn/ver/1183/trunk/gm/tinyse/main.cpp
+END
+mk_env.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ibase/!svn/ver/1179/trunk/gm/tinyse/mk_env.sh
+END
+op_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ibase/!svn/ver/1185/trunk/gm/tinyse/op_data.cpp
+END
+op_ontime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ibase/!svn/ver/1185/trunk/gm/tinyse/op_ontime.cpp
+END
+pub.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ibase/!svn/ver/1185/trunk/gm/tinyse/pub.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ibase/!svn/ver/1989/trunk/gm/tinyse/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ibase/!svn/ver/1185/trunk/gm/tinyse/README
+END

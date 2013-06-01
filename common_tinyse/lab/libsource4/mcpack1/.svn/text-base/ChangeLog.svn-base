@@ -1,0 +1,22 @@
+1.0.0.7        2008-09-08
+	* fix: mc_pack_ptype中int64和uint64类型的笔误
+1.0.0.6        2008-09-04
+	* fix: lex_parse 死循环的问题
+	* modify: 允许长度为 0 的 raw 类型数据
+1.0.0.5        2008-06-14
+	* modify: increase TOKEN_NUM_MAX to 40960
+1.0.0.4        2008-05-19
+	* add: 新增 mc_pack_put_item 接口
+	* modify: change u_int64_t to mc_uint64_t
+1.0.0.3        2008-04-23
+	* fix: 修复 mc_pack_pack2text 写越界的 bug.
+	* add: 新增 mc_pack_get_int_from_item 接口. zhouzr
+1.0.0.2        2008-04-07
+	* modify: mc_pack_copy_item 支持 copy 嵌套的数组，增加 mc_pack_copy_item_arr 接口
+			删除 mc_pack_del_item 接口，增加 mc_pack_ptype 接口
+			优化 mc_pack_core，提升性能
+			增加 mc_pack_foreach 接口. zhouzr
+1.0.0.1        2008-04-01
+	* fix: 修复 mc_pack_text2pack 在数组嵌套对象的时候出 core 的 bug. zhouzr
+1.0.0.0        2008-03-17
+	* new: 初始版本发布. zhouzr

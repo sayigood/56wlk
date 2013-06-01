@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std
+END
+list.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/list.hpp
+END
+set.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/set.hpp
+END
+map.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/map.hpp
+END
+slist.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/slist.hpp
+END
+vector.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/vector.hpp
+END
+deque.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/deque.hpp
+END
+queue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/queue.hpp
+END
+stack.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/assign/std/stack.hpp
+END

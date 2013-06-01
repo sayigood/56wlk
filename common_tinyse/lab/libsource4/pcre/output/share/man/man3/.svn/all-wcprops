@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3
+END
+pcre_get_stringtable_entries.3
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_get_stringtable_entries.3
+END
+pcrestack.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrestack.3
+END
+pcre_study.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_study.3
+END
+pcreapi.3
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcreapi.3
+END
+pcre_compile2.3
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_compile2.3
+END
+pcre_get_substring.3
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_get_substring.3
+END
+pcre.3
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre.3
+END
+pcre_free_substring.3
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_free_substring.3
+END
+pcresample.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcresample.3
+END
+pcrecpp.3
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrecpp.3
+END
+pcre_get_named_substring.3
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_get_named_substring.3
+END
+pcre_exec.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_exec.3
+END
+pcre_compile.3
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_compile.3
+END
+pcre_config.3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_config.3
+END
+pcre_maketables.3
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_maketables.3
+END
+pcre_copy_substring.3
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_copy_substring.3
+END
+pcre_get_substring_list.3
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_get_substring_list.3
+END
+pcreperform.3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcreperform.3
+END
+pcre_free_substring_list.3
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_free_substring_list.3
+END
+pcrepattern.3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrepattern.3
+END
+pcre_copy_named_substring.3
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_copy_named_substring.3
+END
+pcre_fullinfo.3
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_fullinfo.3
+END
+pcre_get_stringnumber.3
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_get_stringnumber.3
+END
+pcrecompat.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrecompat.3
+END
+pcre_version.3
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_version.3
+END
+pcre_refcount.3
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_refcount.3
+END
+pcresyntax.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcresyntax.3
+END
+pcrematching.3
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrematching.3
+END
+pcre_info.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_info.3
+END
+pcrepartial.3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrepartial.3
+END
+pcre_dfa_exec.3
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcre_dfa_exec.3
+END
+pcreprecompile.3
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcreprecompile.3
+END
+pcrebuild.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrebuild.3
+END
+pcreposix.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcreposix.3
+END
+pcrecallout.3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/man/man3/pcrecallout.3
+END

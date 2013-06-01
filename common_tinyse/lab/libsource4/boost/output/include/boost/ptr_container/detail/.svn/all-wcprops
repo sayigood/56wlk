@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail
+END
+reversible_ptr_container.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/reversible_ptr_container.hpp
+END
+void_ptr_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/void_ptr_iterator.hpp
+END
+associative_ptr_container.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/associative_ptr_container.hpp
+END
+scoped_deleter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/scoped_deleter.hpp
+END
+static_move_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/static_move_ptr.hpp
+END
+map_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/map_iterator.hpp
+END
+move.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/move.hpp
+END
+is_convertible.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/is_convertible.hpp
+END
+default_deleter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/ptr_container/detail/default_deleter.hpp
+END

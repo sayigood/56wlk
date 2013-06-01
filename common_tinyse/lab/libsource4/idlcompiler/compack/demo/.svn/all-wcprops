@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/729/libsource4/idlcompiler/trunk/compack/demo
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lab/!svn/ver/528/libsource4/idlcompiler/trunk/compack/demo/COMAKE
+END
+demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/729/libsource4/idlcompiler/trunk/compack/demo/demo.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/528/libsource4/idlcompiler/trunk/compack/demo/Makefile
+END

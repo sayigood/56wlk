@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include
+END
+ul_fdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_fdict.h
+END
+ul_sockpool.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_sockpool.h
+END
+ul_strdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_strdict.h
+END
+chinese.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/chinese.h
+END
+ul_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_mem.h
+END
+ul_pendingpool.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_pendingpool.h
+END
+ul_dictmatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_dictmatch.h
+END
+ul_buff.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_buff.h
+END
+ul_queryparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_queryparser.h
+END
+ul_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_queue.h
+END
+ul_bplustree.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_bplustree.h
+END
+ul_stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_stack.h
+END
+ul_wmlconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/lab/!svn/ver/380/libsource4/others-ex/trunk/output/include/ul_wmlconv.h
+END

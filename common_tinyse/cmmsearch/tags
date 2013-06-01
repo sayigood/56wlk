@@ -1,0 +1,838 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ASSERT	lib/utils/debug.h	26;"	d
+ASSERT	lib/utils/debug.h	43;"	d
+ASSERT_I	lib/utils/debug.h	27;"	d
+ASSERT_I	lib/utils/debug.h	44;"	d
+ASSERT_S	lib/utils/debug.h	35;"	d
+ASSERT_S	lib/utils/debug.h	45;"	d
+BITSET_SUFFIX_FILE	core/bitset.cpp	30;"	d	file:
+BITSET_SUFFIX_FILE	include/ts_internal.h	456;"	d
+BITSET_SUFFIX_FILE	lib/utils/bitset.h	22;"	d
+BK_SUFFIX_DIR	core/bk.cpp	24;"	d	file:
+BLOCK_SIZE	lib/utils/hashmap.h	/^	static const int BLOCK_SIZE = 256 * 1024;$/;"	m	class:ansx::hash_map
+BUFFER_SIZE	lib/utils/hashmap.h	/^	static const int BUFFER_SIZE = 4 * 1024;$/;"	m	class:ansx::hash_map
+BuildDate	main.cpp	/^STATIC const char BuildDate[] = __DATE__ " " __TIME__;$/;"	v
+BuildDate	tool/query_tool/myopt.cpp	/^static const char BuildDate[] = "unknown";$/;"	v	file:
+BuildDate	tool/query_tool/myopt.cpp	/^static const char BuildDate[] = __DATE__ " " __TIME__;$/;"	v	file:
+CACHE_PATH	lib/utils/Makefile	/^CACHE_PATH=$(LIB2_PATH)\/cache$/;"	m
+CC	Makefile	/^CC=g++$/;"	m
+CC	core/Makefile	/^CC=g++$/;"	m
+CC	helper/Makefile	/^CC=g++$/;"	m
+CC	lib/bcommand/Makefile	/^CC=gcc$/;"	m
+CC	lib/utils/Makefile	/^CC=g++$/;"	m
+CC	tool/query_tool/Makefile	/^CC= g++$/;"	m
+CFLAGS	core/Makefile	/^CFLAGS = -Wall -W -pipe -Wno-unused-parameter -g -fPIC  -O2$/;"	m
+CFLAGS	helper/Makefile	/^CFLAGS = -Wall -W -pipe -Wno-unused-parameter -g -fPIC -O3$/;"	m
+CFLAGS	lib/utils/Makefile	/^CFLAGS = -Wall -W -pipe -Wno-unused-parameter -g  -fPIC $/;"	m
+CM_SUFFIX_FLAG	core/cm.cpp	30;"	d	file:
+CM_SUFFIX_I2O	core/cm.cpp	28;"	d	file:
+CM_SUFFIX_O2I	core/cm.cpp	29;"	d	file:
+COMMAND_DATA_FILE_NAME	lib/bcommand/bcommand.h	16;"	d
+COMMAND_IDX_FILE_NAME	lib/bcommand/bcommand.h	15;"	d
+CPPFLAGS	Makefile	/^CPPFLAGS = $(INCS) $(VERINFO)  -Wall -W -pipe -Wno-unused-parameter -g -O2 \\$/;"	m
+CPPFLAGS	lib/bcommand/Makefile	/^CPPFLAGS= -g -finline-functions -Wall -W -Winline -pipe$/;"	m
+CPPFLAGS	tool/query_tool/Makefile	/^CPPFLAGS= $(DEBUG) $(INCS) $(VERINFO) -g -pipe  -W -Wall -Wshadow -Wreturn-type \\$/;"	m
+CXX	extension/demo/Makefile	/^CXX		= g++$/;"	m
+CXXFLAGS	extension/demo/Makefile	/^CXXFLAGS	= -g   -Wall -W -fPIC  -finline-functions -Werror  -Wno-unused-parameter   -Wno-unused-function\\$/;"	m
+DAY_CURDIR	include/ts_define.h	/^static const char DAY_CURDIR[]    = "day_curdir";         \/**< 当前day库标记文件名       *\/$/;"	v
+DEBUG	tool/query_tool/Makefile	/^DEBUG= -DMYDEBUG$/;"	m
+DEFAULT_AUTHORITY	tool/query_tool/pub.h	39;"	d
+DEFAULT_BUF_SIZE	lib/utils/fblock_util.h	27;"	d
+DEFAULT_CONF_DIR	pub.h	39;"	d
+DEFAULT_CONF_NAME	pub.h	40;"	d
+DEFAULT_GLOBAL_INIT	helper/default.cpp	/^int DEFAULT_GLOBAL_INIT()$/;"	f
+DEFAULT_IDF	tool/query_tool/pub.h	40;"	d
+DEFAULT_QUERY_HANDLE	include/ts_helper.h	/^class DEFAULT_QUERY_HANDLE:public ts_query_handle_t$/;"	c
+DEFAULT_SESSION_INIT	helper/default.cpp	/^int DEFAULT_SESSION_INIT()$/;"	f
+DEFAULT_THREAD_INIT	helper/default.cpp	/^int DEFAULT_THREAD_INIT()$/;"	f
+DEFAULT_UPDATE_HANDLE	include/ts_helper.h	/^class DEFAULT_UPDATE_HANDLE:public ts_update_handle_t$/;"	c
+DI1_SUFFIX_FILE	core/di.cpp	23;"	d	file:
+DI2_SUFFIX_FILE	core/di.cpp	24;"	d	file:
+DICT_PATH	lib/utils/Makefile	/^DICT_PATH=$(LIB2_PATH)\/dict$/;"	m
+DMEM_BASE	helper/data_accessor.cpp	/^static const uint32 DMEM_BASE = 1024 + 1;$/;"	v	file:
+FATAL_RETURN	lib/utils/debug.h	49;"	d
+FELT_INCS	tool/query_tool/Makefile	/^FELT_INCS = -I$(ULLIB_PATH)\/include\/\\$/;"	m
+FELT_LIBS	tool/query_tool/Makefile	/^FELT_LIBS = -L$(ULLIB_PATH)\/lib\\$/;"	m
+FILEBLOCK	lib/utils/Makefile	/^FILEBLOCK=$(WORKROOT)\/public\/fileblock$/;"	m
+FILEPATH_MAXLEN	tool/query_tool/pub.h	37;"	d
+GetLastBCommandPos	lib/bcommand/bcommand.cpp	/^int GetLastBCommandPos(bcommand_t *bc, bc_pos_t *pos)$/;"	f
+HASH_ACLLOMEM_ERROR	lib/utils/hashmap.h	/^	HASH_ACLLOMEM_ERROR,$/;"	e	enum:ansx::<anonymous>
+HASH_SUCCESS	lib/utils/hashmap.h	/^	HASH_SUCCESS=0,$/;"	e	enum:ansx::<anonymous>
+HASH_VAL_EXIST	lib/utils/hashmap.h	/^	HASH_VAL_EXIST,$/;"	e	enum:ansx::<anonymous>
+HASH_VAL_NO_EXIST	lib/utils/hashmap.h	/^	HASH_VAL_NO_EXIST,$/;"	e	enum:ansx::<anonymous>
+INCLUDES	core/Makefile	/^INCLUDES=-I$(ULLIB_PATH)\/include \\$/;"	m
+INCLUDES	extension/demo/Makefile	/^INCLUDES= -I$(TS_INCLUDE_PATH)\/ \\$/;"	m
+INCLUDES	helper/Makefile	/^INCLUDES=-I$(ULLIB_PATH)\/include \\$/;"	m
+INCLUDES	lib/bcommand/Makefile	/^INCLUDES= -I$(ULIB)\/ullib\/include$/;"	m
+INCLUDES	lib/utils/Makefile	/^INCLUDES=-I$(ULLIB_PATH)\/include -I$(FILEBLOCK) -I..\/..\/include -I$(PUBLIC)\/ans\/ -I$(DICT_PATH)\/include -I$(CACHE_PATH)\/include$/;"	m
+INCS	Makefile	/^INCS=-I$(ULLIB_PATH)\/include\/\\$/;"	m
+INCS	tool/query_tool/Makefile	/^INCS=  $(FELT_INCS) \\$/;"	m
+IS_DIGITAL	helper/tokenizer.cpp	30;"	d	file:
+IS_ENG	helper/tokenizer.cpp	29;"	d	file:
+InitBCommand	lib/bcommand/bcommand.cpp	/^bcommand_t *InitBCommand(const char *command_path)$/;"	f
+LDFLAGS	Makefile	/^LDFLAGS= $(LIBS) -rdynamic  -ldl $/;"	m
+LDFLAGS	core/Makefile	/^LDFLAGS= -lm$/;"	m
+LDFLAGS	extension/demo/Makefile	/^LDFLAGS		=  $(LIBDIR) -shared -lm$/;"	m
+LDFLAGS	helper/Makefile	/^LDFLAGS= -L$(WORDSEG_PATH) -lsegment -L$(DICT_PATH)\/lib -luldict -L$(TS_LIB_PATH)\/ -lutils -lm$/;"	m
+LDFLAGS	lib/utils/Makefile	/^LDFLAGS= -lm$/;"	m
+LDFLAGS	tool/query_tool/Makefile	/^LDFLAGS=  -g  $(LIBS)$/;"	m
+LIB	core/Makefile	/^LIB=libtscore.a$/;"	m
+LIB	helper/Makefile	/^LIB=libtshelper.a$/;"	m
+LIB	lib/bcommand/Makefile	/^LIB=libbcommand.a$/;"	m
+LIB	lib/utils/Makefile	/^LIB=libutils.a$/;"	m
+LIB2_PATH	lib/utils/Makefile	/^	LIB2_PATH=$(WORKROOT)\/lib2-64\/$/;"	m
+LIB2_PATH	lib/utils/Makefile	/^	LIB2_PATH=$(WORKROOT)\/lib2\/$/;"	m
+LIBDIR	extension/demo/Makefile	/^LIBDIR=	-L$(TS_LIB_PATH)\/	\\$/;"	m
+LIBS	Makefile	/^LIBS= -L..\/ \\$/;"	m
+LIBS	tool/query_tool/Makefile	/^LIBS= $(FELT_LIBS)\\$/;"	m
+MAKEROOT	Makefile	/^MAKEROOT=.\/$/;"	m
+MAKEROOT	core/Makefile	/^MAKEROOT=..\/$/;"	m
+MAKEROOT	helper/Makefile	/^MAKEROOT=..\/$/;"	m
+MAX_COMMAND_FILE_SIZE	lib/bcommand/bcommand.h	14;"	d
+MAX_TERM_COUNT	helper/tokenizer.cpp	28;"	d	file:
+MAX_TERM_COUNT	tool/query_tool/pub.h	34;"	d
+MAX_TERM_LEN	tool/query_tool/pub.h	35;"	d
+MAX_TEXT_LENGTH	tool/query_tool/pub.h	36;"	d
+MEM_BASE	helper/tokenizer.cpp	/^static const int MEM_BASE = 1024 * 10 + 1;$/;"	v	file:
+MEM_L0_BASE	core/ri.cpp	/^static const uint32 MEM_L0_BASE = 1024 * 128 + 1;     \/**<  每种数据固定分配1M的节点      *\/$/;"	v	file:
+MEM_L1_BASE	core/ri.cpp	/^static const uint32 MEM_L1_BASE = 1024 * 1024 + 1;    \/**<  每种数据固定分配1M的节点      *\/$/;"	v	file:
+MG_SUFFIX_FILE	core/mg.cpp	26;"	d	file:
+MON_CURDIR	include/ts_define.h	/^static const char MON_CURDIR[]    = "mon_curdir";         \/**< 当前mon库标记文件名       *\/$/;"	v
+MYOPT_EXIT	tool/query_tool/myopt.h	29;"	d
+MYOPT_MAXNUM	tool/query_tool/myopt.h	12;"	d
+MYOPT_NAME_MAXSIZE	tool/query_tool/myopt.h	13;"	d
+MYOPT_START	tool/query_tool/myopt.h	15;"	d
+MyQueue	lib/utils/myqueue.h	/^	MyQueue() {$/;"	f	class:xspace::MyQueue
+MyQueue	lib/utils/myqueue.h	/^class MyQueue$/;"	c	namespace:xspace
+NEED_LOAD_DAY	include/ts_define.h	/^static const char NEED_LOAD_DAY[] = "need_load_day";      \/**< 是否需要载入day标记文件名      *\/$/;"	v
+NEED_MERGE	include/ts_define.h	/^static const char NEED_MERGE[]    = "need_merge";         \/**< 是否需要merge标记文件名       *\/$/;"	v
+OBJ	tool/query_tool/Makefile	/^OBJ= main.o myopt.o  talk.o$/;"	m
+OBJS	Makefile	/^OBJS= main.o op_query.o op_update.o op_ontime.o op_data.o $/;"	m
+OBJS	core/Makefile	/^OBJS=ri.o mg.o di.o cm.o bk.o bitset.o$/;"	m
+OBJS	extension/demo/Makefile	/^OBJS		=  demo.o$/;"	m
+OBJS	helper/Makefile	/^OBJS=default.o tokenizer.o data_accessor.o $/;"	m
+OBJS	lib/bcommand/Makefile	/^OBJS=bcommand.o$/;"	m
+OBJS	lib/utils/Makefile	/^OBJS=utils.o fblock_util.o stopword.o $/;"	m
+PUBLIC	lib/utils/Makefile	/^PUBLIC=$(WORKROOT)\/public$/;"	m
+PushBCommand	lib/bcommand/bcommand.cpp	/^int PushBCommand(bcommand_t *bc, unsigned int command_type,const void *command, int clen,char *buffer, unsigned int size)$/;"	f
+RANLIB	lib/bcommand/Makefile	/^RANLIB=ranlib$/;"	m
+RI0_SUFFIX_FILE	core/ri.cpp	37;"	d	file:
+RI1_SUFFIX_FILE	core/ri.cpp	38;"	d	file:
+RI2_SUFFIX_FILE	core/ri.cpp	39;"	d	file:
+SHELL	lib/bcommand/Makefile	/^SHELL=\/bin\/sh$/;"	m
+SHELL	tool/query_tool/Makefile	/^SHELL= \/bin\/sh$/;"	m
+SMEM_BASE	lib/utils/stopword.cpp	/^const int SMEM_BASE = 1024*128 + 1;$/;"	v
+SO_TARGETS	extension/demo/Makefile	/^SO_TARGETS	= demo.so$/;"	m
+SUCCESS	include/ts_sock.h	/^    SUCCESS = 0,        \/\/\/< 成功$/;"	e	enum:_ts_errinfo_t
+SetCachedBCommandPos	lib/bcommand/bcommand.cpp	/^int SetCachedBCommandPos(bcommand_t *bc, const bc_pos_t *pos)$/;"	f
+TARGET	Makefile	/^TARGET= tinyse$/;"	m
+TIME_MS_DIFF	lib/utils/utils.h	32;"	d
+TIME_SEC_DIFF	lib/utils/utils.h	31;"	d
+TIME_US_DIFF	lib/utils/utils.h	34;"	d
+TS_BATCH_MAXNUM	include/ts_define.h	/^static const uint32 TS_BATCH_MAXNUM       = 100;                \/**< 批量删除\/反删除的最大个数      *\/$/;"	v
+TS_FILEPATH_MAXSIZE	include/ts_define.h	/^static const uint32 TS_FILEPATH_MAXSIZE   = 1024;               \/**< 文件路径名的最大长度 *\/$/;"	v
+TS_INDEX_IOBLOCK_NUM	include/ts_define.h	/^static const uint32 TS_INDEX_IOBLOCK_NUM  = 128*1024*2;         \/**< 索引合并时每次读取的索引个数      *\/$/;"	v
+TS_INDEX_MAXNUM	include/ts_define.h	/^static const uint32 TS_INDEX_MAXNUM       = (1 << 20) * 10;     \/**< 索引拉链的最大个数       *\/$/;"	v
+TS_INDEX_SHORTEST_NUM	include/ts_define.h	/^static const uint32 TS_INDEX_SHORTEST_NUM = 100000;             \/**< 索引截断的长度       *\/$/;"	v
+TS_MAX	lib/utils/utils.h	30;"	d
+TS_QTERM_MAXNUM	include/ts_define.h	/^static const uint32 TS_QTERM_MAXNUM       = 38;                 \/**< query term的最大个数 *\/$/;"	v
+TS_QUERY_CMD_MAP	op_query.cpp	/^STATIC const ub_cmd_map_t TS_QUERY_CMD_MAP[] = {$/;"	v
+TS_RI_BLOCK_NUM	include/ts_define.h	/^static const uint32 TS_RI_BLOCK_NUM       = 1000;               \/**< 每个ri库的term块包含的term的个数       *\/$/;"	v
+TS_RI_MAXNUM	include/ts_define.h	/^static const uint32 TS_RI_MAXNUM          = 5;                  \/**< 支持的ri库的最大数目      *\/$/;"	v
+TS_STATIC_INDEX_CMD_MAP	op_update.cpp	/^const ub_cmd_map_t TS_STATIC_INDEX_CMD_MAP[] = {$/;"	v
+TS_TERM_MAXSIZE	include/ts_define.h	/^static const uint32 TS_TERM_MAXSIZE       = 32;                 \/**< term的最大长度 *\/$/;"	v
+TS_TYPENAME_MAXLEN	include/ts_define.h	/^static const uint32 TS_TYPENAME_MAXLEN    = 64;                 \/**< 数据类型名的最大长度       *\/$/;"	v
+TS_UPDATE_CMD_MAP	op_update.cpp	/^const ub_cmd_map_t TS_UPDATE_CMD_MAP[] = {$/;"	v
+TraverseCachedBCommand	lib/bcommand/bcommand.cpp	/^int TraverseCachedBCommand(bcommand_t *bc, $/;"	f
+TraverseCachedBCommandEx	lib/bcommand/bcommand.cpp	/^int TraverseCachedBCommandEx(bcommand_t *bc, $/;"	f
+ULIB	lib/bcommand/Makefile	/^    ULIB=$(WORKROOT)\/lib2$/;"	m
+ULIB	lib/bcommand/Makefile	/^    ULIB=$(WORKROOT)\/lib2-64$/;"	m
+ULLIB_PATH	lib/utils/Makefile	/^ULLIB_PATH=$(LIB2_PATH)\/ullib$/;"	m
+VERINFO	Makefile	/^VERINFO=-DPROJNAME="\\"$(TARGET)\\"" \\$/;"	m
+VERINFO	tool/query_tool/Makefile	/^VERINFO= -DPROJNAME="\\"$(bin)\\"" -DVERSION="\\"$(bin) 1.0.0.0\\"" -DCVSTAG="\\"$(bin)_1-0-0-0_PD_BL\\"" -DCVSPATH="\\"app\/search\/space\/$(bin)\\"" -DAUTHOR="\\"yanghy\\""$/;"	m
+VERSION	Makefile	/^    VERSION=-DVERSION="\\"$(TARGET) 1.0.4.0 64bit\\""$/;"	m
+VERSION	Makefile	/^    VERSION=-DVERSION="\\"$(TARGET) 1.0.4.0\\""$/;"	m
+WARN_RETURN	lib/utils/debug.h	48;"	d
+WORKROOT	Makefile	/^WORKROOT=..\/..\/..\/$/;"	m
+WORKROOT	core/Makefile	/^WORKROOT=..\/..\/..\/..\/$/;"	m
+WORKROOT	extension/demo/Makefile	/^WORKROOT=..\/..\/..\/..\/..\/$/;"	m
+WORKROOT	helper/Makefile	/^WORKROOT=..\/..\/..\/..\/$/;"	m
+WORKROOT	lib/bcommand/Makefile	/^WORKROOT=..\/..\/..\/..\/..\/$/;"	m
+WORKROOT	lib/utils/Makefile	/^WORKROOT=..\/..\/..\/..\/..\/$/;"	m
+WORKROOT	tool/query_tool/Makefile	/^WORKROOT=..\/..\/..\/..\/..\/$/;"	m
+_HASH_MAP_H	lib/utils/hashmap.h	2;"	d
+_MYQUEUE_H	lib/utils/myqueue.h	2;"	d
+_THREAD_SPECIFIC_H_	lib/utils/thread_specific.h	4;"	d
+_XOPEN_SOURCE	core/cm.cpp	19;"	d	file:
+__BCOMMAND_H__	lib/bcommand/bcommand.h	7;"	d
+__BITSET_H_	lib/utils/bitset.h	21;"	d
+__CACHE_UTIL_H_	lib/utils/cache_util.h	21;"	d
+__DEBUG_H_	lib/utils/debug.h	21;"	d
+__FBLOCK_UTIL_H_	lib/utils/fblock_util.h	21;"	d
+__MY_OPTION_HEAD_FILE__	tool/query_tool/myopt.h	5;"	d
+__OPDATA_H_	tool/query_tool/opdata.h	21;"	d
+__PUB_H_	pub.h	21;"	d
+__PUB_H_	tool/query_tool/pub.h	21;"	d
+__STOP_WORD__	lib/utils/stopword.h	3;"	d
+__TALK_H_	tool/query_tool/talk.h	21;"	d
+__TINYSE_H_	include/tinyse.h	21;"	d
+__TS_DEFINE_H_	include/ts_define.h	21;"	d
+__TS_HANDLE_H_	include/ts_handle.h	21;"	d
+__TS_HELPER_H_	include/ts_helper.h	21;"	d
+__TS_INTERNAL_H_	include/ts_internal.h	21;"	d
+__TS_RUNTIME_H_	include/ts_runtime.h	21;"	d
+__TS_SOCK_H_	include/ts_sock.h	21;"	d
+__TS_TYPE_H_	include/ts_type.h	21;"	d
+__UTILS_H_	lib/utils/utils.h	21;"	d
+__load	lib/utils/stopword.cpp	/^int stop_word_t::__load(hash_map < sign64, int> * pdict)$/;"	f	class:stop_word_t
+_alloc	core/cm.cpp	/^int ts_cm_t::_alloc(uint32 & outer_id, uint32 & id)$/;"	f	class:ts_cm_t
+_array	include/ts_internal.h	/^		char *_array;$/;"	m	class:ts_bitset_t
+_array	include/ts_internal.h	/^    char *_array;$/;"	m	class:ts_mg_t
+_array	lib/utils/bitset.h	/^	char *_array;$/;"	m	class:ts_bitset_t
+_array	lib/utils/myqueue.h	/^	T *_array;		\/\/队列存储$/;"	m	class:xspace::MyQueue
+_bc_pos_t	lib/bcommand/bcommand.h	/^typedef struct _bc_pos_t {$/;"	s
+_bcommand_t	lib/bcommand/bcommand.h	/^typedef struct _bcommand_t {$/;"	s
+_block_t	lib/utils/hashmap.h	/^	typedef struct _block_t$/;"	s	class:ansx::hash_map
+_bucket_t	lib/utils/hashmap.h	/^	typedef struct _bucket_t$/;"	s	class:ansx::hash_map
+_buf	include/ts_type.h	/^		char *_buf;$/;"	m	class:ts_buffer_t
+_buffer_node	lib/utils/hashmap.h	/^	typedef struct _buffer_node$/;"	s	class:ansx::hash_map
+_capacity	lib/utils/myqueue.h	/^	int _capacity;	\/\/总的容量$/;"	m	class:xspace::MyQueue
+_cfg_check	op_data.cpp	/^STATIC int _cfg_check()$/;"	f
+_chk_and_open_file	core/bk.cpp	/^int ts_bk_t::_chk_and_open_file()$/;"	f	class:ts_bk_t
+_curfile_size	include/ts_internal.h	/^    long _curfile_size;$/;"	m	class:ts_bk_t
+_day2_dumped	op_ontime.cpp	/^static int _day2_dumped = 0;$/;"	v	file:
+_delayqueue	lib/utils/hashmap.h	/^	xspace::MyQueue<delay_t> _delayqueue;$/;"	m	class:ansx::hash_map
+_delaytime	lib/utils/hashmap.h	/^	u_int _delaytime;$/;"	m	class:ansx::hash_map
+_dhash_cmp_fun	helper/data_accessor.cpp	/^inline int _dhash_cmp_fun(const sign64_t & k1, const sign64_t & k2)$/;"	f
+_dhash_fun	helper/data_accessor.cpp	/^inline uint32 _dhash_fun(const sign64_t & key)$/;"	f
+_di_idx_t	core/di.cpp	/^typedef struct _di_idx_t$/;"	s	file:
+_dir	include/ts_internal.h	/^    char _dir[TS_FILEPATH_MAXSIZE];$/;"	m	class:ts_disk_ri_t
+_dump2tm	op_ontime.cpp	/^static int _dump2tm = 0;$/;"	v	file:
+_end	include/ts_internal.h	/^    bool _end;$/;"	m	class:ts_di_t
+_erase	lib/utils/hashmap.h	/^	int _erase(node_t *ptr)$/;"	f	class:ansx::hash_map
+_file	include/ts_internal.h	/^    char _file[TS_FILEPATH_MAXSIZE];$/;"	m	class:ts_disk_ri_t
+_fp	include/ts_internal.h	/^    FILE *_fp;$/;"	m	class:ts_bk_t
+_front	lib/utils/myqueue.h	/^	int _front;		\/\/头指针$/;"	m	class:xspace::MyQueue
+_hash_cmp_fun	core/ri.cpp	/^inline int _hash_cmp_fun(const sign64_t & k1, const sign64_t & k2)$/;"	f
+_hash_compare_fun	lib/utils/hashmap.h	/^int _hash_compare_fun( const key_t &k1, const key_t &k2 )$/;"	f	namespace:ansx
+_hash_fun	core/ri.cpp	/^inline uint32 _hash_fun(const sign64_t & key)$/;"	f
+_is_fileexist	lib/utils/utils.cpp	/^bool _is_fileexist( const char* filename )$/;"	f
+_it_membuf	include/ts_internal.h	/^    sign64_t *_it_membuf;$/;"	m	class:ts_mem_ri_t
+_it_pos	include/ts_internal.h	/^    uint32 _it_pos;$/;"	m	class:ts_mem_ri_t
+_it_size	include/ts_internal.h	/^    uint32 _it_size;$/;"	m	class:ts_mem_ri_t
+_l1_reader	include/ts_internal.h	/^    pointer_t _l1_reader;$/;"	m	class:ts_disk_ri_t
+_l1_writer	include/ts_internal.h	/^    pointer_t _l1_writer;$/;"	m	class:ts_disk_ri_t
+_l2_reader	include/ts_internal.h	/^    pointer_t _l2_reader;$/;"	m	class:ts_disk_ri_t
+_l2_writer	include/ts_internal.h	/^    pointer_t _l2_writer;$/;"	m	class:ts_disk_ri_t
+_mhash_cmp_fun	helper/tokenizer.cpp	/^inline int _mhash_cmp_fun(const sign64_t & k1, const sign64_t & k2)$/;"	f
+_mhash_fun	helper/tokenizer.cpp	/^inline uint32 _mhash_fun(const sign64_t & key)$/;"	f
+_next_block	core/ri.cpp	/^void ts_ind_iterator_t::_next_block()$/;"	f	class:ts_ind_iterator_t
+_node_t	lib/utils/hashmap.h	/^	typedef struct _node_t$/;"	s	class:ansx::hash_map
+_num	include/ts_internal.h	/^		uint32 _num ;$/;"	m	class:ts_bitset_t
+_num	include/ts_internal.h	/^    uint32 _num;$/;"	m	class:ts_mg_t
+_num	lib/utils/bitset.h	/^	uint32 _num ;$/;"	m	class:ts_bitset_t
+_oldt	op_ontime.cpp	/^static time_t _oldt = 0;$/;"	v	file:
+_open_file	core/cm.cpp	/^static int _open_file(const char *filename, int flag)$/;"	f	file:
+_query	op_query.cpp	/^_query(int cmd_no, nshead_t * req_head, ub_buff_t * req_buf,$/;"	f
+_read_l1	core/ri.cpp	/^int ts_disk_ri_t::_read_l1(const sign64_t word, ts_disk_term_t & term)$/;"	f	class:ts_disk_ri_t
+_read_l2	core/ri.cpp	/^int ts_disk_ri_t::_read_l2(long long offset, int dlen,$/;"	f	class:ts_disk_ri_t
+_reader_buf	include/ts_internal.h	/^    ts_index_t *_reader_buf;$/;"	m	class:ts_disk_ri_t
+_rear	lib/utils/myqueue.h	/^	int _rear;		\/\/尾指针$/;"	m	class:xspace::MyQueue
+_req_t	tool/query_tool/main.cpp	/^typedef struct _req_t$/;"	s	file:
+_shash_cmp_fun	lib/utils/stopword.cpp	/^inline int _shash_cmp_fun(const sign64 & k1, const sign64 & k2)$/;"	f
+_shash_fun	lib/utils/stopword.cpp	/^inline unsigned int _shash_fun(const sign64 & key)$/;"	f
+_size	include/ts_internal.h	/^    long _size;$/;"	m	class:ts_mem_ri_t
+_size	include/ts_internal.h	/^    uint32 _size;$/;"	m	class:ts_mg_t
+_size	include/ts_type.h	/^		const uint32 _size;$/;"	m	class:ts_buffer_t
+_size	lib/utils/myqueue.h	/^	int _size;		\/\/队列当前容量$/;"	m	class:xspace::MyQueue
+_ts_commit_cmd_t	include/ts_sock.h	/^enum _ts_commit_cmd_t$/;"	g
+_ts_errinfo_t	include/ts_sock.h	/^enum _ts_errinfo_t$/;"	g
+_ts_query_cmd_t	include/ts_sock.h	/^enum _ts_query_cmd_t$/;"	g
+_ts_terminfo_t	include/ts_type.h	/^typedef struct _ts_terminfo_t$/;"	s
+_used	include/ts_type.h	/^		uint32 _used;$/;"	m	class:ts_buffer_t
+_writer_buf	include/ts_internal.h	/^    ts_index_t *_writer_buf;$/;"	m	class:ts_disk_ri_t
+_writer_offset	include/ts_internal.h	/^    long long _writer_offset;$/;"	m	class:ts_disk_ri_t
+ab	tool/query_tool/myopt.h	/^	char ab;$/;"	m	struct:myopt_def_t
+ab	tool/query_tool/myopt.h	/^	int   ab;    $/;"	m	struct:myopt_item_t
+add_abs	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::add_abs(const pointer_t query_cmd, int i,$/;"	f	class:DEFAULT_QUERY_HANDLE
+addres	lib/utils/hashmap.h	/^		node_t *addres;$/;"	m	struct:ansx::hash_map::delay_t
+adjust_weight	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::adjust_weight(const pointer_t query_cmd,$/;"	f	class:DEFAULT_QUERY_HANDLE
+alloc	core/cm.cpp	/^int ts_cm_t::alloc(uint32 & outer_id, uint32 & id)$/;"	f	class:ts_cm_t
+ansx	lib/utils/hashmap.h	/^namespace ansx{$/;"	n
+bc_pos_t	lib/bcommand/bcommand.h	/^}   bc_pos_t;$/;"	t
+bcmd	include/ts_internal.h	/^    pointer_t bcmd;$/;"	m	class:ts_bk_t
+bcmd_buf	include/ts_internal.h	/^    char *bcmd_buf;$/;"	m	class:ts_bk_t
+bcmd_bufsize	include/ts_internal.h	/^    int bcmd_bufsize;$/;"	m	class:ts_bk_t
+bcommand_t	lib/bcommand/bcommand.h	/^}   bcommand_t;$/;"	t
+begin	include/ts_internal.h	/^		iterator begin(sign64_t& _term,int _read_maxnum)$/;"	f	class:ts_ind_reader_t
+bin	tool/query_tool/Makefile	/^bin= tinyse-qtool$/;"	m
+bin_search	core/ri.cpp	/^    int bin_search(const T * pind, const int index_num, sign64_t s,$/;"	f
+bk	include/ts_runtime.h	/^    ts_bk_t bk;                   \/**< 命令备份        *\/$/;"	m	struct:ts_runtime_t
+block_t	lib/utils/hashmap.h	/^	}block_t;$/;"	t	class:ansx::hash_map
+brief_size	pub.h	/^    uint32 brief_size;                            \/**<  brief表项的大小      *\/$/;"	m	struct:cfg_data_t
+bucket_t	lib/utils/hashmap.h	/^	}bucket_t;$/;"	t	class:ansx::hash_map
+buffer	helper/tokenizer.cpp	/^	thread_specific<nlp_queryparser_buffer_t> *buffer;$/;"	m	file:
+buffer	include/ts_internal.h	/^	vector<ts_index_t> buffer;$/;"	m	class:ts_ind_iterator_t
+buffer_node	lib/utils/hashmap.h	/^	}buffer_node;$/;"	t	class:ansx::hash_map
+cached_command_count	lib/bcommand/bcommand.h	/^    int   cached_command_count;      \/* unsaved command count *\/$/;"	m	struct:_bcommand_t
+cached_command_start_file	lib/bcommand/bcommand.h	/^    int   cached_command_start_file; \/* cached command start file no *\/$/;"	m	struct:_bcommand_t
+cached_command_start_off	lib/bcommand/bcommand.h	/^    int   cached_command_start_off;  \/* offset of first cached command in start file *\/$/;"	m	struct:_bcommand_t
+capacity	lib/utils/myqueue.h	/^	int capacity() {$/;"	f	class:xspace::MyQueue
+cfg_check	op_data.cpp	/^int cfg_check()$/;"	f
+cfg_data_t	pub.h	/^typedef struct cfg_data_t$/;"	s
+cfg_data_t	pub.h	/^} cfg_data_t;$/;"	t
+cfg_init	op_data.cpp	/^int cfg_init(int conf_build)$/;"	f
+check_memory	op_update.cpp	/^int check_memory()$/;"	f
+chk_dump_condition	op_ontime.cpp	/^int chk_dump_condition()$/;"	f
+clear	core/ri.cpp	/^int ts_disk_ri_t::clear()$/;"	f	class:ts_disk_ri_t
+clear	core/ri.cpp	/^int ts_mem_ri_t::clear()$/;"	f	class:ts_mem_ri_t
+clear	include/ts_internal.h	/^    virtual int clear()$/;"	f	class:ts_ri_t
+clear	lib/utils/hashmap.h	/^	void clear()$/;"	f	class:ansx::hash_map
+clear	lib/utils/myqueue.h	/^	void clear() {$/;"	f	class:xspace::MyQueue
+clear_hashmap	core/ri.cpp	/^void clear_hashmap(const sign64_t & key, ts_inv_list_t * const &item,$/;"	f
+cm	include/ts_runtime.h	/^    ts_cm_t cm;                   \/**<  id分配      *\/$/;"	m	struct:ts_runtime_t
+cmDataAdd	include/ts_sock.h	/^    cmDataAdd = 10001,      \/\/\/< 添加数据$/;"	e	enum:_ts_commit_cmd_t
+cmDataDel	include/ts_sock.h	/^    cmDataDel = 10004,      \/\/\/< 批量删除$/;"	e	enum:_ts_commit_cmd_t
+cmDataMod	include/ts_sock.h	/^    cmDataMod = 10002,      \/\/\/< 修改数据$/;"	e	enum:_ts_commit_cmd_t
+cmDataModBasic	include/ts_sock.h	/^    cmDataModBasic = 10003, \/\/\/< 仅修改基本数据，不影响索引和di$/;"	e	enum:_ts_commit_cmd_t
+cmDataRebuild	include/ts_sock.h	/^    cmDataRebuild = 10006   \/\/\/< 用于命令回放等重建索引的命令$/;"	e	enum:_ts_commit_cmd_t
+cmDataUndel	include/ts_sock.h	/^    cmDataUndel = 10005,    \/\/\/< 批量反删除$/;"	e	enum:_ts_commit_cmd_t
+cmd	tool/query_tool/pub.h	/^	char cmd[16];$/;"	m	struct:options_data_t
+cmd_no	include/ts_sock.h	/^    uint32 cmd_no;                         \/**< 命令号     *\/$/;"	m	struct:ts_head_t
+cmp_sign	core/ri.cpp	/^inline int cmp_sign(sign64_t s1, sign64_t s2)$/;"	f
+command_cache_path	lib/bcommand/bcommand.h	/^    char  command_cache_path[256];   \/* path of command file *\/$/;"	m	struct:_bcommand_t
+command_count	lib/bcommand/bcommand.h	/^    int   command_count;             \/* command count *\/$/;"	m	struct:_bcommand_t
+command_file_count	lib/bcommand/bcommand.h	/^    int   command_file_count;        \/* command file count *\/$/;"	m	struct:_bcommand_t
+comment	tool/query_tool/myopt.h	/^	char *comment;$/;"	m	struct:myopt_def_t
+comment	tool/query_tool/myopt.h	/^	char* comment;$/;"	m	struct:myopt_item_t
+compare_t	lib/utils/hashmap.h	/^	typedef int (*compare_t)(const key_t &, const key_t &);$/;"	t	class:ansx::hash_map
+conf_dir	pub.h	/^    char conf_dir[TS_FILEPATH_MAXSIZE];           \/**<  配置文件路径   *\/$/;"	m	struct:cfg_data_t
+conf_name	pub.h	/^    char conf_name[TS_FILEPATH_MAXSIZE];          \/**<  配置文件名      *\/$/;"	m	struct:cfg_data_t
+copy_ri	core/ri.cpp	/^int copy_ri(ts_ri_t * src, ts_ri_t * dest)$/;"	f
+creat_queryparser_buffer	helper/tokenizer.cpp	/^void *creat_queryparser_buffer()$/;"	f
+create	lib/utils/hashmap.h	/^	int create(int hn, hash_fcn_t fcn, compare_t cft = _hash_compare_fun , $/;"	f	class:ansx::hash_map
+create	lib/utils/myqueue.h	/^	int create(int qcap) {$/;"	f	class:xspace::MyQueue
+cur_block	include/ts_internal.h	/^	int cur_block;$/;"	m	class:ts_ind_iterator_t
+cur_file	include/ts_internal.h	/^    int cur_file;$/;"	m	class:ts_bk_t
+cur_index	include/ts_internal.h	/^	ts_index_t *cur_index;$/;"	m	class:ts_ind_iterator_t
+cur_pos	core/ri.cpp	/^    int cur_pos;$/;"	m	file:
+current_command_handler	lib/bcommand/bcommand.h	/^    FILE  *current_command_handler;  \/* current command data file handler (the last file) *\/$/;"	m	struct:_bcommand_t
+data_init	op_data.cpp	/^int data_init()$/;"	f
+data_maxnum	pub.h	/^    uint32 data_maxnum;                           \/**<  支持的数据最大个数      *\/$/;"	m	struct:cfg_data_t
+data_path	pub.h	/^    char data_path[TS_FILEPATH_MAXSIZE];          \/**<  数据文件的路径     *\/$/;"	m	struct:cfg_data_t
+data_type	include/ts_sock.h	/^    char data_type[TS_TYPENAME_MAXLEN];    \/**< 数据类型      *\/$/;"	m	struct:ts_head_t
+data_type	pub.h	/^    char data_type[TS_TYPENAME_MAXLEN];           \/**<  数据名称      *\/$/;"	m	struct:cfg_data_t
+data_type	tool/query_tool/pub.h	/^	char data_type[64];$/;"	m	struct:options_data_t
+day_curdir	include/ts_runtime.h	/^    int day_curdir;               \/**<  当前day库 0 或 1      *\/$/;"	m	struct:ts_runtime_t
+day_ri	include/ts_runtime.h	/^    ts_disk_ri_t day_ri[3];       \/**<  day库索引      *\/$/;"	m	struct:ts_runtime_t
+del_table	include/ts_runtime.h	/^    ts_bitset_t del_table;        \/**<  已删除数据表      *\/$/;"	m	struct:ts_runtime_t
+delay_t	lib/utils/hashmap.h	/^	struct delay_t {$/;"	s	class:ansx::hash_map
+demo_query_handle_t	extension/demo/demo.cpp	/^class demo_query_handle_t : public DEFAULT_QUERY_HANDLE$/;"	c	file:
+demo_update_handle_t	extension/demo/demo.cpp	/^class demo_update_handle_t:public DEFAULT_UPDATE_HANDLE$/;"	c	file:
+destroy	lib/utils/myqueue.h	/^	int destroy() {$/;"	f	class:xspace::MyQueue
+detail	tool/query_tool/main.cpp	/^	char detail[1024*1024];$/;"	m	struct:_req_t	file:
+detail	tool/query_tool/main.cpp	/^	char detail[1024*1024];$/;"	m	struct:res_t	file:
+di	include/ts_runtime.h	/^    ts_di_t di;                   \/**<  di      *\/$/;"	m	struct:ts_runtime_t
+di_idx_t	core/di.cpp	/^} di_idx_t;$/;"	t	file:
+dict_	lib/utils/stopword.h	/^	hash_map < sign64, int> *dict_;$/;"	m	class:stop_word_t
+difference_type	include/ts_internal.h	/^	typedef ptrdiff_t difference_type;$/;"	t	class:ts_ind_iterator_t
+disp_num	include/ts_sock.h	/^    uint32 disp_num;                       \/**< 总共查询到的个数      *\/$/;"	m	struct:ts_head_t
+dlen	include/ts_type.h	/^    int dlen;$/;"	m	struct:ts_disk_term_t
+docparser	helper/tokenizer.cpp	/^nlp_docparser_t *docparser = NULL;$/;"	v
+dump01_flag	pub.h	/^    char dump01_flag[TS_FILEPATH_MAXSIZE];        \/**<  如果存在这个文件，就dump01      *\/$/;"	m	struct:cfg_data_t
+dump01_tmeval	pub.h	/^    int dump01_tmeval;                            \/**<  0,1目录dump的时间间隔      *\/$/;"	m	struct:cfg_data_t
+dump2_min_tmeval	pub.h	/^    int dump2_min_tmeval;                         \/**<  2次dump到2目录的最短时间间隔      *\/$/;"	m	struct:cfg_data_t
+dump2_tm	pub.h	/^    int dump2_tm;                                 \/**<  dump 到2目录的时间点      *\/$/;"	m	struct:cfg_data_t
+empty	lib/utils/myqueue.h	/^	bool empty() {$/;"	f	class:xspace::MyQueue
+end	include/ts_internal.h	/^		iterator& end()$/;"	f	class:ts_ind_reader_t
+end_element	include/ts_internal.h	/^		iterator end_element;$/;"	m	class:ts_ind_reader_t
+end_index	include/ts_internal.h	/^	ts_index_t *end_index;$/;"	m	class:ts_ind_iterator_t
+erase	lib/utils/hashmap.h	/^	int erase(const key_t &k)$/;"	f	class:ansx::hash_map
+errCmdno	include/ts_sock.h	/^    errCmdno = 11,      \/\/\/< 命令号错误$/;"	e	enum:_ts_errinfo_t
+errConnect	include/ts_sock.h	/^    errConnect = 13,    \/\/\/< 连接服务错误$/;"	e	enum:_ts_errinfo_t
+errDataExist	include/ts_sock.h	/^    errDataExist = 17,  \/\/\/< 该数据已存在$/;"	e	enum:_ts_errinfo_t
+errDataType	include/ts_sock.h	/^    errDataType = 18,   \/\/\/< 该数据类型不正确$/;"	e	enum:_ts_errinfo_t
+errDataWrong	include/ts_sock.h	/^    errDataWrong = 19,  \/\/\/< 发送数据存在问题: 重复\/删除\/不存在\/错误\/范围不对..$/;"	e	enum:_ts_errinfo_t
+errIllegalReq	include/ts_sock.h	/^    errIllegalReq = 12, \/\/\/< 请求的结构体数据有问题$/;"	e	enum:_ts_errinfo_t
+errInternal	include/ts_sock.h	/^    errInternal = 20    \/\/\/< 内部错误，如文件io错误.(读\/写)$/;"	e	enum:_ts_errinfo_t
+errNet	include/ts_sock.h	/^    errNet = 10,        \/\/\/< 网络io错误$/;"	e	enum:_ts_errinfo_t
+errNoExist	include/ts_sock.h	/^    errNoExist = 16,    \/\/\/< 数据不存在 $/;"	e	enum:_ts_errinfo_t
+errNoPower	include/ts_sock.h	/^    errNoPower = 15,    \/\/\/< 无权限$/;"	e	enum:_ts_errinfo_t
+errRWTimeout	include/ts_sock.h	/^    errRWTimeout = 14,  \/\/\/< 读写数据超时$/;"	e	enum:_ts_errinfo_t
+err_no	include/ts_sock.h	/^    uint32 err_no;                         \/**< 错误号     *\/$/;"	m	struct:ts_head_t
+fb_handle	include/ts_internal.h	/^    pointer_t fb_handle;$/;"	m	class:ts_di_t
+fblock_reader	lib/utils/fblock_util.h	/^class fblock_reader$/;"	c
+fblock_writer	lib/utils/fblock_util.h	/^class fblock_writer$/;"	c
+felt	helper/tokenizer.cpp	/^	wp_felt_t felt;$/;"	m	struct:nlp_docparser_t	file:
+file_ismodify	lib/utils/stopword.cpp	/^bool file_ismodify( const char* strfile, time_t cur_mtime, time_t* pret_mtime )$/;"	f
+file_no	lib/bcommand/bcommand.h	/^    int file_no;$/;"	m	struct:_bc_pos_t
+file_off	lib/bcommand/bcommand.h	/^    int file_off;$/;"	m	struct:_bc_pos_t
+filename_	lib/utils/stopword.h	/^	char   filename_[256];$/;"	m	class:stop_word_t
+find	lib/utils/stopword.cpp	/^int stop_word_t::find(const char* word)$/;"	f	class:stop_word_t
+find	lib/utils/stopword.cpp	/^int stop_word_t::find(u_int sign1, u_int sign2)$/;"	f	class:stop_word_t
+fini	lib/utils/fblock_util.cpp	/^fblock_reader::fini ()$/;"	f	class:fblock_reader
+fini	lib/utils/fblock_util.cpp	/^fblock_writer::fini ()$/;"	f	class:fblock_writer
+fini	lib/utils/fblock_util.cpp	/^mfiles_reader::fini ()$/;"	f	class:mfiles_reader
+fini	lib/utils/fblock_util.cpp	/^mfiles_writer::fini ()$/;"	f	class:mfiles_writer
+fini_abs	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::fini_abs(const pointer_t query_cmd,ts_buffer_t &result) $/;"	f	class:DEFAULT_QUERY_HANDLE
+first	lib/utils/hashmap.h	/^		node_t * first;$/;"	m	struct:ansx::hash_map::_bucket_t
+flag_fp	include/ts_internal.h	/^    FILE *flag_fp;$/;"	m	class:ts_cm_t
+fopen_nb	lib/bcommand/bcommand.cpp	/^static FILE *fopen_nb(const char *filename, const char *mode)$/;"	f	file:
+found_flag	tool/query_tool/myopt.h	/^	int   found_flag; \/\/1: found opt, otherwise, no such option.$/;"	m	struct:myopt_item_t
+full	lib/utils/myqueue.h	/^	bool full() {$/;"	f	class:xspace::MyQueue
+fulltext_maxsize	pub.h	/^    uint32 fulltext_maxsize;                      \/**<  存储的全文数据的最大大小      *\/$/;"	m	struct:cfg_data_t
+g_cfg	main.cpp	/^cfg_data_t g_cfg;$/;"	v
+g_myopt_int_delim	tool/query_tool/myopt.cpp	/^static char g_myopt_int_delim[32]=", \\t-";$/;"	v	file:
+g_myopt_name	tool/query_tool/myopt.cpp	/^static char g_myopt_name[MYOPT_MAXNUM][MYOPT_NAME_MAXSIZE];$/;"	v	file:
+g_myopt_num	tool/query_tool/myopt.cpp	/^static int g_myopt_num=0;$/;"	v	file:
+g_runtime	main.cpp	/^ts_runtime_t g_runtime;$/;"	v
+g_ts_lock	main.cpp	/^pthread_mutex_t g_ts_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+get	core/bitset.cpp	/^bool ts_bitset_t::get(uint32 id)$/;"	f	class:ts_bitset_t
+get	lib/utils/bitset.h	/^	bool get(uint32 id)$/;"	f	class:ts_bitset_t
+get	lib/utils/hashmap.h	/^	int get( const key_t &k, value_t **pval=NULL )$/;"	f	class:ansx::hash_map
+get	lib/utils/hashmap.h	/^	int get( const key_t &k, value_t *val=NULL )$/;"	f	class:ansx::hash_map
+getHashKey	lib/utils/hashmap.h	/^	inline unsigned int getHashKey( const key_t &val )$/;"	f	class:ansx::hash_map
+getNodeSpace	lib/utils/hashmap.h	/^	inline node_t * getNodeSpace()$/;"	f	class:ansx::hash_map
+get_bkup_pos	core/bk.cpp	/^int ts_bk_t::get_bkup_pos()$/;"	f	class:ts_bk_t
+get_brief	helper/data_accessor.cpp	/^void get_brief(const uint32 inner_id,void *brief)$/;"	f
+get_cmd_and_next	core/bk.cpp	/^int ts_bk_t::get_cmd_and_next(char **cmd, uint32 *command_type, uint32 * size)$/;"	f	class:ts_bk_t
+get_cmd_fini	core/bk.cpp	/^int ts_bk_t::get_cmd_fini()$/;"	f	class:ts_bk_t
+get_cmd_init	core/bk.cpp	/^int ts_bk_t::get_cmd_init()$/;"	f	class:ts_bk_t
+get_cmd_is_end	core/bk.cpp	/^bool ts_bk_t::get_cmd_is_end()$/;"	f	class:ts_bk_t
+get_data	helper/data_accessor.cpp	/^pointer_t get_data(const char *key)$/;"	f
+get_default_interface	op_data.cpp	/^get_default_interface(ts_handle_t * hd)$/;"	f
+get_handle	op_data.cpp	/^get_handle(const char *so_path, const char *data_type)$/;"	f
+get_inner_id	core/cm.cpp	/^uint32 ts_cm_t::get_inner_id(const uint32 outer_id)$/;"	f	class:ts_cm_t
+get_inner_id	helper/data_accessor.cpp	/^uint32 get_inner_id(const uint32 outer_id)$/;"	f
+get_item_and_next	lib/utils/fblock_util.cpp	/^fblock_reader::get_item_and_next (void *item, int item_size)$/;"	f	class:fblock_reader
+get_item_and_next	lib/utils/fblock_util.cpp	/^mfiles_reader::get_item_and_next (void *item, int item_size)$/;"	f	class:mfiles_reader
+get_memory_size	op_data.cpp	/^uint32 get_memory_size()$/;"	f
+get_outer_id	core/cm.cpp	/^uint32 ts_cm_t::get_outer_id(const uint32 inner_id)$/;"	f	class:ts_cm_t
+get_outer_id	helper/data_accessor.cpp	/^uint32 get_outer_id(const uint32 inner_id)$/;"	f
+get_serv_status	op_data.cpp	/^get_serv_status()$/;"	f
+global_init	include/ts_handle.h	/^    ts_init_func_t global_init;               \/**< 全局初始化函数       *\/$/;"	m	struct:ts_handle_t
+global_init_func	extension/demo/demo.cpp	/^int global_init_func() $/;"	f
+handle	include/ts_runtime.h	/^    ts_handle_t *handle;          \/**< 扩展句柄       *\/$/;"	m	struct:ts_runtime_t
+hash_fcn_t	lib/utils/hashmap.h	/^	typedef unsigned int (*hash_fcn_t)(const key_t &);$/;"	t	class:ansx::hash_map
+hash_map	lib/utils/hashmap.h	/^	hash_map()$/;"	f	class:ansx::hash_map
+hash_map	lib/utils/hashmap.h	/^class hash_map$/;"	c	namespace:ansx
+hashmap	include/ts_internal.h	/^    pointer_t hashmap;$/;"	m	class:ts_mem_ri_t
+hashmap_array	core/ri.cpp	/^} hashmap_array;$/;"	t	file:
+head	tool/query_tool/main.cpp	/^	ts_head_t head;$/;"	m	struct:_req_t	file:
+head	tool/query_tool/main.cpp	/^	ts_head_t head;$/;"	m	struct:res_t	file:
+hook_	lib/utils/thread_specific.h	/^	new_hook_t hook_;$/;"	m	class:thread_specific
+i2o_fd	include/ts_internal.h	/^    int i2o_fd;$/;"	m	class:ts_cm_t
+i_max	include/ts_internal.h	/^    uint32 i_max;$/;"	m	class:ts_cm_t
+i_size	include/ts_internal.h	/^    uint32 i_size()$/;"	f	class:ts_cm_t
+id	include/ts_internal.h	/^    uint32 id;$/;"	m	struct:ts_ri_item_t
+id	include/ts_type.h	/^    uint32 id;                \/**< 内部id       *\/$/;"	m	struct:ts_index_t
+idx_command_handler	lib/bcommand/bcommand.h	/^    FILE  *idx_command_handler;      \/* index file handler *\/$/;"	m	struct:_bcommand_t
+imax	tool/query_tool/myopt.h	/^	int imax;$/;"	m	struct:myopt_def_t
+imin	tool/query_tool/myopt.h	/^	int imin;$/;"	m	struct:myopt_def_t
+increment	include/ts_internal.h	/^	void increment()$/;"	f	class:ts_ind_iterator_t
+ind_list	include/ts_internal.h	/^	vector < ts_index_t > ind_list;$/;"	m	struct:ts_inv_list_t
+ind_num	include/ts_type.h	/^        uint32 ind_num;$/;"	m	union:_ts_terminfo_t::<anonymous>
+index_filt	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::index_filt(const pointer_t query_cmd,$/;"	f	class:DEFAULT_QUERY_HANDLE
+init	core/bitset.cpp	/^int ts_bitset_t::init(uint32 data_maxnum,const char* dir ,const char *file)$/;"	f	class:ts_bitset_t
+init	core/bk.cpp	/^int ts_bk_t::init(const char *dir, const char *file, int cmd_maxsize)$/;"	f	class:ts_bk_t
+init	core/bk.cpp	/^int ts_bk_t::init(const char *path, int cmd_maxsize)$/;"	f	class:ts_bk_t
+init	core/cm.cpp	/^int ts_cm_t::init(const char *path, const char *file)$/;"	f	class:ts_cm_t
+init	core/di.cpp	/^int ts_di_t::init(uint32 data_maxsize, const char *dir, const char *file)$/;"	f	class:ts_di_t
+init	core/mg.cpp	/^int ts_mg_t::init(uint32 item_size, uint32 item_num, const char *dir,$/;"	f	class:ts_mg_t
+init	core/ri.cpp	/^int ts_disk_ri_t::init(const char *dir, const char *file)$/;"	f	class:ts_disk_ri_t
+init	core/ri.cpp	/^int ts_mem_ri_t::init(const char *dir, const char *file)$/;"	f	class:ts_mem_ri_t
+init	include/ts_internal.h	/^    virtual int init(const char *dir, const char *file)$/;"	f	class:ts_ri_t
+init	lib/utils/bitset.h	/^	int init(uint32 data_maxnum,const char* dir ,const char *file)$/;"	f	class:ts_bitset_t
+init	lib/utils/fblock_util.cpp	/^fblock_reader::init (fblock_t * hd, int buffer_size)$/;"	f	class:fblock_reader
+init	lib/utils/fblock_util.cpp	/^fblock_writer::init (fblock_t * hd, int buffer_size)$/;"	f	class:fblock_writer
+init	lib/utils/fblock_util.cpp	/^mfiles_reader::init (mfiles_t * hd, int buffer_size)$/;"	f	class:mfiles_reader
+init	lib/utils/fblock_util.cpp	/^mfiles_writer::init (mfiles_t * hd, int buffer_size)$/;"	f	class:mfiles_writer
+init	lib/utils/stopword.cpp	/^int stop_word_t::init(const char* filename)$/;"	f	class:stop_word_t
+init_abs	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::init_abs(const pointer_t query_cmd,ts_buffer_t &result) $/;"	f	class:DEFAULT_QUERY_HANDLE
+init_data_accessor	helper/data_accessor.cpp	/^int init_data_accessor(int thread_num,ts_runtime_t &rt)$/;"	f
+ip	tool/query_tool/pub.h	/^	char ip[32];$/;"	m	struct:options_data_t
+iplist_path	pub.h	/^    char iplist_path[TS_FILEPATH_MAXSIZE];        \/**<  提交线程的ip白名单      *\/$/;"	m	struct:cfg_data_t
+is_done	lib/utils/fblock_util.cpp	/^fblock_reader::is_done ()$/;"	f	class:fblock_reader
+is_done	lib/utils/fblock_util.cpp	/^mfiles_reader::is_done ()$/;"	f	class:mfiles_reader
+is_end	include/ts_internal.h	/^	bool is_end;$/;"	m	class:ts_ind_iterator_t
+is_end	include/ts_internal.h	/^    bool is_end;$/;"	m	class:ts_bk_t
+is_new	core/cm.cpp	/^bool ts_cm_t::is_new(uint32 & outer_id)$/;"	f	class:ts_cm_t
+it_fini	core/ri.cpp	/^int ts_disk_ri_t::it_fini()$/;"	f	class:ts_disk_ri_t
+it_fini	core/ri.cpp	/^int ts_mem_ri_t::it_fini()$/;"	f	class:ts_mem_ri_t
+it_fini	include/ts_internal.h	/^    virtual int it_fini()$/;"	f	class:ts_ri_t
+it_get_and_next	core/ri.cpp	/^int ts_disk_ri_t::it_get_and_next(ts_inv_list_t & out)$/;"	f	class:ts_disk_ri_t
+it_get_and_next	core/ri.cpp	/^int ts_mem_ri_t::it_get_and_next(ts_inv_list_t & out)$/;"	f	class:ts_mem_ri_t
+it_get_and_next	include/ts_internal.h	/^    virtual int it_get_and_next(ts_inv_list_t & out)$/;"	f	class:ts_ri_t
+it_init	core/ri.cpp	/^int ts_disk_ri_t::it_init()$/;"	f	class:ts_disk_ri_t
+it_init	core/ri.cpp	/^int ts_mem_ri_t::it_init()$/;"	f	class:ts_mem_ri_t
+it_init	include/ts_internal.h	/^    virtual int it_init()$/;"	f	class:ts_ri_t
+it_is_end	core/ri.cpp	/^int ts_disk_ri_t::it_is_end()$/;"	f	class:ts_disk_ri_t
+it_is_end	core/ri.cpp	/^int ts_mem_ri_t::it_is_end()$/;"	f	class:ts_mem_ri_t
+it_is_end	include/ts_internal.h	/^    virtual int it_is_end()$/;"	f	class:ts_ri_t
+iterator	include/ts_internal.h	/^		typedef ts_ind_iterator_t  iterator;$/;"	t	class:ts_ind_reader_t
+iterator_category	include/ts_internal.h	/^	typedef input_iterator_tag iterator_category;$/;"	t	class:ts_ind_iterator_t
+key	lib/utils/hashmap.h	/^		key_t key;$/;"	m	struct:ansx::hash_map::_buffer_node
+key	lib/utils/hashmap.h	/^		key_t key;$/;"	m	struct:ansx::hash_map::_node_t
+key_	lib/utils/thread_specific.h	/^	pthread_key_t key_;$/;"	m	class:thread_specific
+keylock_	lib/utils/thread_specific.h	/^	pthread_mutex_t keylock_;$/;"	m	class:thread_specific
+l0_fp	include/ts_internal.h	/^	FILE* l0_fp;$/;"	m	class:ts_disk_ri_t
+l0_handle	include/ts_internal.h	/^    pointer_t l0_handle;          \/**< hashmap       *\/$/;"	m	class:ts_disk_ri_t
+l0_num	include/ts_internal.h	/^    uint32 l0_num;$/;"	m	class:ts_disk_ri_t
+l1_cache	include/ts_internal.h	/^    pointer_t l1_cache;$/;"	m	class:ts_disk_ri_t
+l1_handle	include/ts_internal.h	/^    pointer_t l1_handle;          \/**< fileblock       *\/$/;"	m	class:ts_disk_ri_t
+l1_num	include/ts_internal.h	/^    uint32 l1_num;$/;"	m	class:ts_disk_ri_t
+l2_handle	include/ts_internal.h	/^    pointer_t l2_handle;          \/**< mfiles       *\/$/;"	m	class:ts_disk_ri_t
+last_bpos	include/ts_internal.h	/^    pointer_t last_bpos;$/;"	m	class:ts_bk_t
+last_cmd_sign	include/ts_runtime.h	/^	uint32 last_cmd_sign;$/;"	m	struct:ts_runtime_t
+limits_path	pub.h	/^    char limits_path[TS_FILEPATH_MAXSIZE];        \/**<  limits路径     *\/$/;"	m	struct:cfg_data_t
+list	lib/utils/hashmap.h	/^	void list( void (*fun)(const key_t& k,const value_t &t, void *param), void *paramv ){$/;"	f	class:ansx::hash_map
+list_hashmap	core/ri.cpp	/^void list_hashmap(const sign64_t & key, ts_inv_list_t * const &item,$/;"	f
+load_options	tool/query_tool/main.cpp	/^load_options(int argc, char** argv )$/;"	f	file:
+loaddata	lib/utils/hashmap.h	/^	int loaddata(const char *fn, int flag = 0 ){$/;"	f	class:ansx::hash_map
+log_dir	pub.h	/^    char log_dir[TS_FILEPATH_MAXSIZE];            \/**<  日志路径     *\/$/;"	m	struct:cfg_data_t
+log_level	pub.h	/^    int log_level;                                \/**<  日志级别      *\/$/;"	m	struct:cfg_data_t
+log_name	pub.h	/^    char log_name[TS_FILEPATH_MAXSIZE];           \/**<  日志名      *\/$/;"	m	struct:cfg_data_t
+m_bucket	lib/utils/hashmap.h	/^	bucket_t *m_bucket;       \/\/point to the list of buckets$/;"	m	class:ansx::hash_map
+m_bucket_num	lib/utils/hashmap.h	/^	int m_bucket_num;             \/\/number of buckets$/;"	m	class:ansx::hash_map
+m_buf	lib/utils/fblock_util.h	/^	char *m_buf;$/;"	m	class:fblock_reader
+m_buf	lib/utils/fblock_util.h	/^	char *m_buf;$/;"	m	class:fblock_writer
+m_buf	lib/utils/fblock_util.h	/^	char *m_buf;$/;"	m	class:mfiles_reader
+m_buf	lib/utils/fblock_util.h	/^	char *m_buf;$/;"	m	class:mfiles_writer
+m_bufsize	lib/utils/fblock_util.h	/^	int m_bufsize;$/;"	m	class:fblock_reader
+m_bufsize	lib/utils/fblock_util.h	/^	int m_bufsize;$/;"	m	class:fblock_writer
+m_bufsize	lib/utils/fblock_util.h	/^	int m_bufsize;$/;"	m	class:mfiles_reader
+m_bufsize	lib/utils/fblock_util.h	/^	int m_bufsize;$/;"	m	class:mfiles_writer
+m_bufused	lib/utils/fblock_util.h	/^	int m_bufused;$/;"	m	class:fblock_writer
+m_bufused	lib/utils/fblock_util.h	/^	int m_bufused;$/;"	m	class:mfiles_writer
+m_cur_block	lib/utils/hashmap.h	/^	block_t  *m_cur_block;    \/\/point to the current block$/;"	m	class:ansx::hash_map
+m_curblk	lib/utils/fblock_util.h	/^	int m_curblk;$/;"	m	class:fblock_reader
+m_curpos	lib/utils/fblock_util.h	/^	int m_curpos;$/;"	m	class:fblock_reader
+m_curpos	lib/utils/fblock_util.h	/^	int m_curpos;$/;"	m	class:mfiles_reader
+m_done	lib/utils/fblock_util.h	/^	bool m_done;$/;"	m	class:fblock_reader
+m_done	lib/utils/fblock_util.h	/^	bool m_done;$/;"	m	class:mfiles_reader
+m_equal	lib/utils/hashmap.h	/^	compare_t m_equal;$/;"	m	class:ansx::hash_map
+m_fcn	lib/utils/hashmap.h	/^	hash_fcn_t m_fcn;          \/\/the hash function$/;"	m	class:ansx::hash_map
+m_first_block	lib/utils/hashmap.h	/^	block_t  *m_first_block;  \/\/point to the first block$/;"	m	class:ansx::hash_map
+m_free_node	lib/utils/hashmap.h	/^	node_t   *m_free_node;    \/\/the list of free node$/;"	m	class:ansx::hash_map
+m_free_num	lib/utils/hashmap.h	/^	int m_free_num;          \/\/number of free node$/;"	m	class:ansx::hash_map
+m_lib	lib/utils/fblock_util.h	/^	fblock_t * m_lib;$/;"	m	class:fblock_reader
+m_lib	lib/utils/fblock_util.h	/^	fblock_t * m_lib;$/;"	m	class:fblock_writer
+m_lib	lib/utils/fblock_util.h	/^	mfiles_t * m_lib;$/;"	m	class:mfiles_reader
+m_lib	lib/utils/fblock_util.h	/^	mfiles_t * m_lib;$/;"	m	class:mfiles_writer
+m_node_num	lib/utils/hashmap.h	/^	int m_node_num;               \/\/number of node$/;"	m	class:ansx::hash_map
+m_offset	lib/utils/fblock_util.h	/^	uint64 m_offset;$/;"	m	class:mfiles_reader
+m_readnum	lib/utils/fblock_util.h	/^	int m_readnum;$/;"	m	class:fblock_reader
+m_readsize	lib/utils/fblock_util.h	/^	int m_readsize;$/;"	m	class:mfiles_reader
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+main	tool/query_tool/main.cpp	/^int main( int argc, char**argv )$/;"	f
+make_tss_obj	lib/utils/thread_specific.h	/^thread_specific<TYPE>::make_tss_obj (void) const $/;"	f	class:thread_specific
+map	helper/tokenizer.cpp	/^	ansx::hash_map < sign64_t, uint32 > map;$/;"	m	file:
+map	helper/tokenizer.cpp	/^	ansx::hash_map < sign64_t, uint32 > map;$/;"	m	struct:nlp_docparser_t	file:
+max_inner_id	helper/data_accessor.cpp	/^uint32 max_inner_id()$/;"	f
+max_num	core/mg.cpp	/^int ts_mg_t::max_num()$/;"	f	class:ts_mg_t
+max_outer_id	helper/data_accessor.cpp	/^uint32 max_outer_id()$/;"	f
+max_term_count	helper/tokenizer.cpp	/^	uint32 max_term_count;$/;"	m	file:
+max_term_count	helper/tokenizer.cpp	/^	uint32 max_term_count;$/;"	m	struct:nlp_docparser_t	file:
+mc_destroy_cache	lib/utils/cache_util.cpp	/^void mc_destroy_cache(mc_cache* pcache)$/;"	f
+mem_buf	core/ri.cpp	/^    sign64_t *mem_buf;$/;"	m	file:
+mem_ri	include/ts_runtime.h	/^    ts_mem_ri_t mem_ri;           \/**<  内存索引      *\/$/;"	m	struct:ts_runtime_t
+memory_maxsize	pub.h	/^    uint32 memory_maxsize;                        \/**<  开辟的内存数量,以M为单位     *\/$/;"	m	struct:cfg_data_t
+merge_ind_list	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::merge_ind_list(const pointer_t query_cmd,$/;"	f	class:DEFAULT_QUERY_HANDLE
+merge_inv_list	core/ri.cpp	/^inline int merge_inv_list(ts_inv_list_t & in1, ts_inv_list_t & in2,$/;"	f
+merge_mon	op_ontime.cpp	/^int merge_mon()$/;"	f
+merge_ri	core/ri.cpp	/^int merge_ri(ts_ri_t * src1, ts_ri_t * src2, ts_ri_t * dest)$/;"	f
+mf_handle	include/ts_internal.h	/^    pointer_t mf_handle;$/;"	m	class:ts_di_t
+mfiles_reader	lib/utils/fblock_util.h	/^class mfiles_reader$/;"	c
+mfiles_writer	lib/utils/fblock_util.h	/^class mfiles_writer$/;"	c
+mg	include/ts_runtime.h	/^    ts_mg_t mg;                   \/**<  mg      *\/$/;"	m	struct:ts_runtime_t
+mod_table	include/ts_runtime.h	/^    ts_bitset_t mod_table;        \/**<  已修改数据表      *\/$/;"	m	struct:ts_runtime_t
+mon_curdir	include/ts_runtime.h	/^    int mon_curdir;               \/**<  当前mon库 0 或 1      *\/$/;"	m	struct:ts_runtime_t
+mon_ri	include/ts_runtime.h	/^    ts_disk_ri_t mon_ri[2];       \/**<  mon库索引      *\/$/;"	m	struct:ts_runtime_t
+mutex_lock	include/ts_internal.h	/^    pthread_mutex_t mutex_lock;$/;"	m	class:ts_bk_t
+mutex_lock	include/ts_internal.h	/^    pthread_mutex_t mutex_lock;$/;"	m	class:ts_disk_ri_t
+myoptDate	tool/query_tool/myopt.h	/^	myoptDate = 3, $/;"	e	enum:myopt_param_enum_t
+myoptDay	tool/query_tool/myopt.h	/^	myoptDay = 4$/;"	e	enum:myopt_param_enum_t
+myoptInt	tool/query_tool/myopt.h	/^	myoptInt = 2,  $/;"	e	enum:myopt_param_enum_t
+myoptNone	tool/query_tool/myopt.h	/^	myoptNone = 0,  $/;"	e	enum:myopt_param_enum_t
+myoptString	tool/query_tool/myopt.h	/^	myoptString = 1,$/;"	e	enum:myopt_param_enum_t
+myopt_appendopt	tool/query_tool/myopt.cpp	/^int myopt_appendopt( myopt_t &map_opt, char *name, char *comment,$/;"	f
+myopt_appendopt	tool/query_tool/myopt.cpp	/^int myopt_appendopt( myopt_t &map_opt, myopt_def_t *defines)$/;"	f
+myopt_def_t	tool/query_tool/myopt.h	/^typedef struct myopt_def_t$/;"	s
+myopt_def_t	tool/query_tool/myopt.h	/^} myopt_def_t;$/;"	t
+myopt_get	tool/query_tool/myopt.cpp	/^myopt_item_t myopt_get( myopt_t &map_opt, char *name )$/;"	f
+myopt_item_t	tool/query_tool/myopt.h	/^typedef struct myopt_item_t$/;"	s
+myopt_item_t	tool/query_tool/myopt.h	/^}myopt_item_t;$/;"	t
+myopt_iterator_t	tool/query_tool/myopt.cpp	/^typedef std::map<char*, myopt_item_t>::iterator myopt_iterator_t;$/;"	t	file:
+myopt_param_enum_t	tool/query_tool/myopt.h	/^enum myopt_param_enum_t$/;"	g
+myopt_parse	tool/query_tool/myopt.cpp	/^int myopt_parse( int argc, char **argv, myopt_t& map_opt )$/;"	f
+myopt_print_usage	tool/query_tool/myopt.cpp	/^int myopt_print_usage( const char* module, const char* author, myopt_t &map_opt )$/;"	f
+myopt_print_version	tool/query_tool/myopt.cpp	/^void myopt_print_version(void)$/;"	f
+myopt_t	tool/query_tool/myopt.h	/^typedef std::map<char*, myopt_item_t> myopt_t;$/;"	t
+myopt_type	tool/query_tool/myopt.h	/^	int myopt_type;$/;"	m	struct:myopt_def_t
+name	tool/query_tool/myopt.h	/^	char *name;$/;"	m	struct:myopt_def_t
+name	tool/query_tool/myopt.h	/^	char* name;$/;"	m	struct:myopt_item_t
+need_load_day	include/ts_runtime.h	/^    int need_load_day:1;          \/**<  启动时是否需要load day到mon库       *\/$/;"	m	struct:ts_runtime_t
+need_merge	include/ts_runtime.h	/^    int need_merge:1;             \/**<  是否需要merge 到 mon库       *\/$/;"	m	struct:ts_runtime_t
+new_hook_t	lib/utils/thread_specific.h	/^	typedef void* (*new_hook_t)(void);$/;"	t	class:thread_specific
+next	lib/utils/hashmap.h	/^		struct _block_t * next;$/;"	m	struct:ansx::hash_map::_block_t
+next	lib/utils/hashmap.h	/^		struct _node_t * next;$/;"	m	struct:ansx::hash_map::_node_t
+nlp_docparser_init	helper/tokenizer.cpp	/^int nlp_docparser_init(char *worddict_path,char *felt_path,char *stopword_path, $/;"	f
+nlp_docparser_parse	helper/tokenizer.cpp	/^int nlp_docparser_parse(vector < ts_terminfo_t > &term_list,$/;"	f
+nlp_docparser_t	helper/tokenizer.cpp	/^typedef struct nlp_docparser_t$/;"	s	file:
+nlp_docparser_t	helper/tokenizer.cpp	/^} nlp_docparser_t;$/;"	t	file:
+nlp_queryparser_buffer_t	helper/tokenizer.cpp	/^} nlp_queryparser_buffer_t;$/;"	t	file:
+nlp_queryparser_init	helper/tokenizer.cpp	/^int nlp_queryparser_init(char *worddict_path,char *bsdict_path,char *stopword_path,uint32 max_term_count)$/;"	f
+nlp_queryparser_parse	helper/tokenizer.cpp	/^int nlp_queryparser_parse(vector<ts_terminfo_t>& term_list,char* query,uint32 len)$/;"	f
+nlp_queryparser_t	helper/tokenizer.cpp	/^}nlp_queryparser_t;$/;"	t	file:
+nlp_queryparser_thread_init	helper/tokenizer.cpp	/^int nlp_queryparser_thread_init()$/;"	f
+no_alloc	include/ts_type.h	/^		bool no_alloc;$/;"	m	class:ts_buffer_t
+node_block	lib/utils/hashmap.h	/^		node_t node_block[BLOCK_SIZE];$/;"	m	struct:ansx::hash_map::_block_t
+node_t	lib/utils/hashmap.h	/^	}node_t;$/;"	t	class:ansx::hash_map
+nshead	tool/query_tool/main.cpp	/^	nshead_t nshead;$/;"	m	struct:_req_t	file:
+nshead	tool/query_tool/main.cpp	/^	nshead_t nshead;$/;"	m	struct:res_t	file:
+num_per_page	include/ts_sock.h	/^    uint32 num_per_page;                   \/**< 每页显示条数       *\/$/;"	m	struct:ts_head_t
+o2i_fd	include/ts_internal.h	/^    int o2i_fd;$/;"	m	class:ts_cm_t
+o_max	include/ts_internal.h	/^    uint32 o_max;$/;"	m	class:ts_cm_t
+o_size	include/ts_internal.h	/^    uint32 o_size()$/;"	f	class:ts_cm_t
+offset	core/di.cpp	/^    long long offset;$/;"	m	struct:_di_idx_t	file:
+offset	include/ts_type.h	/^    long long offset;$/;"	m	struct:ts_disk_term_t
+once_	lib/utils/thread_specific.h	/^	int once_;$/;"	m	class:thread_specific
+ontime_session_proc	include/ts_handle.h	/^    ts_init_func_t ontime_session_proc;       \/**< 定时线程处理函数       *\/$/;"	m	struct:ts_handle_t
+ontime_sleep	pub.h	/^    int ontime_sleep;                             \/**<  ontime线程监控的时间间隔      *\/$/;"	m	struct:cfg_data_t
+ontime_thread	op_ontime.cpp	/^void *ontime_thread(void *)$/;"	f
+op_ontime	op_ontime.cpp	/^int op_ontime()$/;"	f
+op_query	op_query.cpp	/^op_query()$/;"	f
+op_update	op_update.cpp	/^op_update()$/;"	f
+operator !=	include/ts_internal.h	/^	bool operator  != (const ts_ind_iterator_t &other)$/;"	f	class:ts_ind_iterator_t
+operator ()	core/ri.cpp	/^    bool operator() (const sign64_t & a, const sign64_t & b)const$/;"	f	class:sort_less1_t
+operator ()	core/ri.cpp	/^    bool operator() (const ts_index_t & a, const ts_index_t & b)const$/;"	f	class:sort_less_t
+operator ()	helper/default.cpp	/^    bool operator() (const ts_terminfo_t & a, const ts_terminfo_t & b)const$/;"	f	class:sort_less_t
+operator *	include/ts_internal.h	/^	reference operator*()$/;"	f	class:ts_ind_iterator_t
+operator ++	include/ts_internal.h	/^	reference operator ++()$/;"	f	class:ts_ind_iterator_t
+operator ++	include/ts_internal.h	/^	self operator ++ (int)$/;"	f	class:ts_ind_iterator_t
+operator ->	include/ts_internal.h	/^	pointer operator ->()$/;"	f	class:ts_ind_iterator_t
+operator ->	lib/utils/thread_specific.h	/^	TYPE *operator-> () const {return this->ts_get ();}$/;"	f	class:thread_specific
+operator ==	include/ts_internal.h	/^	bool operator  == (const ts_ind_iterator_t &other)$/;"	f	class:ts_ind_iterator_t
+operator TYPE *	lib/utils/thread_specific.h	/^	operator TYPE *(void) const {return this->ts_get ();}$/;"	f	class:thread_specific
+opt_data	tool/query_tool/main.cpp	/^options_data_t opt_data;$/;"	v
+opt_type	tool/query_tool/myopt.h	/^	int   opt_type; $/;"	m	struct:myopt_item_t
+options_data_t	tool/query_tool/pub.h	/^typedef struct options_data_t$/;"	s
+options_data_t	tool/query_tool/pub.h	/^} options_data_t;$/;"	t
+page_no	include/ts_sock.h	/^    uint32 page_no;                        \/**< 页号      *\/$/;"	m	struct:ts_head_t
+page_no	tool/query_tool/pub.h	/^	int page_no;$/;"	m	struct:options_data_t
+parse_add	helper/default.cpp	/^int DEFAULT_UPDATE_HANDLE::parse_add(pointer_t update_cmd,$/;"	f	class:DEFAULT_UPDATE_HANDLE
+parse_del	helper/default.cpp	/^int DEFAULT_UPDATE_HANDLE::parse_del(pointer_t update_cmd,$/;"	f	class:DEFAULT_UPDATE_HANDLE
+parse_mod	helper/default.cpp	/^int DEFAULT_UPDATE_HANDLE::parse_mod(pointer_t update_cmd,$/;"	f	class:DEFAULT_UPDATE_HANDLE
+parse_modbasic	helper/default.cpp	/^int DEFAULT_UPDATE_HANDLE::parse_modbasic(pointer_t update_cmd,$/;"	f	class:DEFAULT_UPDATE_HANDLE
+parse_options	main.cpp	/^STATIC void parse_options(int argc, char **argv)$/;"	f
+parse_query	helper/default.cpp	/^int DEFAULT_QUERY_HANDLE::parse_query(const pointer_t query_cmd,$/;"	f	class:DEFAULT_QUERY_HANDLE
+parse_undel	helper/default.cpp	/^int DEFAULT_UPDATE_HANDLE::parse_undel(pointer_t update_cmd,$/;"	f	class:DEFAULT_UPDATE_HANDLE
+parsedquery	helper/tokenizer.cpp	/^	char *parsedquery;$/;"	m	file:
+pdictPack	helper/tokenizer.cpp	/^	wp_dict_pack_t *pdictPack ;$/;"	m	file:
+pfdict	helper/tokenizer.cpp	/^	Sdict_search   * pfdict;$/;"	m	struct:nlp_docparser_t	file:
+phraseoffreq	helper/tokenizer.cpp	/^	char *phraseoffreq ;$/;"	m	file:
+pointer	include/ts_internal.h	/^	typedef ts_index_t* pointer;$/;"	t	class:ts_ind_iterator_t
+pointer_t	include/ts_type.h	/^typedef void *pointer_t;$/;"	t
+pop_back	lib/utils/myqueue.h	/^	int pop_back(T &val) {$/;"	f	class:xspace::MyQueue
+pop_backs	lib/utils/myqueue.h	/^	int pop_backs(T *val, int nums) {$/;"	f	class:xspace::MyQueue
+pop_front	lib/utils/myqueue.h	/^	int pop_front(T &val)  {$/;"	f	class:xspace::MyQueue
+port	tool/query_tool/pub.h	/^	int port;$/;"	m	struct:options_data_t
+pout	helper/tokenizer.cpp	/^	scw_out_t *pout;$/;"	m	struct:nlp_docparser_t	file:
+print_help	main.cpp	/^print_help(void)$/;"	f
+print_logo	main.cpp	/^STATIC void print_logo(void)$/;"	f
+print_version	main.cpp	/^STATIC void print_version(void)$/;"	f
+pruntime	helper/data_accessor.cpp	/^ts_runtime_t *pruntime = NULL; \/\/在主程序中初始化$/;"	v
+psegData	helper/tokenizer.cpp	/^	search_seg_data_t *psegData ;$/;"	m	file:
+push_back	lib/utils/myqueue.h	/^	int push_back(const T & val)  {$/;"	f	class:xspace::MyQueue
+push_cmd	core/bk.cpp	/^void ts_bk_t::push_cmd(uint32 command_type, const void *cmd, uint32 size)$/;"	f	class:ts_bk_t
+push_front	lib/utils/myqueue.h	/^	int push_front(const T &val) {$/;"	f	class:xspace::MyQueue
+pwdict	helper/tokenizer.cpp	/^	scw_worddict_t * pwdict ;$/;"	m	struct:nlp_docparser_t	file:
+qcAll	include/ts_sock.h	/^    qcAll = 100001,     \/\/\/< 检索全部数据$/;"	e	enum:_ts_query_cmd_t
+qcDel	include/ts_sock.h	/^    qcDel = 100002,     \/\/\/< 检索已删除数据$/;"	e	enum:_ts_query_cmd_t
+qcUndel	include/ts_sock.h	/^    qcUndel = 100003,   \/\/\/< 检索未删除数据$/;"	e	enum:_ts_query_cmd_t
+query	tool/query_tool/pub.h	/^	char query[10240];$/;"	m	struct:options_data_t
+query_all	op_query.cpp	/^query_all(int cmd_no, nshead_t * req_head, ub_buff_t * req_buf,$/;"	f
+query_del	op_query.cpp	/^query_del(int cmd_no, nshead_t * req_head, ub_buff_t * req_buf,$/;"	f
+query_handle	include/ts_handle.h	/^    ts_query_handle_t *query_handle;          \/**< 查询句柄       *\/$/;"	m	struct:ts_handle_t
+query_is_valid	op_query.cpp	/^int query_is_valid(nshead_t * req_head, ub_buff_t * req_buf)$/;"	f
+query_readbuf_size	pub.h	/^    int query_readbuf_size;                       \/**<  查询线程数据接收缓冲区大小      *\/$/;"	m	struct:cfg_data_t
+query_thread_init	include/ts_handle.h	/^    ts_init_func_t query_thread_init;         \/**< 查询线程初始化函数       *\/$/;"	m	struct:ts_handle_t
+query_thread_init	op_query.cpp	/^query_thread_init()$/;"	f
+query_undel	op_query.cpp	/^query_undel(int cmd_no, nshead_t * req_head, ub_buff_t * req_buf,$/;"	f
+query_writebuf_size	pub.h	/^    int query_writebuf_size;                      \/**<  查询线程数据发送缓冲区大小      *\/$/;"	m	struct:cfg_data_t
+queryparser	helper/tokenizer.cpp	/^nlp_queryparser_t* queryparser = NULL;$/;"	v
+read	core/di.cpp	/^int ts_di_t::read(uint32 id, void *data, uint32 & size)$/;"	f	class:ts_di_t
+read	core/mg.cpp	/^void ts_mg_t::read(uint32 id, void *brief)$/;"	f	class:ts_mg_t
+read	core/ri.cpp	/^int ts_disk_ri_t::read(const sign64_t word, vector < ts_index_t > *out,$/;"	f	class:ts_disk_ri_t
+read	core/ri.cpp	/^int ts_mem_ri_t::read(const sign64_t word, vector < ts_index_t > *out,$/;"	f	class:ts_mem_ri_t
+read	include/ts_internal.h	/^    virtual int read(const sign64_t word, vector < ts_index_t > *out,$/;"	f	class:ts_ri_t
+read_at_pos	core/ri.cpp	/^int ts_disk_ri_t::read_at_pos(const sign64_t word,int pos, vector < ts_index_t > *out,$/;"	f	class:ts_disk_ri_t
+read_at_pos	core/ri.cpp	/^int ts_mem_ri_t::read_at_pos(const sign64_t word,int pos, vector < ts_index_t > *out,$/;"	f	class:ts_mem_ri_t
+read_at_pos	include/ts_internal.h	/^    virtual int read_at_pos(const sign64_t word,int pos, vector < ts_index_t > *out,$/;"	f	class:ts_ri_t
+read_head	lib/bcommand/bcommand.cpp	/^static bool read_head(FILE *fp, bcommand_t *bc)$/;"	f	file:
+read_ind_num	core/ri.cpp	/^int ts_ind_reader_t::read_ind_num(sign64_t &term)$/;"	f	class:ts_ind_reader_t
+read_inv_num	core/ri.cpp	/^int ts_disk_ri_t::read_inv_num(const sign64_t word, uint32 & num)$/;"	f	class:ts_disk_ri_t
+read_inv_num	core/ri.cpp	/^int ts_mem_ri_t::read_inv_num(const sign64_t word, uint32 & num)$/;"	f	class:ts_mem_ri_t
+read_inv_num	include/ts_internal.h	/^    virtual int read_inv_num(const sign64_t word, uint32 & num)$/;"	f	class:ts_ri_t
+read_maxnum	include/ts_internal.h	/^	const int read_maxnum;$/;"	m	class:ts_ind_iterator_t
+realloc	core/cm.cpp	/^int ts_cm_t::realloc(uint32 & outer_id, uint32 & id)$/;"	f	class:ts_cm_t
+reference	include/ts_internal.h	/^	typedef ts_index_t& reference;$/;"	t	class:ts_ind_iterator_t
+reload	lib/utils/stopword.cpp	/^int stop_word_t::reload(int sleep_secs)$/;"	f	class:stop_word_t
+reltime	lib/utils/hashmap.h	/^		u_int reltime;$/;"	m	struct:ansx::hash_map::delay_t
+req_t	tool/query_tool/main.cpp	/^}req_t;$/;"	t	file:
+res_t	tool/query_tool/main.cpp	/^typedef struct res_t$/;"	s	file:
+res_t	tool/query_tool/main.cpp	/^}res_t;$/;"	t	file:
+resend_cmd	op_data.cpp	/^int resend_cmd()$/;"	f
+reset	core/bitset.cpp	/^int ts_bitset_t::reset()$/;"	f	class:ts_bitset_t
+reset	include/ts_type.h	/^		void reset()$/;"	f	class:ts_buffer_t
+reset	lib/utils/bitset.h	/^	int reset()$/;"	f	class:ts_bitset_t
+reset	lib/utils/hashmap.h	/^	inline void reset()$/;"	f	class:ansx::hash_map
+ret_num	include/ts_sock.h	/^    uint32 ret_num;                        \/**< 返回个数      *\/$/;"	m	struct:ts_head_t
+ri	include/ts_internal.h	/^		ts_ri_t *ri;$/;"	m	class:ts_ind_reader_t
+ri	include/ts_internal.h	/^	ts_ri_t *ri;$/;"	m	class:ts_ind_iterator_t
+rw_lock	include/ts_internal.h	/^	pthread_rwlock_t rw_lock;$/;"	m	class:ts_mem_ri_t
+safe_exit	lib/utils/utils.h	39;"	d
+savedata	lib/utils/hashmap.h	/^	int savedata(const char *fn){$/;"	f	class:ansx::hash_map
+sdict	helper/tokenizer.cpp	/^	stop_word_t sdict;$/;"	m	file:
+sdict	helper/tokenizer.cpp	/^	stop_word_t sdict;$/;"	m	struct:nlp_docparser_t	file:
+self	include/ts_internal.h	/^	typedef ts_index_t self;$/;"	t	class:ts_ind_iterator_t
+set	core/bitset.cpp	/^void ts_bitset_t::set(uint32 id,bool value)$/;"	f	class:ts_bitset_t
+set	lib/utils/bitset.h	/^	void set(uint32 id,bool value)$/;"	f	class:ts_bitset_t
+set	lib/utils/hashmap.h	/^	int set( const key_t &k, const value_t &val, int flag = 0 )$/;"	f	class:ansx::hash_map
+setAllZero	lib/utils/hashmap.h	/^	inline void setAllZero()$/;"	f	class:ansx::hash_map
+set_bkup_pos	core/bk.cpp	/^int ts_bk_t::set_bkup_pos()$/;"	f	class:ts_bk_t
+set_data	helper/data_accessor.cpp	/^int set_data(const char *key, pointer_t data)$/;"	f
+set_res_error	op_query.cpp	/^set_res_error(uint32 err_no)$/;"	f
+sign1	include/ts_type.h	/^            uint32 sign1;$/;"	m	struct:ts_disk_term_t::<anonymous>::<anonymous>
+sign1	include/ts_type.h	/^    uint32 sign1;$/;"	m	struct:sign64_t
+sign1	lib/utils/stopword.h	/^	unsigned int sign1;$/;"	m
+sign2	include/ts_type.h	/^            uint32 sign2;$/;"	m	struct:ts_disk_term_t::<anonymous>::<anonymous>
+sign2	include/ts_type.h	/^    uint32 sign2;$/;"	m	struct:sign64_t
+sign2	lib/utils/stopword.h	/^	unsigned int sign2;$/;"	m
+sign64	lib/utils/stopword.h	/^} sign64;$/;"	t
+sign64_t	include/ts_type.h	/^typedef struct sign64_t$/;"	s
+sign64_t	include/ts_type.h	/^} sign64_t;$/;"	t
+size	core/di.cpp	/^    uint32 size;$/;"	m	struct:_di_idx_t	file:
+size	core/ri.cpp	/^long ts_mem_ri_t::size()$/;"	f	class:ts_mem_ri_t
+size	include/ts_internal.h	/^	int size(){$/;"	f	class:ts_ind_iterator_t
+size	lib/utils/hashmap.h	/^	inline int size() const{$/;"	f	class:ansx::hash_map
+size_	lib/utils/stopword.h	/^	size_t size_;$/;"	m	class:stop_word_t
+so_path	pub.h	/^    char so_path[TS_TYPENAME_MAXLEN];             \/**<  扩展的路径      *\/$/;"	m	struct:cfg_data_t
+sort_less1_t	core/ri.cpp	/^class sort_less1_t$/;"	c	file:
+sort_less_t	core/ri.cpp	/^class sort_less_t$/;"	c	file:
+sort_less_t	helper/default.cpp	/^class sort_less_t$/;"	c	file:
+static_index	pub.h	/^	int static_index;                             \/**<  是否是静态索引:0,否;1,是      *\/$/;"	m	struct:cfg_data_t
+stop_word_t	lib/utils/stopword.h	/^class stop_word_t$/;"	c
+svr_query	pub.h	/^    ub_svr_t svr_query;                           \/**<  查询线程的配置句柄      *\/$/;"	m	struct:cfg_data_t
+svr_update	pub.h	/^    ub_svr_t svr_update;                          \/**<  提交线程的配置句柄      *\/$/;"	m	struct:cfg_data_t
+sweight	include/ts_type.h	/^	uint32 sweight;           \/**< 静态权重       *\/$/;"	m	struct:ts_index_t
+talkwith	tool/query_tool/talk.cpp	/^talkwith (int &fd, nshead_t * req, nshead_t * res, int siz)$/;"	f
+term	include/ts_internal.h	/^	const sign64_t term;$/;"	m	class:ts_ind_iterator_t
+term	include/ts_internal.h	/^    sign64_t term;$/;"	m	struct:ts_inv_list_t
+term	include/ts_internal.h	/^    sign64_t term;$/;"	m	struct:ts_ri_item_t
+term	include/ts_type.h	/^        sign64_t term;$/;"	m	union:ts_disk_term_t::<anonymous>
+term	include/ts_type.h	/^    sign64_t term;$/;"	m	struct:_ts_terminfo_t
+thread_specific	lib/utils/thread_specific.h	/^class thread_specific$/;"	c
+thread_specific	lib/utils/thread_specific.h	/^thread_specific<TYPE>::thread_specific (new_hook_t hook)$/;"	f	class:thread_specific
+time_	lib/utils/stopword.h	/^	time_t time_;$/;"	m	class:stop_word_t
+top_back	lib/utils/myqueue.h	/^	int top_back(T &val) {$/;"	f	class:xspace::MyQueue
+top_front	lib/utils/myqueue.h	/^	int top_front(T &val) {$/;"	f	class:xspace::MyQueue
+trim_string	lib/utils/stopword.cpp	/^void trim_string( char *pstr )$/;"	f
+ts_add	op_update.cpp	/^ts_add(int cmd_no,$/;"	f
+ts_bitset_t	include/ts_internal.h	/^class ts_bitset_t$/;"	c
+ts_bitset_t	lib/utils/bitset.h	/^class ts_bitset_t$/;"	c
+ts_bk_t	include/ts_internal.h	/^class ts_bk_t$/;"	c
+ts_buffer_t	include/ts_type.h	/^		ts_buffer_t(char *buf, uint32 size):_size(size)$/;"	f	class:ts_buffer_t
+ts_buffer_t	include/ts_type.h	/^		ts_buffer_t(uint32 size):_size(size)$/;"	f	class:ts_buffer_t
+ts_buffer_t	include/ts_type.h	/^class ts_buffer_t$/;"	c
+ts_cm_t	include/ts_internal.h	/^class ts_cm_t$/;"	c
+ts_del	op_update.cpp	/^ts_del(int cmd_no,$/;"	f
+ts_di_t	include/ts_internal.h	/^class ts_di_t$/;"	c
+ts_disk_ri_t	include/ts_internal.h	/^class ts_disk_ri_t:public ts_ri_t$/;"	c
+ts_disk_term_t	include/ts_type.h	/^typedef struct ts_disk_term_t$/;"	s
+ts_disk_term_t	include/ts_type.h	/^} ts_disk_term_t;$/;"	t
+ts_get	lib/utils/thread_specific.h	/^thread_specific<TYPE>::ts_get (void) const$/;"	f	class:thread_specific
+ts_handle_t	include/ts_handle.h	/^typedef struct ts_handle_t$/;"	s
+ts_handle_t	include/ts_handle.h	/^} ts_handle_t;$/;"	t
+ts_head_t	include/ts_sock.h	/^typedef struct ts_head_t$/;"	s
+ts_head_t	include/ts_sock.h	/^} ts_head_t;$/;"	t
+ts_ind_iterator_t	include/ts_internal.h	/^	ts_ind_iterator_t (sign64_t _term,int _size,ts_ri_t *_ri) : ri(_ri),term(_term),read_maxnum(_size)$/;"	f	class:ts_ind_iterator_t
+ts_ind_iterator_t	include/ts_internal.h	/^	ts_ind_iterator_t() : ri(NULL),term(sign64_t()),read_maxnum(0){$/;"	f	class:ts_ind_iterator_t
+ts_ind_iterator_t	include/ts_internal.h	/^class ts_ind_iterator_t$/;"	c
+ts_ind_reader_t	include/ts_internal.h	/^		ts_ind_reader_t(ts_ri_t *_ri)$/;"	f	class:ts_ind_reader_t
+ts_ind_reader_t	include/ts_internal.h	/^class ts_ind_reader_t$/;"	c
+ts_index_t	include/ts_type.h	/^typedef struct ts_index_t$/;"	s
+ts_index_t	include/ts_type.h	/^} ts_index_t;$/;"	t
+ts_init	lib/utils/thread_specific.h	/^thread_specific<TYPE>::ts_init (void)$/;"	f	class:thread_specific
+ts_init_func_t	include/ts_type.h	/^typedef int (*ts_init_func_t) ();$/;"	t
+ts_inv_list_t	include/ts_internal.h	/^typedef struct ts_inv_list_t$/;"	s
+ts_inv_list_t	include/ts_internal.h	/^} ts_inv_list_t;$/;"	t
+ts_mem_ri_t	include/ts_internal.h	/^class ts_mem_ri_t:public ts_ri_t$/;"	c
+ts_mg_t	include/ts_internal.h	/^class ts_mg_t$/;"	c
+ts_mod	op_update.cpp	/^ts_mod(int cmd_no,$/;"	f
+ts_modbasic	op_update.cpp	/^ts_modbasic(int cmd_no,$/;"	f
+ts_query_handle_t	include/ts_handle.h	/^class ts_query_handle_t$/;"	c
+ts_rebuild	op_update.cpp	/^ts_rebuild(int cmd_no, uint32 inner_id,$/;"	f
+ts_ri_item_t	include/ts_internal.h	/^typedef struct ts_ri_item_t$/;"	s
+ts_ri_item_t	include/ts_internal.h	/^} ts_ri_item_t;$/;"	t
+ts_ri_t	include/ts_internal.h	/^    virtual ~ ts_ri_t()$/;"	f	class:ts_ri_t
+ts_ri_t	include/ts_internal.h	/^class ts_ri_t$/;"	c
+ts_runtime_t	include/ts_runtime.h	/^typedef struct ts_runtime_t$/;"	s
+ts_runtime_t	include/ts_runtime.h	/^} ts_runtime_t;$/;"	t
+ts_so_demo_handle	extension/demo/demo.cpp	/^ts_handle_t ts_so_demo_handle = $/;"	v
+ts_terminfo_t	include/ts_type.h	/^} ts_terminfo_t;$/;"	t
+ts_undel	op_update.cpp	/^ts_undel(int cmd_no,$/;"	f
+ts_update_handle_t	include/ts_handle.h	/^class ts_update_handle_t$/;"	c
+uchar	include/ts_define.h	26;"	d
+uint16	include/ts_define.h	34;"	d
+uint32	include/ts_define.h	38;"	d
+uint64	include/ts_define.h	42;"	d
+uint8	include/ts_define.h	30;"	d
+update_handle	include/ts_handle.h	/^    ts_update_handle_t *update_handle;        \/**< 更新句柄       *\/$/;"	m	struct:ts_handle_t
+update_is_valid	op_update.cpp	/^int update_is_valid(nshead_t * req_head, ub_buff_t * req_buf)$/;"	f
+update_readbuf_size	pub.h	/^    int update_readbuf_size;                      \/**<  更新线程数据接收缓冲区大小      *\/$/;"	m	struct:cfg_data_t
+update_thread_init	include/ts_handle.h	/^    ts_init_func_t update_thread_init;        \/**< 更新线程初始化函数       *\/$/;"	m	struct:ts_handle_t
+update_thread_init	op_update.cpp	/^update_thread_init()$/;"	f
+update_writebuf_size	pub.h	/^    int update_writebuf_size;                     \/**<  更新线程数据发送缓冲区大小     *\/$/;"	m	struct:cfg_data_t
+user_func	op_ontime.cpp	/^void user_func()$/;"	f
+value	lib/utils/hashmap.h	/^		value_t value;$/;"	m	struct:ansx::hash_map::_buffer_node
+value	lib/utils/hashmap.h	/^		value_t value;$/;"	m	struct:ansx::hash_map::_node_t
+value_type	include/ts_internal.h	/^	typedef ts_index_t value_type;$/;"	t	class:ts_ind_iterator_t
+varr_int	tool/query_tool/myopt.h	/^	int   *varr_int;  \/\/多个整数参数值的存放数组$/;"	m	struct:myopt_item_t
+varr_num	tool/query_tool/myopt.h	/^	int   varr_num;   $/;"	m	struct:myopt_item_t
+vdate	tool/query_tool/myopt.h	/^	time_t vdate[2];   $/;"	m	struct:myopt_item_t
+vi_range	tool/query_tool/myopt.h	/^	int   vi_range[2];\/\/最小值, 最大值,$/;"	m	struct:myopt_item_t
+vint	tool/query_tool/myopt.h	/^	int   vint[2];    \/\/得到的两个整数. 如果时整数参数，而且参数个数少于2个,则这里就是其值$/;"	m	struct:myopt_item_t
+vstr	tool/query_tool/myopt.h	/^	char  *vstr;    $/;"	m	struct:myopt_item_t
+weight	include/ts_internal.h	/^    uint32 weight;$/;"	m	struct:ts_ri_item_t
+weight	include/ts_type.h	/^        uint32 weight;$/;"	m	union:_ts_terminfo_t::<anonymous>
+write	core/di.cpp	/^int ts_di_t::write(uint32 id, const void *data, uint32 size)$/;"	f	class:ts_di_t
+write	core/mg.cpp	/^void ts_mg_t::write(uint32 id, const void *brief)$/;"	f	class:ts_mg_t
+write	core/ri.cpp	/^int ts_mem_ri_t::write(const ts_ri_item_t & item)$/;"	f	class:ts_mem_ri_t
+write	include/ts_internal.h	/^      virtual int write(const ts_ri_item_t & item)$/;"	f	class:ts_disk_ri_t
+write	include/ts_internal.h	/^    virtual int write(const ts_ri_item_t & item)$/;"	f	class:ts_ri_t
+write	lib/utils/fblock_util.cpp	/^fblock_writer::write (const void *item, int item_size)$/;"	f	class:fblock_writer
+write	lib/utils/fblock_util.cpp	/^mfiles_writer::write (const void *item, int item_size)$/;"	f	class:mfiles_writer
+write_curdir	op_ontime.cpp	/^STATIC int write_curdir(int cur_dir, bool is_day)$/;"	f
+write_head	lib/bcommand/bcommand.cpp	/^static bool write_head(FILE *fp, const bcommand_t *bc)$/;"	f	file:
+write_limits	op_ontime.cpp	/^void write_limits()$/;"	f
+wt_fini	core/ri.cpp	/^int ts_disk_ri_t::wt_fini()$/;"	f	class:ts_disk_ri_t
+wt_fini	core/ri.cpp	/^int ts_mem_ri_t::wt_fini()$/;"	f	class:ts_mem_ri_t
+wt_fini	include/ts_internal.h	/^    virtual int wt_fini()$/;"	f	class:ts_ri_t
+wt_init	core/ri.cpp	/^int ts_disk_ri_t::wt_init()$/;"	f	class:ts_disk_ri_t
+wt_init	core/ri.cpp	/^int ts_mem_ri_t::wt_init()$/;"	f	class:ts_mem_ri_t
+wt_init	include/ts_internal.h	/^    virtual int wt_init()$/;"	f	class:ts_ri_t
+wt_write	core/ri.cpp	/^int ts_disk_ri_t::wt_write(ts_inv_list_t & in)$/;"	f	class:ts_disk_ri_t
+wt_write	core/ri.cpp	/^int ts_mem_ri_t::wt_write(ts_inv_list_t & out)$/;"	f	class:ts_mem_ri_t
+wt_write	include/ts_internal.h	/^    virtual int wt_write(ts_inv_list_t & out)$/;"	f	class:ts_ri_t
+xspace	lib/utils/myqueue.h	/^namespace xspace {$/;"	n
+~MyQueue	lib/utils/myqueue.h	/^	~MyQueue() {$/;"	f	class:xspace::MyQueue
+~hash_map	lib/utils/hashmap.h	/^	~hash_map()$/;"	f	class:ansx::hash_map
+~thread_specific	lib/utils/thread_specific.h	/^thread_specific<TYPE>::~thread_specific (void)$/;"	f	class:thread_specific
+~ts_buffer_t	include/ts_type.h	/^		~ts_buffer_t()$/;"	f	class:ts_buffer_t
+~ts_ind_reader_t	include/ts_internal.h	/^		~ts_ind_reader_t() {};$/;"	f	class:ts_ind_reader_t

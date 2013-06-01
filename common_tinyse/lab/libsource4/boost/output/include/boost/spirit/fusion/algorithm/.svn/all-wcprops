@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm
+END
+remove_if.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/remove_if.hpp
+END
+replace.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/replace.hpp
+END
+transform.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/transform.hpp
+END
+remove.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/remove.hpp
+END
+find_if.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/find_if.hpp
+END
+erase.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/erase.hpp
+END
+push_back.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/push_back.hpp
+END
+find.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/find.hpp
+END
+fold.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/fold.hpp
+END
+insert.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/insert.hpp
+END
+filter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/filter.hpp
+END
+for_each.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/for_each.hpp
+END
+any.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/any.hpp
+END
+push_front.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/algorithm/push_front.hpp
+END

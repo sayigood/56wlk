@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/alloc
+END
+bsl_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/alloc/bsl_alloc.h
+END
+bsl_sample_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/alloc/bsl_sample_alloc.h
+END
+allocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/alloc/allocator.h
+END
+bsl_cpsalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/alloc/bsl_cpsalloc.h
+END

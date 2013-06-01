@@ -1,0 +1,59 @@
+
+WORKROOT=../../../../../
+include makefile.env
+
+INCLUDES= -I$(TS_INCLUDE_PATH)/ \
+		  -I$(TS_CORE_PATH)/include \
+		  -I$(UBLIB)/include	\
+		  -I$(ULLIB_PATH)/include\
+		  -I$(OTHERS_EX_PATH)/include\
+		  -I$(DICT_PATH)/include\
+		  -I$(PUBLIC_PATH)/nshead/ \
+		  -I${MCPACK} -I${MCPACK}/tools
+
+
+LIBDIR=	-L$(TS_LIB_PATH)/	\
+		-L$(TS_HELPER_PATH)/ -ltshelper	\
+		-L$(TS_CORE_PATH)/ -ltscore	\
+		-L$(TS_LIB_PATH)/ -lutils	\
+		-L${MCPACK} -lmcpack\
+		-L$(UBLIB)/lib/  -lub_log -lub\
+		-L$(FILEBLOCK)/ -lfileblock \
+		-L$(CCODE_PATH)/lib/  -lulccode \
+   		-L$(DICT_PATH)/lib/  -luldict \
+   		-L$(CACHE_PATH)/lib/  -lmcache \
+		-L$(OTHERS_EX_PATH)/lib -lullib_ex \
+		-L$(ULLIB_PATH)/lib/  -lullib \
+		-lpthread -lz     \
+		-lcrypto
+
+
+CXX		= g++
+CXXFLAGS	= -g   -Wall -W -fPIC  -finline-functions -Werror  -Wno-unused-parameter   -Wno-unused-function\
+		  -DVERSION="\"tinyse_handler 1.0.0.2\"" $(INCLUDES)
+LDFLAGS		=  $(LIBDIR) -shared -lm
+
+SO_TARGETS	= demo.so
+OBJS		=  demo.o
+		 
+
+all : 
+	make clean
+	make output
+	rm -f *.o
+
+$(SO_TARGETS) : $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $(SO_TARGETS) $(OBJS) $(LDFLAGS)
+
+%.o: %.cpp %.h 
+	$(CXX) $(CXXFLAGS) $< -c -o $@ 
+
+clean :
+	rm -f $(SO_TARGETS) $(OBJS)
+	rm -rf ./output
+
+output: 
+	rm -rf ./output
+	mkdir -p ./output/
+	make $(SO_TARGETS)
+	cp $(SO_TARGETS) ./output/

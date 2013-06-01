@@ -1,0 +1,1 @@
+spreg.o: spreg.cpp spreg.h ../../third-64/pcre/include/pcre.h

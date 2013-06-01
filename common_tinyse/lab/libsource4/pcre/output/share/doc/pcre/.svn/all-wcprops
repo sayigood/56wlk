@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre
+END
+LICENCE
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/LICENCE
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/AUTHORS
+END
+pcregrep.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/pcregrep.txt
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/ChangeLog
+END
+pcre.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/pcre.txt
+END
+pcretest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/pcretest.txt
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/COPYING
+END
+pcre-config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/pcre-config.txt
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/share/doc/pcre/README
+END

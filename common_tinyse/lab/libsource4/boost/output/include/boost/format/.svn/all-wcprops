@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format
+END
+group.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/group.hpp
+END
+format_class.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/format_class.hpp
+END
+format_implementation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/format_implementation.hpp
+END
+alt_sstream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/alt_sstream.hpp
+END
+alt_sstream_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/alt_sstream_impl.hpp
+END
+feed_args.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/feed_args.hpp
+END
+free_funcs.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/free_funcs.hpp
+END
+internals.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/internals.hpp
+END
+internals_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/internals_fwd.hpp
+END
+exceptions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/exceptions.hpp
+END
+parsing.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/parsing.hpp
+END
+format_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/format/format_fwd.hpp
+END

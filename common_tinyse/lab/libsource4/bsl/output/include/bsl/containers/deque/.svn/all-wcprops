@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/415/libsource4/bsl/trunk/output/include/bsl/containers/deque
+END
+bsl_rwseque.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/415/libsource4/bsl/trunk/output/include/bsl/containers/deque/bsl_rwseque.h
+END
+bsl_deque.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/415/libsource4/bsl/trunk/output/include/bsl/containers/deque/bsl_deque.h
+END

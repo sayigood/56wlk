@@ -1,0 +1,89 @@
+CC=g++
+OBJS= main.o op_query.o op_update.o op_ontime.o op_data.o 
+TARGET= tinyse
+
+
+WORKROOT=../../../
+MAKEROOT=./
+include include/makefile.env
+ifeq ($(MAC),64)
+    VERSION=-DVERSION="\"$(TARGET) 1.0.4.0 64bit\""
+else
+    VERSION=-DVERSION="\"$(TARGET) 1.0.4.0\""
+endif
+
+INCS=-I$(ULLIB_PATH)/include/\
+	-I$(OTHERS_EX_PATH)/include \
+	-I$(DICT_PATH)/include \
+	-I$(NSHEAD) -I../ \
+	-I$(UBLIB)/include \
+	-I$(MYNET) \
+	-I$(TS_INCLUDE_PATH) \
+	-I$(TS_LIB_PATH) \
+	-I$(TS_HELPER_PATH)\
+	-I$(TS_CORE_PATH)\
+	-I$(PSP_COMM_PATH)\
+	-I$(FILEBLOCK) \
+    -I$(ANS)
+LIBS= -L../ \
+	-L$(UBLIB) \
+	-L$(NSHEAD) \
+	-L$(ULLIB_PATH)/lib \
+	-L$(CACHE_PATH)/lib \
+	-L$(OTHERS_EX_PATH)/lib -lullib_ex \
+	-L$(UBLIB)/lib \
+	-L$(MYNET)\
+	-L$(TS_HELPER_PATH) \
+	-L$(TS_CORE_PATH) \
+	-L$(TS_LIB_PATH) \
+    -L$(DICT_PATH)/lib \
+	-L$(FILEBLOCK) \
+	-L$(MCPACK) \
+	-L$(TCMALLOC)/lib\
+	-ltshelper -ltscore -lmcpack -lbcommand -lfileblock -lmcache  -lutils  -lmynet -lub_server -lub_conf -lub_log -lub_misc -luldict -lnshead -lullib -ltcmalloc -lcrypto -lcrypt -lm -lpthread
+
+		 
+
+
+CPPFLAGS = $(INCS) $(VERINFO)  -Wall -W -pipe -Wno-unused-parameter -g -O2 \
+		 -Wtrigraphs -Wformat -Wparentheses -Wpointer-arith  -Werror  -Wshadow -Wreturn-type 
+
+LDFLAGS= $(LIBS) -rdynamic  -ldl 
+
+VERINFO=-DPROJNAME="\"$(TARGET)\"" \
+		$(VERSION) \
+		-DCVSTAG="\"$(TARGET)_1-0-3-0_PD_BL\"" \
+		-DCVSPATH="\"app/search/topic/rse/$(TARGET)\""
+
+
+all : 
+	make -C lib
+	make -C helper
+	make -C core
+	make -C tool/query_tool
+	make -C extension/demo
+	make $(TARGET)
+	rm -rf output && mkdir output && cp $(TARGET) output/ && cp tool/query_tool/tinyse-qtool output/ && cp *.sh output/
+
+
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $^ $(LDFLAGS)
+	rm -f *.o
+
+	
+	
+%.o: %.cpp %.h
+	$(CC) $(CPPFLAGS) $< -c -o $@ 
+
+tags : 
+	 ctags -R *
+
+clean:
+	make -C lib clean
+	make -C helper clean
+	make -C core clean
+	make -C tool/query_tool clean
+	make -C extension/demo clean
+	rm -rf $(OBJS) $(TARGET) output
+
+

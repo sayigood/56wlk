@@ -1,0 +1,14 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+#工作目录
+WORKROOT('../../../../')
+#头文件路径
+INCPATHS('../../')
+#依赖模块
+CXXFLAGS('-g')
+CONFIGS('lib2/bsl')
+#公有源文件
+user_sources='demo.cpp'
+#应用程序
+Application('demo',Sources(user_sources))

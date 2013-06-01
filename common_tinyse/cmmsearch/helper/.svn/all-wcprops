@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ibase/!svn/ver/1185/trunk/gm/tinyse/helper
+END
+default.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ibase/!svn/ver/1185/trunk/gm/tinyse/helper/default.cpp
+END
+tokenizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ibase/!svn/ver/1179/trunk/gm/tinyse/helper/tokenizer.cpp
+END
+data_accessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ibase/!svn/ver/1179/trunk/gm/tinyse/helper/data_accessor.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ibase/!svn/ver/1185/trunk/gm/tinyse/helper/Makefile
+END

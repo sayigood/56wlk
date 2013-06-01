@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/sample
+END
+test_pack2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/sample/test_pack2.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/sample/Makefile
+END
+test_pack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/sample/test_pack.cpp
+END

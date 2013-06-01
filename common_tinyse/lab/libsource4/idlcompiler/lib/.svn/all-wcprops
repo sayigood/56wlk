@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/lab/!svn/ver/729/libsource4/idlcompiler/trunk/lib
+END
+mcpack_idl.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/529/libsource4/idlcompiler/trunk/lib/mcpack_idl.o
+END
+mcpack_idl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lab/!svn/ver/729/libsource4/idlcompiler/trunk/lib/mcpack_idl.cpp
+END
+libmcpack_idl.a
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lab/!svn/ver/529/libsource4/idlcompiler/trunk/lib/libmcpack_idl.a
+END
+mcpack_idl.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/729/libsource4/idlcompiler/trunk/lib/mcpack_idl.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/529/libsource4/idlcompiler/trunk/lib/Makefile
+END

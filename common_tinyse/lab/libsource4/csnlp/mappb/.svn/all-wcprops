@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/lab/!svn/ver/1778/libsource4/csnlp/mappb/trunk
+END
+extendMap.prj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/1623/libsource4/csnlp/mappb/trunk/extendMap.prj
+END
+af_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/af_common.h
+END
+trie.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/trie.cpp
+END
+mappb.prj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/lab/!svn/ver/1630/libsource4/csnlp/mappb/trunk/mappb.prj
+END
+trie.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/trie.h
+END
+get_addr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/get_addr.cpp
+END
+test_addr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/test_addr.cpp
+END
+af_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/af_utils.h
+END
+af_sign.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/af_sign.h
+END
+adcodeMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/1735/libsource4/csnlp/mappb/trunk/adcodeMap.cpp
+END
+get_addr.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/get_addr.h
+END
+test_adcode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/1735/libsource4/csnlp/mappb/trunk/test_adcode.cpp
+END
+get_type.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/get_type.cpp
+END
+test_type.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/test_type.cpp
+END
+adcodeMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/adcodeMap.h
+END
+get_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/get_type.h
+END
+extendMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/extendMap.cpp
+END
+test_extend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/test_extend.cpp
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lab/!svn/ver/1625/libsource4/csnlp/mappb/trunk/build.sh
+END
+extendMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/1621/libsource4/csnlp/mappb/trunk/extendMap.h
+END
