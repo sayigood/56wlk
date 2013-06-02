@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/pending/detail
+END
+disjoint_sets.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/pending/detail/disjoint_sets.hpp
+END
+int_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/pending/detail/int_iterator.hpp
+END
+property.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/pending/detail/property.hpp
+END

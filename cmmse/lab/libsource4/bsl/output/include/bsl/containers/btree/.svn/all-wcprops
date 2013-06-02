@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree
+END
+df_name.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_name.h
+END
+df_2d_ary.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_2d_ary.h
+END
+df_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_log.h
+END
+df_xz_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_xz_btree.h
+END
+df_fp_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_fp_btree.h
+END
+df_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_common.h
+END
+bsl_kv_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/bsl_kv_btree.h
+END
+df_misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_misc.h
+END
+df_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_def.h
+END
+df_bitops.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_bitops.h
+END
+df_var_key.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_var_key.h
+END
+df_ns_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_ns_btree.h
+END
+df_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_btree.h
+END
+df_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/737/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_string.h
+END
+df_regex.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_regex.h
+END
+df_atomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_atomic.h
+END
+df_id_btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/containers/btree/df_id_btree.h
+END

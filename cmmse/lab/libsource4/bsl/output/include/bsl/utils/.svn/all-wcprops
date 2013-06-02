@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/415/libsource4/bsl/trunk/output/include/bsl/utils
+END
+bsl_memcpy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/utils/bsl_memcpy.h
+END
+bsl_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/utils/bsl_utils.h
+END
+bsl_construct.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lab/!svn/ver/415/libsource4/bsl/trunk/output/include/bsl/utils/bsl_construct.h
+END
+bsl_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/utils/bsl_debug.h
+END

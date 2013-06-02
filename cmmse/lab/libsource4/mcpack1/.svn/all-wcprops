@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL
+END
+mc_pack.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/mc_pack.h
+END
+mc_pack_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/mc_pack_core.c
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/ChangeLog
+END
+mc_pack_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/mc_pack_core.h
+END
+unitest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/unitest.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/public/!svn/ver/1633/tags/mcpack/mcpack_1-0-2-0_PD_BL/README
+END

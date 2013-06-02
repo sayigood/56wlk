@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail
+END
+basic_pointer_oserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_pointer_oserializer.hpp
+END
+basic_oserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_oserializer.hpp
+END
+archive_pointer_oserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/archive_pointer_oserializer.hpp
+END
+basic_iarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_iarchive.hpp
+END
+utf8_codecvt_facet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/utf8_codecvt_facet.hpp
+END
+polymorphic_iarchive_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/polymorphic_iarchive_impl.hpp
+END
+basic_oarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_oarchive.hpp
+END
+common_iarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/common_iarchive.hpp
+END
+basic_archive_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_archive_impl.hpp
+END
+basic_config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_config.hpp
+END
+polymorphic_oarchive_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/polymorphic_oarchive_impl.hpp
+END
+basic_serializer_map.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_serializer_map.hpp
+END
+decl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/decl.hpp
+END
+abi_prefix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/abi_prefix.hpp
+END
+common_oarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/common_oarchive.hpp
+END
+basic_serializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_serializer.hpp
+END
+interface_iarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/interface_iarchive.hpp
+END
+auto_link_warchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/auto_link_warchive.hpp
+END
+abi_suffix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/abi_suffix.hpp
+END
+interface_oarchive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/interface_oarchive.hpp
+END
+known_archive_types.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/known_archive_types.hpp
+END
+known_archive_types_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/known_archive_types_fwd.hpp
+END
+iserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/iserializer.hpp
+END
+basic_pointer_iserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_pointer_iserializer.hpp
+END
+basic_iserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/basic_iserializer.hpp
+END
+archive_pointer_iserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/archive_pointer_iserializer.hpp
+END
+auto_link_archive.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/auto_link_archive.hpp
+END
+oserializer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/archive/detail/oserializer.hpp
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility
+END
+regex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/regex.hpp
+END
+functor_parser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/functor_parser.hpp
+END
+loops.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/loops.hpp
+END
+escape_char.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/escape_char.hpp
+END
+lists.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/lists.hpp
+END
+distinct.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/distinct.hpp
+END
+flush_multi_pass.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/flush_multi_pass.hpp
+END
+chset_operators.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/chset_operators.hpp
+END
+grammar_def.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/grammar_def.hpp
+END
+scoped_lock.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/scoped_lock.hpp
+END
+chset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/chset.hpp
+END
+confix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/confix.hpp
+END

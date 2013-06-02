@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/utility/detail
+END
+in_place_factory_prefix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/utility/detail/in_place_factory_prefix.hpp
+END
+result_of_iterate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/utility/detail/result_of_iterate.hpp
+END
+in_place_factory_suffix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/utility/detail/in_place_factory_suffix.hpp
+END

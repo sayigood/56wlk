@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib
+END
+libpcre.a
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcre.a
+END
+libpcrecpp.a
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcrecpp.a
+END
+libpcreposix.a
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcreposix.a
+END
+libpcre.la
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcre.la
+END
+libpcrecpp.la
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcrecpp.la
+END
+libpcreposix.la
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/lib/libpcreposix.la
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/bin
+END
+pcregrep
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/bin/pcregrep
+END
+pcretest
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/bin/pcretest
+END
+pcre-config
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lab/!svn/ver/275/libsource4/pcre/trunk/output/bin/pcre-config
+END

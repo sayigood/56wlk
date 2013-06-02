@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils
+END
+cc_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils/cc_struct.h
+END
+cc_trans.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils/cc_trans.h
+END
+cc_exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils/cc_exception.h
+END
+cc_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils/cc_utils.h
+END
+cc_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lab/!svn/ver/275/libsource4/configure/trunk/output/include/utils/cc_log.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit
+END
+iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/iterator.hpp
+END
+phoenix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/phoenix.hpp
+END
+error_handling.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/error_handling.hpp
+END
+utility.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility.hpp
+END
+attribute.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/attribute.hpp
+END
+dynamic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/dynamic.hpp
+END
+version.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/version.hpp
+END
+debug.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/debug.hpp
+END
+meta.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/meta.hpp
+END
+actor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/actor.hpp
+END
+core.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core.hpp
+END
+symbols.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/symbols.hpp
+END

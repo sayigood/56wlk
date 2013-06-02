@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence
+END
+tuple.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple.hpp
+END
+not_equal_to.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/not_equal_to.hpp
+END
+tuple10.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple10.hpp
+END
+tuple30.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple30.hpp
+END
+range.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/range.hpp
+END
+tuple50.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple50.hpp
+END
+value_at.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/value_at.hpp
+END
+append_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/append_view.hpp
+END
+cons.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/cons.hpp
+END
+tuple_element.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple_element.hpp
+END
+transform_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/transform_view.hpp
+END
+less.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/less.hpp
+END
+equal_to.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/equal_to.hpp
+END
+size.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/size.hpp
+END
+single_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/single_view.hpp
+END
+filter_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/filter_view.hpp
+END
+get.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/get.hpp
+END
+tie.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tie.hpp
+END
+make_tuple.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/make_tuple.hpp
+END
+prepend_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/prepend_view.hpp
+END
+greater.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/greater.hpp
+END
+generate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/generate.hpp
+END
+tuple20.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple20.hpp
+END
+tuple40.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple40.hpp
+END
+less_equal.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/less_equal.hpp
+END
+limits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/limits.hpp
+END
+is_sequence.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/is_sequence.hpp
+END
+at.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/at.hpp
+END
+end.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/end.hpp
+END
+io.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/io.hpp
+END
+type_sequence.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/type_sequence.hpp
+END
+joint_view.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/joint_view.hpp
+END
+tuple_forward.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple_forward.hpp
+END
+as_fusion_sequence.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/as_fusion_sequence.hpp
+END
+greater_equal.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/greater_equal.hpp
+END
+tuple_size.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/tuple_size.hpp
+END
+begin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/fusion/sequence/begin.hpp
+END

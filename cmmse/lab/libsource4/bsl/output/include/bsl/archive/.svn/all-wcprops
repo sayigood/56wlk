@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/archive
+END
+bsl_binarchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/archive/bsl_binarchive.h
+END
+bsl_filestream.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/archive/bsl_filestream.h
+END
+bsl_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/archive/bsl_stream.h
+END
+bsl_serialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/275/libsource4/bsl/trunk/output/include/bsl/archive/bsl_serialization.h
+END

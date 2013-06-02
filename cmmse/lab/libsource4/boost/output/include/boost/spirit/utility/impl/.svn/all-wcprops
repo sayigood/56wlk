@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl
+END
+regex.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/regex.ipp
+END
+escape_char.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/escape_char.ipp
+END
+lists.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/lists.ipp
+END
+chset_operators.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/chset_operators.ipp
+END
+chset.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/chset.ipp
+END
+confix.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/utility/impl/confix.ipp
+END

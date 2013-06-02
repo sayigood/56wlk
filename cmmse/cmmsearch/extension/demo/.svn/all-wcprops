@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ibase/!svn/ver/1185/trunk/gm/tinyse/extension/demo
+END
+makefile.env
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ibase/!svn/ver/1171/trunk/gm/tinyse/extension/demo/makefile.env
+END
+demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ibase/!svn/ver/1171/trunk/gm/tinyse/extension/demo/demo.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ibase/!svn/ver/1185/trunk/gm/tinyse/extension/demo/Makefile
+END

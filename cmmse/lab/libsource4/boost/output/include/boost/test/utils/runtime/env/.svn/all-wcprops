@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env
+END
+modifier.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/modifier.hpp
+END
+environment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/environment.cpp
+END
+fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/fwd.hpp
+END
+environment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/environment.hpp
+END
+environment.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/environment.ipp
+END
+variable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/test/utils/runtime/env/variable.hpp
+END

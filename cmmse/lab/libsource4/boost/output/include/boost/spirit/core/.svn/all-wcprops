@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core
+END
+safe_bool.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/safe_bool.hpp
+END
+match.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/match.hpp
+END
+parser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/parser.hpp
+END
+assert.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/assert.hpp
+END
+nil.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/nil.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lab/!svn/ver/275/libsource4/boost/trunk/output/include/boost/spirit/core/config.hpp
+END

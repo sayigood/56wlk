@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack
+END
+buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/532/libsource4/idlcompiler/trunk/output/include/compack/buffer.h
+END
+iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/iterator.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/writer.h
+END
+compack.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/compack.h
+END
+jsonformatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/jsonformatter.h
+END
+bsonparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/bsonparser.h
+END
+exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lab/!svn/ver/532/libsource4/idlcompiler/trunk/output/include/compack/exception.h
+END
+protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lab/!svn/ver/532/libsource4/idlcompiler/trunk/output/include/compack/protocol.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/reader.h
+END
+bsonformatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/bsonformatter.h
+END
+jsonparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/jsonparser.h
+END
+check_cast.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/lab/!svn/ver/732/libsource4/idlcompiler/trunk/output/include/compack/check_cast.h
+END
