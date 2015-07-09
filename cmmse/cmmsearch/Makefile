@@ -143,6 +143,10 @@ define cmmsearch_output
 	mkdir -p output/modules
 	mkdir -p output/data
 	cp -rf cmmsearch output/bin
+	`if [ -e "scripts/mk_env.sh" ];then cp -rf scripts/mk_env.sh output/ ;chmod +x output/mk_env.sh;fi`
+	`if [ -e "scripts/start.sh" ];then cp -rf scripts/start.sh output/ ;chmod +x output/start.sh;fi`
+	`if [ -e "scripts/deploy.sh" ];then cp -rf scripts/deploy.sh ./ ;chmod +x ./deploy.sh;fi`
+
 	`if [ -e "conf" ];then cp -rf conf output/ ;fi`
 
 	`if [ -e "cmd" ];then cp -rf cmd output/ ;fi`
@@ -150,6 +154,7 @@ define cmmsearch_output
 	`if [ -e "modules" ];then cp -rf modules/output/lib/*.so output/modules ;fi`
 
 	`if [ -e "data" ];then cp -rf data output/ ;fi`
+
 
 endef
 	
@@ -198,6 +203,8 @@ cov :
 
 
 output : cmmsearch 
+	make -C helper
+	make -C core
 	$(_output)
 	rm -rf $(MAKDEP)
 

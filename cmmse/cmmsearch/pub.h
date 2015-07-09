@@ -9,7 +9,7 @@
 
 /**
  * @file pub.h
- * @author yanghy(yanghuaiyuan@baidu.com)
+ *
  * @date 2008/04/08 11:26:08
  * @version $Revision: 1.7 $ 
  * @brief 统一的头文件

@@ -1,5 +1,5 @@
 ## $Id: Makefile,v 1.3 2008/08/28 08:19:32 yanghy2 Exp $
-WORKROOT=../../../../../
+WORKROOT=../../../
 include Makefile.env
 CC= g++
 SHELL= /bin/sh
@@ -11,7 +11,7 @@ bin= tinyse-qtool
 FELT_INCS = -I$(ULLIB_PATH)/include/\
 			-I$(NSHEAD_PATH)/ \
 			-I$(MYNET) \
-			-I${MCPACK_PATH}\
+			-I${MCPACK_PATH}/include\
 			-I${MCPACK_PATH}/tools\
 			-I../../include
 

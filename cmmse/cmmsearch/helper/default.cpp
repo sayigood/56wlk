@@ -1,8 +1,8 @@
 /**
  * @file default.cpp
  * @author
- * @date 2013.01.06 09:21:07
- * @version $Revision: 1.6 $ 
+ * @date
+ * @version $Revision: 1.0 $
  * @brief 默认实现
  *  
  **/
@@ -13,8 +13,6 @@
 #include <ub_log.h>
 #include <algorithm>
 #include "tinyse.h"
-
-
 
 int DEFAULT_GLOBAL_INIT()
 {
@@ -31,7 +29,7 @@ int DEFAULT_SESSION_INIT()
     return 0;
 };
 
-int DEFAULT_QUERY_HANDLE::get_cmd_str(nshead_t *req_head, char *cmd_str)
+int DEFAULT_UPDATE_HANDLE::get_cmd_str(nshead_t *req_head, const char *cmd_str)
 {
     //req
 	bsl::ResourcePool rp;
@@ -41,86 +39,24 @@ int DEFAULT_QUERY_HANDLE::get_cmd_str(nshead_t *req_head, char *cmd_str)
         return -1;
     }
     //cmd
-    int ret = mc_pack_get_uint32(mc, "cmd", &cmd_str);
-    if(ret < 0){
-        return ret;
-    }
-    
-    mc_pack_close(mc);
-    return 0;
-}
-
-int DEFAULT_QUERY_HANDLE::parse_query(char *cmd_str,
-                                      const pointer_t query_cmd,
-                                      basic_req_info *basic_info,
-                                      vector < ts_terminfo_t > &term_list)
-{
-    nshead_t *req_nshead = (nshead_t *) query_cmd;
-
-    //req
-	bsl::ResourcePool rp;
-	mc_pack_t *mc = mc_pack_open_r_rp((char *)(req_nshead+1), req_nshead->body_len, &rp);
-    if(MC_PACK_PTR_ERR(mc)){
-        UB_LOG_WARNING("[function:parse_query>>mc_pack_open_r_rp][ret:][desc:mc_pack_open_r_rp error][intput:]");
-        return -2;
-    }
-    //print input
-    char in_query[1024*1024];
-    mc_pack_pack2json_gbk(mc, in_query, 1024*1024);
-    ub_log_pushnotice("[SE INPUT:", " %s]", in_query );
-
-    //cmd
     cmd_str = mc_pack_get_str(mc, "cmd");
     if(MC_PACK_PTR_ERR(cmd_str))
     {
         return -2;
     }
     
-    //page_no
-    page_no = mc_pack_get_uint32(mc, "page_no");
-    if(MC_PACK_PTR_ERR(page_no))
-    {
-        return -2;
-    }  
-    //num_per_page
-    num_per_page = mc_pack_get_uint32(mc, "num_per_page");
-    if(MC_PACK_PTR_ERR(num_per_page))
-    {
-        return -2;
-    }
-    //填充结果时使用   
-    snprintf(basic_info->cmd_str, TS_CMDSTR_MAXLEN, "%s", cmd);
-    basic_info->page_no  = page_no;
-    basic_info->num_per_page = num_per_page;
-    
-    //term_list
-    const char *keyword = mc_pack_get_str(mc, "query");
-    if(MC_PACK_PTR_ERR(keyword))
-    {
-        return -2;
-    }
-
-    const char delimiters[] = " .,;:!-";
-    char *running;
-    char *token;
-    running = strdup(keyword);
-    ts_terminfo_t terminfo;
-    token = strsep(&running, delimiters);
-    while(NULL != token)
-    {
-        creat_sign_fs64(token, strlen(token), &terminfo.term.sign1,
-                        &terminfo.term.sign2);
-        term_list.push_back(terminfo);
-        UB_LOG_DEBUG("qterm[%s] [%u:%u]",token, terminfo.term.sign1,
-                     terminfo.term.sign2);
-        token = strsep(&running, delimiters);
-    }
-	if (running)
-		free(running);
-        
     mc_pack_close(mc);
     return 0;
-};
+}
+
+int DEFAULT_QUERY_HANDLE::parse_query(const pointer_t query_cmd,
+                                      ts_buffer_t &req_detail,
+                                      basic_req_info *basic_info,
+                                      vector < ts_terminfo_t > &term_list)
+{
+    req_detail.reset();
+    return 0;
+}
 
 class sort_less_t
 {
@@ -130,6 +66,7 @@ class sort_less_t
         return a.ind_num < b.ind_num;
     }   
 };
+
 int DEFAULT_QUERY_HANDLE::merge_ind_list(const pointer_t query_cmd,
                                 vector < ts_terminfo_t > &term_list,
                                 ts_ind_reader_t &ind_reader,
@@ -242,19 +179,21 @@ int DEFAULT_QUERY_HANDLE::merge_ind_list(const pointer_t query_cmd,
 
 
 int DEFAULT_QUERY_HANDLE::index_filt(const pointer_t query_cmd,
+                                     ts_buffer_t &brief,
                                      vector < ts_index_t > *merged_list,
                                      vector < ts_index_t > *filted_list)
 {
+    int opret=0;
     nshead_t *req_nshead = (nshead_t *) query_cmd;
     mc_pack_t *mc = (mc_pack_t *) & req_nshead[1];
 
-    uint32 pubtime = mc_pack_get_uint32(mc, "pubtime");
-    if(MC_PACK_PTR_ERR(pubtime))
+    uint32 pubtime;
+    opret = mc_pack_get_uint32(mc, "pubtime", &pubtime);
+    if(opret < 0)
     {
         return -1;
     }
 
-    ts_buffer_t brief(g_cfg.brief_size);
     brief_t *pbrief = (brief_t *)brief._buf;
     for(vector < ts_index_t >::iterator iter = merged_list->begin();
         iter != merged_list->end(); ++iter)
@@ -272,8 +211,7 @@ int DEFAULT_QUERY_HANDLE::index_filt(const pointer_t query_cmd,
 
 
 int DEFAULT_QUERY_HANDLE::adjust_weight(const pointer_t query_cmd,
-                                        const vector < ts_terminfo_t >
-                                        &term_list, 
+                                        const vector < ts_terminfo_t > &term_list,
                                         vector < ts_index_t > *filted_list)
 {
     return 0;
@@ -281,6 +219,7 @@ int DEFAULT_QUERY_HANDLE::adjust_weight(const pointer_t query_cmd,
 
 int DEFAULT_QUERY_HANDLE::fill_basic_res(const pointer_t query_cmd, 
                                         basic_req_info *basic_info,
+                                        vector < ts_index_t > *filted_list,
                                         ts_buffer_t & res)
 {
     bsl::ResourcePool rp;
@@ -290,8 +229,8 @@ int DEFAULT_QUERY_HANDLE::fill_basic_res(const pointer_t query_cmd,
         return -2;
     }
 
-    page_no = basic_info->page_no;
-    num_per_page = basic_info->num_per_page;
+    int page_no = basic_info->page_no;
+    int num_per_page = basic_info->num_per_page;
     
 
     int start_num = num_per_page * page_no;
@@ -300,8 +239,9 @@ int DEFAULT_QUERY_HANDLE::fill_basic_res(const pointer_t query_cmd,
     ret_num = ret_num > num_per_page ? num_per_page : ret_num;
     ret_num = ret_num < 0 ? 0 : ret_num;
     
-    mc_pack_put_string(mc, "cmd", basic_info->cmd_str);
-    mc_pack_put_uint32(mc, "disp_num", filted_list->size());    
+    uint32 disp_num = filted_list->size();
+    mc_pack_put_str(mc, "cmd", basic_info->cmd_str);
+    mc_pack_put_uint32(mc, "disp_num", disp_num);    
     mc_pack_put_uint32(mc, "ret_num", ret_num);
     
     basic_info->ret_num = ret_num;
@@ -315,8 +255,8 @@ int DEFAULT_QUERY_HANDLE::fill_basic_res(const pointer_t query_cmd,
 
 
 int DEFAULT_QUERY_HANDLE::add_abs(const pointer_t query_cmd, int i,
-                                  const ts_buffer_t & fts,
-                                  const ts_buffer_t & brs, ts_buffer_t & res)
+                                  const ts_buffer_t & fulltext,
+                                  const ts_buffer_t & brief, ts_buffer_t & res)
 {
     char name[16];
     snprintf(name, sizeof(name), "result%d", i);
@@ -334,7 +274,7 @@ int DEFAULT_QUERY_HANDLE::add_abs(const pointer_t query_cmd, int i,
     {
         return MC_PACK_PTR_ERR(tmp);
     }
-    mc_pack_copy_item((mc_pack_t *) fts._buf, tmp, NULL);
+    mc_pack_copy_item((mc_pack_t *) fulltext._buf, tmp, NULL);
     mc_pack_close(mc);
     res._used = mc_pack_get_size(mc);
 
@@ -364,39 +304,39 @@ int DEFAULT_UPDATE_HANDLE::parse_add(pointer_t update_cmd,
 
     nshead_t *req_nshead = (nshead_t *) update_cmd;
     mc_pack_t *mc = (mc_pack_t *) & req_nshead[1];
-
+    int opret = 0;
     //id
-    id = mc_pack_get_uint32(mc, "id");
-    if(MC_PACK_PTR_ERR(id))
+    opret = mc_pack_get_uint32(mc, "id", &id);
+    if(opret < 0)
     {
         return -1;
     }
     
     //brief
     uint32 pubtime,msgsign1,msgsign2,mark;
-    mc_pack_t *mc_brief = mc_pack_get_obj(mc, "brief");
+    mc_pack_t *mc_brief = mc_pack_get_object(mc, "brief");
     if(MC_PACK_PTR_ERR(mc_brief))
     {
         return -2;
     }
 
-    pubtime = mc_pack_get_uint32(mc_brief, "pubtime");
-    if(MC_PACK_PTR_ERR(pubtime))
+    opret = mc_pack_get_uint32(mc, "pubtime", &pubtime);
+    if(opret < 0)
     {
         return -3;
     }
-    msgsign1 = mc_pack_get_uint32(mc_brief, "msg_sign1");
-    if(MC_PACK_PTR_ERR(msgsign1))
+    opret = mc_pack_get_uint32(mc, "msgsign1", &msgsign1);
+    if(opret < 0)
     {
         return -4;
     }
-    msgsign2 = mc_pack_get_uint32(mc_brief, "msg_sign2");
-    if(MC_PACK_PTR_ERR(msgsign2))
+    opret = mc_pack_get_uint32(mc, "msgsign2", &msgsign2);
+    if(opret < 0)
     {
         return -5;
     }
-    mark = mc_pack_get_uint32(mc_brief, "mark");
-    if(MC_PACK_PTR_ERR(mark))
+    opret = mc_pack_get_uint32(mc, "mark", &mark);
+    if(opret < 0)
     {
         return -6;
     }    
@@ -423,8 +363,8 @@ int DEFAULT_UPDATE_HANDLE::parse_add(pointer_t update_cmd,
         return -8;
     }
 
-	int opret = parse_keywords(keywords, term_list);
-    if(opret){
+	opret = parse_keywords(keywords, term_list);
+    if(opret < 0){
         return -9;
     }   
     
@@ -447,42 +387,43 @@ int DEFAULT_UPDATE_HANDLE::parse_modbasic(pointer_t update_cmd,
 	nshead_t *req_nshead = (nshead_t *) update_cmd;
 	mc_pack_t *mc = (mc_pack_t *) & req_nshead[1];
 
-	//id
-    id = mc_pack_get_uint32(mc, "id");
-    if(MC_PACK_PTR_ERR(id))
+    int opret = 0;
+    //id
+    opret = mc_pack_get_uint32(mc, "id", &id);
+    if(opret < 0)
     {
         return -1;
     }
     
-	//brief
+    //brief
     uint32 pubtime,msgsign1,msgsign2,mark;
-    mc_pack_t *mc_brief = mc_pack_get_obj(mc, "brief");
+    mc_pack_t *mc_brief = mc_pack_get_object(mc, "brief");
     if(MC_PACK_PTR_ERR(mc_brief))
     {
         return -2;
     }
 
-    pubtime = mc_pack_get_uint32(mc_brief, "pubtime");
-    if(MC_PACK_PTR_ERR(pubtime))
+    opret = mc_pack_get_uint32(mc, "pubtime", &pubtime);
+    if(opret < 0)
     {
         return -3;
     }
-    msgsign1 = mc_pack_get_uint32(mc_brief, "msg_sign1");
-    if(MC_PACK_PTR_ERR(msgsign1))
+    opret = mc_pack_get_uint32(mc, "msgsign1", &msgsign1);
+    if(opret < 0)
     {
         return -4;
     }
-    msgsign2 = mc_pack_get_uint32(mc_brief, "msg_sign2");
-    if(MC_PACK_PTR_ERR(msgsign2))
+    opret = mc_pack_get_uint32(mc, "msgsign2", &msgsign2);
+    if(opret < 0)
     {
         return -5;
     }
-    mark = mc_pack_get_uint32(mc_brief, "mark");
-    if(MC_PACK_PTR_ERR(mark))
+    opret = mc_pack_get_uint32(mc, "mark", &mark);
+    if(opret < 0)
     {
         return -6;
     }    
-    
+   
     brief_t *pbrief  = (brief_t *)brief._buf;
     
     pbrief->pubtime  = pubtime;
@@ -561,7 +502,7 @@ int DEFAULT_UPDATE_HANDLE::parse_keywords(
             snprintf(fni_token, sizeof(fni_token), "%s_%s", item.key, token);
             creat_sign_fs64((char*)fni_token, strlen(fni_token), &terminfo.term.sign1, &terminfo.term.sign2);
             term_list.push_back(terminfo);
-            UB_LOG_DEBUG("uterm[%u:%u], term[%d], count[%d]", 
+            UB_LOG_DEBUG("uterm[%u:%u], term[%s], count[%d]", 
                         terminfo.term.sign1, terminfo.term.sign2, fni_token, i);
         }
 

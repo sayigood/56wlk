@@ -1,9 +1,0 @@
-all:
-	make -C utils clean>/dev/null
-	make -C utils >/dev/null
-	make -C bcommand clean>/dev/null
-	make -C bcommand >/dev/null
-
-
-clean:
-	rm -f *.a *.h

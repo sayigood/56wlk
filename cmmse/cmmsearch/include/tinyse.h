@@ -19,6 +19,7 @@
 
 #ifndef  __TINYSE_H_
 #define  __TINYSE_H_
+#include "nshead.h"
 #include "ts_define.h"
 #include "ts_type.h"
 #include "ts_internal.h"

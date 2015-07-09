@@ -97,8 +97,8 @@ typedef struct _basic_req_info_t
 typedef struct _brief_t
 {
     uint32 pubtime;
-    uint32 msg_sign1;
-    uint32 msg_sign2;
+    uint32 msgsign1;
+    uint32 msgsign2;
     
     /*
      * 31 30 ... 5 4 3 2 1 0

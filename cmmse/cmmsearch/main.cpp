@@ -9,7 +9,7 @@
 
 /**
  * @file main.cpp
- * @author yanghy(yanghuaiyuan@baidu.com)
+ *
  * @date 2008/04/07 22:44:51
  * @version $Revision: 1.3 $ 
  * @brief 主函数
@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     ///初始化所有数据
     if(data_init() < 0)
     {
-        WARN_RETURN("data init failed.");
+        printf("data init failed.");
     }
 
 
@@ -48,7 +48,7 @@ int main(int argc, char **argv)
                            g_cfg.svr_update.thread_num,g_runtime);
     if(opret < 0)
     {
-        WARN_RETURN("init_data_accessor failed.");
+        printf("init_data_accessor failed.");
     }
 	pruntime = &g_runtime;
 
@@ -56,17 +56,17 @@ int main(int argc, char **argv)
     ub_server_t *serv_update = ub_server_create();
     if(NULL == serv_update)
     {
-        WARN_RETURN("ub_server_create failed.");
+        printf("ub_server_create failed.");
     }
     opret = ub_server_set_callback(serv_update, op_update);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_callback failed.");
+        printf("ub_server_set_callback failed.");
     }
     opret = ub_server_load(serv_update, &g_cfg.svr_update);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_load failed.");
+        printf("ub_server_load failed.");
     }
     ASSERT_I(g_cfg.svr_update.thread_num, 1);
     //usr_data
@@ -75,41 +75,41 @@ int main(int argc, char **argv)
                                            pointer_t >));
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_user_data failed.");
+        printf("ub_server_set_user_data failed.");
     }
     opret = ub_server_set_buffer(serv_update,
                                  NULL, g_cfg.update_readbuf_size,
                                  NULL, g_cfg.update_writebuf_size);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_buffer failed.");
+        printf("ub_server_set_buffer failed.");
     }
 
     ub_auth_t *auth = ub_auth_create();
     if(NULL == auth)
     {
-        WARN_RETURN("ub_auth_create failed");
+        printf("ub_auth_create failed");
     }
     opret = ub_auth_load_ip(auth, g_cfg.iplist_path);
     if(opret != 0)
     {
-        WARN_RETURN("ub_auth_load_ip failed.");
+        printf("ub_auth_load_ip failed.");
     }
     opret = ub_auth_compile(auth);
     if(opret != 0)
     {
-        WARN_RETURN("ub_auth_compile failed.");
+        printf("ub_auth_compile failed.");
     }
     opret = ub_server_set_ip_auth(serv_update, auth);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_ip_auth failed.");
+        printf("ub_server_set_ip_auth failed.");
     }
     //设置线程启动时处理
     opret = ub_server_set_threadstartfun(serv_update, update_thread_init);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_threadstartfun failed.");
+        printf("ub_server_set_threadstartfun failed.");
     }
 
 
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
     opret = ub_server_run(serv_update);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_run failed.");
+        printf("ub_server_run failed.");
     }
 
 
@@ -125,17 +125,17 @@ int main(int argc, char **argv)
     ub_server_t *serv_query = ub_server_create();
     if(NULL == serv_query)
     {
-        WARN_RETURN("ub_server_create failed.");
+        printf("ub_server_create failed.");
     }
     opret = ub_server_set_callback(serv_query, op_query);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_callback failed.");
+        printf("ub_server_set_callback failed.");
     }
     opret = ub_server_load(serv_query, &g_cfg.svr_query);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_load failed.");
+        printf("ub_server_load failed.");
     }
     //usr_data
     opret =
@@ -145,7 +145,7 @@ int main(int argc, char **argv)
                                        pointer_t >));
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_user_data failed.");
+        printf("ub_server_set_user_data failed.");
     }
 
 
@@ -155,19 +155,19 @@ int main(int argc, char **argv)
                                  NULL, g_cfg.query_writebuf_size);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_buffer failed.");
+        printf("ub_server_set_buffer failed.");
     }
 
     opret = ub_server_setoptsock(serv_query, UBSVR_NODELAY);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_setoptsock failed.");
+        printf("ub_server_setoptsock failed.");
     }
     //设置线程启动时处理
     opret = ub_server_set_threadstartfun(serv_query, query_thread_init);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_set_threadstartfun failed.");
+        printf("ub_server_set_threadstartfun failed.");
     }
 
 
@@ -175,7 +175,7 @@ int main(int argc, char **argv)
     opret = ub_server_run(serv_query);
     if(opret != 0)
     {
-        WARN_RETURN("ub_server_run failed.");
+        printf("ub_server_run failed.");
     }
     ///定时处理线程
     UB_LOG_NOTICE("start ontime thread ...");
@@ -302,6 +302,7 @@ STATIC void parse_options(int argc, char **argv)
     {
         //load config
         opret = cfg_init(conf_build);
+UB_LOG_FATAL("_______");
         if(0 == opret)
         {
             UB_LOG_TRACE("load config [dir:%s file:%s] success!",

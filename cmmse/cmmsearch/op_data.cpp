@@ -7,7 +7,7 @@
 
 /**
  * @file op_data.cpp
- * @author yanghy(yanghuaiyuan@baidu.com)
+ *
  * @date 2008/04/11 19:14:21
  * @version $Revision: 1.7 $ 
  * @brief 全局初始化处理
@@ -29,8 +29,6 @@
 **/
 int cfg_init(int conf_build)
 {
-
-
     ASSERT(conf_build == 0 || conf_build == 1);
     int opret = 0;
 
@@ -44,6 +42,7 @@ int cfg_init(int conf_build)
         return -1;
     }
 
+printf("cfg_init 00001");
 
     UB_CONF_GETNSTR(pcfg, "log_dir", g_cfg.log_dir, sizeof(g_cfg.log_dir),
                     "日志路径");
@@ -59,9 +58,11 @@ int cfg_init(int conf_build)
         return -1;
     }
 
+UB_LOG_FATAL("cfg_init 00002");
 
     UB_CONF_GETNSTR(pcfg, "limits_path", g_cfg.limits_path,
                     sizeof(g_cfg.limits_path), "limits文件的路径");
+UB_LOG_FATAL("cfg_init 00002aaaaaaa");
     UB_CONF_GETINT(pcfg, "ontime_sleep(s)", &g_cfg.ontime_sleep,
                    "ontime线程休眠时间");
     UB_CONF_GETNSTR(pcfg, "iplist_path", g_cfg.iplist_path,
@@ -75,6 +76,7 @@ int cfg_init(int conf_build)
     UB_CONF_GETSVR(pcfg, "cmmsearch", "query", &g_cfg.svr_query, "查询线程配置");
     UB_CONF_GETUINT(pcfg, "memory_maxsize(M)", &g_cfg.memory_maxsize,
                     "开辟的内存数量");
+UB_LOG_FATAL("cfg_init 00002bbbbbbbbbbb");
 	if (0 == g_cfg.static_index) {
 		UB_CONF_GETINT(pcfg, "dump01_tmeval(s)", &g_cfg.dump01_tmeval,
 				"0,1目录dump的时间间隔");
@@ -104,6 +106,7 @@ int cfg_init(int conf_build)
     UB_CONF_GETUINT(pcfg, "fulltext_maxsize(byte)", &g_cfg.fulltext_maxsize,
                     "单个di数据最大长度");
     g_cfg.svr_update.thread_num = 1;
+UB_LOG_FATAL("cfg_init 00002cccccccccccccc");
 
     ub_conf_close(pcfg);
     return 0;
@@ -128,12 +131,14 @@ int cfg_check()
 {
     int ret = 0;
 
+printf("cfg_check 00000");
     ret = cfg_init(0);
     if(0 != ret)
     {
         UB_LOG_FATAL("cfg_init failed.");
         return ret;
     }
+printf("cfg_check 11111");
     return _cfg_check();
 
 }
@@ -149,32 +154,45 @@ int cfg_check()
 STATIC int 
 get_default_interface(ts_handle_t * hd)
 {
+UB_LOG_FATAL("cfg_init get_default_interface111");
 
     if(NULL == hd->global_init)
     {
+UB_LOG_FATAL("cfg_init get_default_interface211");
         hd->global_init = DEFAULT_GLOBAL_INIT;
     }
+UB_LOG_FATAL("cfg_init get_default_interface311");
     if(NULL == hd->query_thread_init)
     {
+UB_LOG_FATAL("cfg_init get_default_interface411");
         hd->query_thread_init = DEFAULT_THREAD_INIT;
     }
+UB_LOG_FATAL("cfg_init get_default_interface511");
     if(NULL == hd->update_thread_init)
     {
+UB_LOG_FATAL("cfg_init get_default_interface611");
         hd->update_thread_init = DEFAULT_THREAD_INIT;
     }
+UB_LOG_FATAL("cfg_init get_default_interface711");
     if(NULL == hd->ontime_session_proc)
     {
+UB_LOG_FATAL("cfg_init get_default_interface811");
         hd->ontime_session_proc = DEFAULT_SESSION_INIT;
     }
+UB_LOG_FATAL("cfg_init get_default_interface911");
     if(NULL == hd->query_handle)
     {
+UB_LOG_FATAL("cfg_init get_default_interface011");
         hd->query_handle = new DEFAULT_QUERY_HANDLE();
     }
+UB_LOG_FATAL("cfg_init get_default_interface111");
     if(NULL == hd->update_handle)
     {
+UB_LOG_FATAL("cfg_init get_default_interface211");
         hd->update_handle = new DEFAULT_UPDATE_HANDLE();
     }
 
+UB_LOG_FATAL("cfg_init get_default_interface311");
 
     return 0;
 }
@@ -195,13 +213,16 @@ get_handle(const char *so_path, const char *data_type)
     int opret = 0;
     void *handle = NULL;
 
+UB_LOG_FATAL("get_handle 0000001");
     handle = dlopen(so_path, RTLD_NOW); // 使用 RTLD_NOW, 把复杂性都放在初始化上
     if(!handle)
     {
         ul_writelog(UL_LOG_FATAL, "load mod[%s] failed[%s]", so_path,
                     dlerror());
+UB_LOG_FATAL("get_handle 0000002--------NULL");
         return NULL;
     }
+UB_LOG_FATAL("get_handle 0000002");
 
 
 
@@ -212,6 +233,7 @@ get_handle(const char *so_path, const char *data_type)
     ts_handle_t *hd = NULL;
 
     hd = (ts_handle_t *) dlsym(handle, initializer_name);
+UB_LOG_FATAL("get_handle 0000003");
 
     if(!hd)
     {
@@ -220,6 +242,7 @@ get_handle(const char *so_path, const char *data_type)
                     initializer_name, dlerror());
         return NULL;
     }
+UB_LOG_FATAL("get_handle 0000004");
     /// 获取默认的接口
     opret = get_default_interface(hd);
     if(opret < 0)
@@ -373,6 +396,7 @@ int resend_cmd()
 **/
 int data_init()
 {
+UB_LOG_FATAL("data_init 000000011111111");
     int opret = 0;
     ///获取扩展句柄
     g_runtime.handle = get_handle(g_cfg.so_path, g_cfg.data_type);
@@ -382,6 +406,7 @@ int data_init()
                      g_cfg.so_path, g_cfg.data_type);
         return -1;
     }
+UB_LOG_FATAL("data_init 000000022222222");
     ///句柄初始化，由用户自定义
     opret = g_runtime.handle->global_init();
     if(opret < 0)
@@ -390,6 +415,7 @@ int data_init()
         return opret;
     }
 
+UB_LOG_FATAL("data_init 00000003333333333333");
     /** 初始化各种数据 **/
 
     ///加载模块状态
@@ -518,6 +544,9 @@ int data_init()
                      g_cfg.data_path, g_cfg.data_type, opret);
         return opret;
     }
+UB_LOG_FATAL("data_init 0000000444444444444444");
+    exit(0);
+    /** 初始化各种数据 **/
 
     /// 回放命令
  //   return resend_cmd();

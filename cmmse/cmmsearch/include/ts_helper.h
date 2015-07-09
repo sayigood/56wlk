@@ -26,8 +26,8 @@ class DEFAULT_QUERY_HANDLE:public ts_query_handle_t
 {
   public:
 
-    virtual int parse_query(char *cmd_str,
-                            const pointer_t query_cmd,
+    virtual int parse_query(const pointer_t query_cmd,
+                            ts_buffer_t &req_detail,
                             basic_req_info *basic_info,
                             vector < ts_terminfo_t > &term_list);
 
@@ -38,6 +38,7 @@ class DEFAULT_QUERY_HANDLE:public ts_query_handle_t
 
 
     virtual int index_filt(const pointer_t query_cmd,
+                            ts_buffer_t &brief,
                            vector < ts_index_t > *merged_list,
                            vector < ts_index_t > *filted_list);
 
@@ -49,11 +50,12 @@ class DEFAULT_QUERY_HANDLE:public ts_query_handle_t
     
     virtual int fill_basic_res( const pointer_t query_cmd, 
                                 basic_req_info *basic_info,
+                                vector < ts_index_t > *filted_list,
                                 ts_buffer_t & res);    
 
     virtual int add_abs(const pointer_t query_cmd, int i,
-                        const ts_buffer_t & fts,
-                        const ts_buffer_t & brs, ts_buffer_t & result);
+                        const ts_buffer_t & fulltext,
+                        const ts_buffer_t & brief, ts_buffer_t & result);
 
 	virtual int fini_abs(const pointer_t query_cmd,ts_buffer_t &result) ;
 
@@ -68,7 +70,7 @@ class DEFAULT_QUERY_HANDLE:public ts_query_handle_t
 class DEFAULT_UPDATE_HANDLE:public ts_update_handle_t
 {
   public:
-    virtual int get_cmd_str(nshead_t *req_head, char *cmd_str);
+    virtual int get_cmd_str(nshead_t *req_head, const char *cmd_str);
 
     virtual int parse_add(pointer_t update_cmd,
                           uint32 & id,
@@ -88,6 +90,8 @@ class DEFAULT_UPDATE_HANDLE:public ts_update_handle_t
 
 
     virtual int parse_undel(pointer_t update_cmd, vector < uint32 > &id_list);
+
+    virtual int parse_keywords(const void *keywords, vector<ts_terminfo_t> &term_list);
 
 };
 

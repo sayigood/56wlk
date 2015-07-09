@@ -36,7 +36,7 @@ endif
 DEP_INCPATH =  -I$(WORKROOT)/lab/libsource4/ans/output//include/ -I$(WORKROOT)/lab/libsource4/hilight/output// -I$(WORKROOT)/lab/libsource4/fileblock/output//include/ -I$(WORKROOT)/lab/libsource4/uconv/output//include/ -I$(WORKROOT)/lab/libsource4/nsfelt/output//include/ -I$(WORKROOT)/lab/libsource4/boost/output//include/ -I$(WORKROOT)/lab/libsource4/nshead/output//include/ -I$(WORKROOT)/lab/libsource4/idlcompiler/output//include/ -I$(WORKROOT)/lab/libsource4/bsl/output//include/ -I$(WORKROOT)/lab/libsource4/ullib/output//include/ -I$(WORKROOT)/lab/libsource4/connectpool/output// -I$(WORKROOT)/lab/libsource4/ub/output//include/ -I$(WORKROOT)/lab/libsource4/configure/output//include/ -I$(WORKROOT)/lab/libsource4/tcmalloc/output//include/ -I$(WORKROOT)/lab/libsource4/others-ex/output//include/ -I$(WORKROOT)/lab/libsource4/ccode/output//include/ -I$(WORKROOT)/lab/libsource4/mynet/output//include/ -I$(WORKROOT)/lab/libsource4/mcpack/output//include/ -I$(WORKROOT)/lab/libsource4/odict/output//include/ -I$(WORKROOT)/lab/libsource4/dict/output//include/ -I$(WORKROOT)/lab/libsource4/pcre/output//include/ -I$(WORKROOT)/lab/libsource4/cache/output//include/
 DEP_LDFLAGS =  -L$(WORKROOT)/lab/libsource4/odict/output// -L$(WORKROOT)/lab/libsource4/boost/output//lib/ -L$(WORKROOT)/lab/libsource4/tcmalloc/output//lib/ -L$(WORKROOT)/lab/libsource4/uconv/output// -L$(WORKROOT)/lab/libsource4/hilight/output// -L$(WORKROOT)/lab/libsource4/mcpack/output//lib/ -L$(WORKROOT)/lab/libsource4/fileblock/output// -L$(WORKROOT)/lab/libsource4/ullib/output//lib/ -L$(WORKROOT)/lab/libsource4/bsl/output//lib/ -L$(WORKROOT)/lab/libsource4/nsfelt/output//lib/ -L$(WORKROOT)/lab/libsource4/ans/output// -L$(WORKROOT)/lab/libsource4/mynet/output// -L$(WORKROOT)/lab/libsource4/ub/output//lib/ -L$(WORKROOT)/lab/libsource4/configure/output//lib/ -L$(WORKROOT)/lab/libsource4/connectpool/output// -L$(WORKROOT)/lab/libsource4/dict/output//lib/ -L$(WORKROOT)/lab/libsource4/others-ex/output//lib/ -L$(WORKROOT)/lab/libsource4/nshead/output// -L$(WORKROOT)/lab/libsource4/ccode/output//lib/ -L$(WORKROOT)/lab/libsource4/pcre/output//lib/ -L$(WORKROOT)/lab/libsource4/idlcompiler/output//lib/ -L$(WORKROOT)/lab/libsource4/cache/output//lib/
 DEP_LDLIBS = -lmcache -lmynet -lboost_wserialization -lboost_regex -lboost_date_time -lboost_filesystem -lboost_thread -lboost_test_exec_monitor -lboost_serialization -lboost_wave -lboost_python -lboost_signals -lboost_program_options -lboost_prg_exec_monitor -lboost_unit_test_framework -lboost_iostreams -lconnectpool -luconv -lulccode -lhilight -lfileblock -luldict -lodict -lfelt -ltcmalloc_minimal -ltcmalloc -lprofiler -lullib_ex -lpcre -lpcrecpp -lpcreposix -lmcpack -lconfig -lmcpack_idl -lnshead -lullib -lbsl_btree -lbsl -lbsl_ResourcePool -lbsl_utils -lbsl_archive -lbsl_pool -lbsl_check_cast -lbsl_exception -lbsl_var -lbsl_var_utils -lbsl_var_implement -lub_log -lub_client -lub_server -lub -lub_conf -lub_misc
-INCPATH =  -I. -I../core -I../lib/utils -I../include
+INCPATH =  -I. -I../ -I../core -I../lib/utils -I../include
 MAKDEP = Makefile.dep
 
 
@@ -115,7 +115,7 @@ libtshelper.a : LINKFLAGS := -rdynamic
 
 libtshelper_a_SOURCES := $(wildcard pgmake_autogen.cpp ./data_accessor.cpp ./default.cpp)
 #libtshelper_a_HEADERS := $(wildcard *.h *.hpp)
-libtshelper_a_HEADERS := *.h *.hpp
+#libtshelper_a_HEADERS := *.h *.hpp
 libtshelper_a_IDLSRC := $(wildcard __$IDLSRC_VALUE$__)
 libtshelper_a_IDLSRCCPP := $(patsubst %.idl,%.cpp, $(libtshelper_a_IDLSRC))
 libtshelper_a_IDLSRCH := $(patsubst %.idl,%.h, $(libtshelper_a_IDLSRC))
@@ -140,7 +140,7 @@ define libtshelper_a_output
 	-mkdir -p output/lib
 	-cp -rf libtshelper.a output/lib
 	-mkdir -p output/include
-	-cp -rf $(libtshelper_a_HEADERS) output/include
+	#-cp -rf $(libtshelper_a_HEADERS) output/include
 	`if [ -e "conf" ];then cp -rf conf output/ ;fi`
 
 endef

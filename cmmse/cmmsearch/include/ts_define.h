@@ -53,6 +53,8 @@ static const uint32 TS_BATCH_MAXNUM       = 100;                /**< 批量删�
 static const uint32 TS_INDEX_SHORTEST_NUM = 100000;             /**< 索引截断的长度       */
 static const uint32 TS_INDEX_IOBLOCK_NUM  = 128*1024*2;         /**< 索引合并时每次读取的索引个数      */
 
+static const uint32 TS_REQ_BUF_MAXSIZE    = 1024*1024;      /**<  req body大小*/
+
 static const char NEED_LOAD_DAY[] = "need_load_day";      /**< 是否需要载入day标记文件名      */
 static const char NEED_MERGE[]    = "need_merge";         /**< 是否需要merge标记文件名       */
 static const char DAY_CURDIR[]    = "day_curdir";         /**< 当前day库标记文件名       */

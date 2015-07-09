@@ -9,7 +9,7 @@
 
 /**
  * @file op_ontime.cpp
- * @author yanghy(yanghuaiyuan@baidu.com)
+ *
  * @date 2008/04/07 22:47:37
  * @version $Revision: 1.5 $ 
  * @brief 定时监控线程

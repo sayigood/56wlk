@@ -26,15 +26,15 @@ process_query(nshead_t * req_head, ub_buff_t * req_buf,
 	
     int opret = 0;
 	struct timeval s,e;
-    char cmd_str[64];
     basic_req_info *basic_info;
 
     ts_query_handle_t *hd = g_runtime.handle->query_handle;
 
     // parse query
 	gettimeofday(&s,NULL);
+	ts_buffer_t req_detail(req_buf->buf, req_buf->size);
     vector < ts_terminfo_t > term_list; ///todo: 可能影响性能
-    opret = hd->parse_query(cmd_str, req_head, basic_info, term_list);
+    opret = hd->parse_query(req_head, req_detail, basic_info, term_list);
     if(opret < 0)
     {
         UB_LOG_WARNING("hd->parse_query failed.ret[%d]", opret);
@@ -99,7 +99,9 @@ process_query(nshead_t * req_head, ub_buff_t * req_buf,
 		if (1 == g_runtime.mod_table.get(i->id)) continue;
 
 		bool bit = g_runtime.del_table.get(i->id);
-		if( !strcmp(cmd_str, "qsearchall")||(!strcmp(cmd_str, "qsearchdel") && bit)||(!strcmp(cmd_str, "qsearch") && !bit))
+		if( !strcmp(basic_info->cmd_str, "qsearchall")
+		    ||(!strcmp(basic_info->cmd_str, "qsearchdel") && bit)
+		    ||(!strcmp(basic_info->cmd_str, "qsearch") && !bit))
 		{   
 			merged_list->at(k++) = *i; 
 		}   
@@ -113,7 +115,8 @@ process_query(nshead_t * req_head, ub_buff_t * req_buf,
 	gettimeofday(&s,NULL);
     filted_list->reserve(merged_list->size());
     filted_list->clear();
-    opret = hd->index_filt(req_head,  merged_list, filted_list);
+    ts_buffer_t brief(g_cfg.brief_size);
+    opret = hd->index_filt(req_head, brief, merged_list, filted_list);
     if(opret < 0)
     {
         UB_LOG_WARNING("hd->index_filt failed.ret[%d]", opret);
@@ -137,11 +140,10 @@ process_query(nshead_t * req_head, ub_buff_t * req_buf,
     // res
 	gettimeofday(&s,NULL);
     ts_buffer_t fulltext(g_cfg.fulltext_maxsize);
-    ts_buffer_t brief(g_cfg.brief_size);
     ts_buffer_t res(res_buf->buf, res_buf->size);
 
     // --page    
-    opret = hd->fill_basic_res(req_head, basic_info, res);
+    opret = hd->fill_basic_res(req_head, basic_info, filted_list, res);
     if (opret<0)
 	{
 		UB_LOG_WARNING("hd->init_abs failed.ret[%d]", opret);

@@ -17,7 +17,6 @@ static int load_options(int argc, char** argv );
 typedef struct _req_t
 {
 	nshead_t nshead;
-	ts_head_t head;
 	char detail[1024*1024];
 
 }req_t;
@@ -25,7 +24,6 @@ typedef struct _req_t
 typedef struct res_t
 {
 	nshead_t nshead;
-	ts_head_t head;
 	char detail[1024*1024];
 
 
